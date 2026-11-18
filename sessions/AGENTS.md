@@ -1,0 +1,17 @@
+# Discussion and recording rules
+
+Read this guide when discussing ideas or recording a session, even when no file will be edited. Read [canon rules](../canon/AGENTS.md) for validation, branches, approval, and retcons; read [format and language rules](../templates/AGENTS.md) before writing content.
+
+## Workflow
+
+- **During discussion**: talk; write nothing yet unless the user explicitly requests an edit. Flag conflicts with applicable canon the moment you see them. A request to edit repository guidance does not by itself close the worldbuilding session or approve its ideas.
+- **End of session** (the user signals they are done, or the topic closes): write the session log, create or update every wiki entry the session produced as `draft`, preserving the explored branches and their consequences. Add unresolved checks to `open-questions.md`. Then list every draft created or changed and its scope, so the user can approve or reject each one without selecting a single future.
+
+Commit once per session, message `session: <topic>`.
+
+## Session logs and open questions
+
+- Use [the session template](../templates/session.md) at `sessions/YYYY-MM-DD-<topic>.md`. Follow the template guide's language rules for session logs.
+- Record the ideas discussed, validation results, decisions and their scope, entries created or changed, and open questions. Preserve alternatives that remain viable rather than implying a single chosen future.
+- Before recording wiki entries, read [wiki rules](../wiki/AGENTS.md); before recording stories, read [story rules](../stories/AGENTS.md).
+- For [open-questions.md](../open-questions.md), follow its existing question format and the canon guide's distinction between viable alternatives and unresolved checks. Identify affected branches. When a check is resolved, remove its open question and link the entry that records the resolution.
