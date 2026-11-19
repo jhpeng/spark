@@ -7,7 +7,7 @@ A hard-science exploration of possible futures for human civilization across the
 ## Layout
 
 - [canon/](canon/) — the laws of physics we obey and the master timeline.
-- [forecasts/](forecasts/AGENTS.md) — rules for evolving prediction trees with conditional probabilities.
+- [forecasts/](forecasts/index.md) — evolving prediction trees with conditional probabilities; [shared rules](forecasts/AGENTS.md).
 - [wiki/](wiki/) — entries on eras, technology, society, places, and concepts.
 - [stories/](stories/) — fiction set in the world, linked to the entries it relies on.
 - [sessions/](sessions/) — a log of each discussion that shaped the world.
@@ -15,6 +15,8 @@ A hard-science exploration of possible futures for human civilization across the
 - [templates/](templates/) — page templates.
 
 ## Reading map
+
+Explore the [forecast tree](forecasts/index.md) or its [Taiwan Traditional Chinese version](forecasts-tw/index.md) for dated outcomes, branch conditions, and initial subjective probability estimates based on the repository's scenarios.
 
 Start with [motives for space expansion](wiki/concepts/space-expansion-motives.md) or its [Taiwan Traditional Chinese version](wiki-tw/concepts/space-expansion-motives.md) for branch navigation. The current entries are listed below; no era or particular-place entries have been developed yet.
 

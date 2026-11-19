@@ -10,6 +10,15 @@ Unresolved evidence, feasibility checks, and decisions within branches. Each que
 - Raised: [[sessions/YYYY-MM-DD-topic]]
 -->
 
+The lunar-led [[forecasts/index|forecast tree]] reuses the checks below for public commitments, shared lunar services, local resource production, and permanent residence or independent survival. Assigning a branch probability does not resolve those checks.
+
+## What evidence would calibrate the initial forecast probabilities?
+
+- Blocks: [[forecasts/index]] and the outcome nodes linked from it.
+- Scope: the lunar-led forecast tree; each estimate is conditional on its own ancestral scenario, not a probability for every route to off-Earth expansion.
+- Options: collect comparable program delivery and cancellation records, funded recurring purchases, service access and utilization, production reliability and full costs, and residence/supply-chain evidence. Test sensitivity to the chosen outcome thresholds and distinguish subjective estimates from empirically calibrated probabilities. Use future outcomes to evaluate dated estimates; preserve the original criteria and record evidence gaps rather than resolving an event from silence.
+- Raised: [[sessions/2026-11-19-initial-forecast-tree]]
+
 ## What magnetic interaction makes independent accelerator modules practical?
 
 - Blocks: [[wiki/tech/modular-orbital-accelerator]], [[wiki/tech/orbital-transportation-network]]
