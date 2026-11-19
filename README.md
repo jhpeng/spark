@@ -22,6 +22,7 @@ Start with [motives for space expansion](wiki/concepts/space-expansion-motives.m
 | Concept | [AI-driven industrial demand](wiki/concepts/ai-driven-industrial-demand.md) | [AI 帶動的工業需求](wiki-tw/concepts/ai-driven-industrial-demand.md) |
 | Concept | [Climate adaptation pressure](wiki/concepts/climate-adaptation-pressure.md) | [氣候調適壓力](wiki-tw/concepts/climate-adaptation-pressure.md) |
 | Concept | [Earth development limits](wiki/concepts/earth-development-limits.md) | [地球開發限制](wiki-tw/concepts/earth-development-limits.md) |
+| Concept | [Geopolitical drivers of space expansion](wiki/concepts/geopolitical-drivers-of-space-expansion.md) | [地緣政治如何推動太空擴張](wiki-tw/concepts/geopolitical-drivers-of-space-expansion.md) |
 | Concept | [Conditional development of lunar bases](wiki/concepts/lunar-base-development.md) | [月球基地的條件式發展](wiki-tw/concepts/lunar-base-development.md) |
 | Concept | [Lunar–Earth cargo and export production](wiki/concepts/lunar-earth-cargo.md) | [月地貨運與出口生產](wiki-tw/concepts/lunar-earth-cargo.md) |
 | Concept | [Motives for space expansion](wiki/concepts/space-expansion-motives.md) | [太空擴張的動機](wiki-tw/concepts/space-expansion-motives.md) |

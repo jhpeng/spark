@@ -97,9 +97,9 @@
 
 ## 什麼條件能支持永久居住或可獨立存續的聚落？
 
-- 影響條目：[[wiki-tw/concepts/space-expansion-motives]]、[[wiki-tw/society/state-funded-space-industry]]、[[wiki-tw/concepts/earth-development-limits]]、[[wiki-tw/concepts/lunar-base-development]]、[[wiki-tw/society/community-led-settlement]]、[[wiki-tw/society/migration-contracts-and-resident-rights]]
+- 影響條目：[[wiki-tw/concepts/space-expansion-motives]]、[[wiki-tw/society/state-funded-space-industry]]、[[wiki-tw/concepts/earth-development-limits]]、[[wiki-tw/concepts/lunar-base-development]]、[[wiki-tw/society/community-led-settlement]]、[[wiki-tw/society/migration-contracts-and-resident-rights]]、[[wiki-tw/concepts/geopolitical-drivers-of-space-expansion]]
 - 範圍：`community-led-settlement`、`civilization-backup`，以及明確選擇加入各工業分支的定居延伸。
-- 選項：比較自動化營運、輪調與永久居住；具體訂定健康、輻射、重力、食物、水、維修、醫療、家庭生活、權利、負擔能力與返回選項。檢查契約可執行性、扣除生活成本的淨收入、贊助終止後的退出安排、社群治理與共用服務的持續供應。文明備援還需要在失去地球支援後，能維持明確期間的可信工業與生物供應鏈，並考慮不同據點的共同失效依賴；98% 水回收的示例不代表生態系封閉或獨立自給。月球設施的影響另於[[sessions/2026-11-19-lunar-bases-and-cargo]]探索。
+- 選項：比較自動化營運、輪調與永久居住；具體訂定健康、輻射、重力、食物、水、維修、醫療、家庭生活、權利、負擔能力與返回選項。檢查契約可執行性、扣除生活成本的淨收入、贊助終止後的退出安排、社群治理與共用服務的持續供應。文明備援還需要在失去地球支援後，能維持明確期間的可信工業與生物供應鏈，並考慮不同據點的共同失效依賴；98% 水回收的示例不代表生態系封閉或獨立自給。月球設施的影響另於[[sessions/2026-11-19-lunar-bases-and-cargo]]探索。對國家資助基礎設施的定居延伸，須指出哪些工作適合長住而非輪班或遠端操作，以及第一位贊助者撤資後，由誰支付家庭生活服務。此地緣政治延伸討論於[[sessions/2026-11-19-geopolitical-drivers-of-space-expansion]]。
 - 提出於：[[sessions/2026-11-19-drivers-of-space-expansion]]
 
 ## 哪個月球地點與生產製程能替代持續進口？
@@ -111,9 +111,9 @@
 
 ## 哪些共用月球服務足以支持基礎設施擴張？
 
-- 影響條目：[[wiki-tw/concepts/lunar-base-development]]、[[wiki-tw/tech/lunar-resource-utilization]]
+- 影響條目：[[wiki-tw/concepts/lunar-base-development]]、[[wiki-tw/tech/lunar-resource-utilization]]、[[wiki-tw/concepts/geopolitical-drivers-of-space-expansion]]
 - 範圍：`state-funded-expansion`、`ai-industrial-expansion`、`earth-development-limits` 與 `climate-adaptation-pressure` 的月球延伸；與 `earth-centered-development` 比較。
-- 選項：明確訂定獨立客戶、合約、使用率、服務壽命與贊助者撤資後的應對。比較共用維修、貨物處理、公共供應、遠端無人節點、獨立有人據點及任務專用設備。建立完整成本與營運收支；抵銷假設運入質量的 3.75 年，不是財務回收期或經驗證的工廠壽命。
+- 選項：明確訂定獨立客戶、合約、使用率、服務壽命與贊助者撤資後的應對。比較共用維修、貨物處理、公共供應、遠端無人節點、獨立有人據點及任務專用設備。建立完整成本與營運收支；抵銷假設運入質量的 3.75 年，不是財務回收期或經驗證的工廠壽命。對 `state-funded-expansion` 中的地緣政治動機，須訂定使用資格、相容性、可用容量、定價與優先順序；檢查安全限制或專用合約是否迫使後來使用者重複建設。延伸討論見[[sessions/2026-11-19-geopolitical-drivers-of-space-expansion]]。
 - 提出於：[[sessions/2026-11-19-lunar-bases-and-cargo]]
 
 ## 哪種產品與完整交貨服務足以支持月球出口地球地面？
@@ -132,9 +132,9 @@
 
 ## 什麼公共目的與承諾能維持國家資助的基礎設施？
 
-- 影響條目：[[wiki-tw/society/state-funded-space-industry]]
+- 影響條目：[[wiki-tw/society/state-funded-space-industry]]、[[wiki-tw/concepts/geopolitical-drivers-of-space-expansion]]
 - 範圍：`state-funded-expansion`；另行檢查 `lunar-military-industrialization`。
-- 選項：指出公共目標、採購者、預算期限、撤資後的應對與替代方案。對獨立的月球軍事假說，在非操作層次確立其條約情境、政治後果、公共理由與完整工業成本。低成本與戰略優勢仍未獲證實；記錄這項不確定性不需要武器設計、瞄準或效能最佳化。
+- 選項：指出公共目標、採購者、預算期限、撤資後的應對與替代方案。對獨立的月球軍事假說，在非操作層次確立其條約情境、政治後果、公共理由與完整工業成本。低成本與戰略優勢仍未獲證實；記錄這項不確定性不需要武器設計、瞄準或效能最佳化。對 `state-funded-expansion` 中的地緣政治動機，須區分宣布目標與已有資金的持續採購，並確立可信的合約期限、取消條款、維護責任與政治支持改變後的資金來源。延伸討論見[[sessions/2026-11-19-geopolitical-drivers-of-space-expansion]]。
 - 提出於：[[sessions/2026-11-19-drivers-of-space-expansion]]
 
 ## 早期太空產能何時能帶來持久的商業優勢？

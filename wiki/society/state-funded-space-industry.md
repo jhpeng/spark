@@ -29,6 +29,12 @@ Only known physics and explicit branch dependencies are shared. Exploration, ope
 - **Consequences:** early contracts could support logistics, repairs, and further suppliers. A withdrawn budget, cheaper remote operation, or unsuccessful service can shrink the industry. Persistent government procurement is an alternative to a self-sustaining commercial market.
 - **Grounding:** `plausible` for incremental publicly purchased space services with demonstrated precedents; more ambitious optional facilities retain their own weaker grounding. This rating does not predict political commitment.
 
+### Making early services usable by later customers
+
+Within `state-funded-expansion`, [[wiki/concepts/geopolitical-drivers-of-space-expansion]] develops rivalry over independent access and influence as an optional reason for sustained purchases. This does not require environmental development limits or lunar military installations.
+
+For the proposed transition from public demand to shared services, specify contract duration and cancellation terms, who owns and maintains facilities, who may purchase capacity, compatibility with other users, and how prices and service priorities are set. Security restrictions or exclusive capacity reservations may limit wider use. A later customer needs a funded purpose and dependable access; existing equipment alone supplies neither. If the first sponsor withdraws, continued public support, replacement customers, a reduced service, or closure must each have an explicit funding and operating case. These are design conditions, not claims that current programs already provide them.
+
 ### Branch `lunar-military-industrialization`
 
 - **Assumptions:** a state considers paying for substantial lunar industry for a strategic military purpose; the user suggested lunar manufacture supporting a system directed at Earth. No current US decision or intent is asserted. The branch additionally requires a changed treaty framework or an explicit decision to violate it and bear the consequences.

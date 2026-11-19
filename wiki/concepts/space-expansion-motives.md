@@ -30,6 +30,10 @@ Households may instead seek income, housing, family prospects, cultural autonomy
 
 Moving from a work site to a settlement requires an additional case for long residence, healthcare, education, and family life. Reliable automation can leave a successful space industry with few residents. Orbital, lunar, and Martian locations require separate comparisons; distance alone neither creates autonomy nor proves commercial value.
 
+### State competition and household migration
+
+[[wiki/concepts/geopolitical-drivers-of-space-expansion]] examines how independent access and international influence can motivate early spending within `state-funded-expansion`. State-funded services may make later activities more affordable without giving households a reason to move. A government can value a predominantly robotic site or rotating crew; residents still need their own income, health, family, and rights case. This optional motive does not require resource exhaustion or global development limits, and it does not make permanent settlement an automatic consequence of competition.
+
 ### Branch navigation
 
 These branches do not automatically inherit one another. Compatible motives can coexist only with their stated assumptions; mutually exclusive outcomes remain alternatives.

@@ -39,6 +39,8 @@ depends_on:
 
 居民社群的組織與自主條件見[[wiki-tw/society/community-led-settlement|社群主導的太空定居]]；雇主支援移居、居住權與退出安排見[[wiki-tw/society/migration-contracts-and-resident-rights|移民契約與居民權利]]。這些制度選項不因基地具備工業設施而自動成立。
 
+針對 `state-funded-expansion` 中可選的地緣政治動機，[[wiki-tw/concepts/geopolitical-drivers-of-space-expansion|地緣政治如何推動太空擴張]]說明政府如何在廣泛市場出現前資助自主使用能力。該條目引用的中國月球科研站規劃，明確預期自主運行與短期人員參與。這類競爭可以支持上述共用服務路徑，而不選擇居民社群路徑。後來使用者仍須取得設施使用權、有資金的用途，以及初期贊助者撤資後的持續服務安排。
+
 ## 驗證
 
 ### NASA 參考，查核於 2026-11-19

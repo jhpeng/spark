@@ -97,9 +97,9 @@ Unresolved evidence, feasibility checks, and decisions within branches. Each que
 
 ## What supports permanent residence or an independently surviving settlement?
 
-- Blocks: [[wiki/concepts/space-expansion-motives]], [[wiki/society/state-funded-space-industry]], [[wiki/concepts/earth-development-limits]], [[wiki/concepts/lunar-base-development]], [[wiki/society/community-led-settlement]], [[wiki/society/migration-contracts-and-resident-rights]]
+- Blocks: [[wiki/concepts/space-expansion-motives]], [[wiki/society/state-funded-space-industry]], [[wiki/concepts/earth-development-limits]], [[wiki/concepts/lunar-base-development]], [[wiki/society/community-led-settlement]], [[wiki/society/migration-contracts-and-resident-rights]], [[wiki/concepts/geopolitical-drivers-of-space-expansion]]
 - Scope: `community-led-settlement`, `civilization-backup`, and explicitly chosen settlement extensions of the industrial branches.
-- Options: compare automated operations, rotation, and permanent residence; specify health, radiation, gravity, food, water, repair, medical care, family life, rights, affordability, and return options. Examine contract enforceability, income after living costs, exit after sponsorship ends, community governance, and continuity of shared services. A backup settlement additionally needs a credible industrial and biological supply chain for a specified duration after loss of Earth support, including shared failure dependencies between sites; the 98% water-recovery example proves neither ecosystem closure nor independence. Lunar facility implications are also explored in [[sessions/2026-11-19-lunar-bases-and-cargo]].
+- Options: compare automated operations, rotation, and permanent residence; specify health, radiation, gravity, food, water, repair, medical care, family life, rights, affordability, and return options. Examine contract enforceability, income after living costs, exit after sponsorship ends, community governance, and continuity of shared services. A backup settlement additionally needs a credible industrial and biological supply chain for a specified duration after loss of Earth support, including shared failure dependencies between sites; the 98% water-recovery example proves neither ecosystem closure nor independence. Lunar facility implications are also explored in [[sessions/2026-11-19-lunar-bases-and-cargo]]. For settlement extensions of state-funded infrastructure, identify which tasks favor long residence over rotation or remote operation and who funds household services after the first sponsor withdraws. This geopolitical extension is discussed in [[sessions/2026-11-19-geopolitical-drivers-of-space-expansion]].
 - Raised: [[sessions/2026-11-19-drivers-of-space-expansion]]
 
 ## Which lunar site and production process can replace recurring imports?
@@ -111,9 +111,9 @@ Unresolved evidence, feasibility checks, and decisions within branches. Each que
 
 ## Which shared lunar services justify infrastructure expansion?
 
-- Blocks: [[wiki/concepts/lunar-base-development]], [[wiki/tech/lunar-resource-utilization]]
+- Blocks: [[wiki/concepts/lunar-base-development]], [[wiki/tech/lunar-resource-utilization]], [[wiki/concepts/geopolitical-drivers-of-space-expansion]]
 - Scope: lunar extensions of `state-funded-expansion`, `ai-industrial-expansion`, `earth-development-limits`, and `climate-adaptation-pressure`; compare `earth-centered-development`.
-- Options: specify independent customers, contracts, utilization, service lifetime, and the response to sponsor withdrawal. Compare shared repair, cargo handling, utilities, remote uncrewed nodes, and separate inhabited sites with mission-specific equipment. Build full cost and operating budgets; 3.75 years to offset hypothetical imported mass is not financial payback or a verified plant lifetime.
+- Options: specify independent customers, contracts, utilization, service lifetime, and the response to sponsor withdrawal. Compare shared repair, cargo handling, utilities, remote uncrewed nodes, and separate inhabited sites with mission-specific equipment. Build full cost and operating budgets; 3.75 years to offset hypothetical imported mass is not financial payback or a verified plant lifetime. For the geopolitical motive within `state-funded-expansion`, specify access eligibility, compatibility, available capacity, pricing, and priority rules; assess whether security restrictions or exclusive contracts force later users to duplicate facilities. Developed in [[sessions/2026-11-19-geopolitical-drivers-of-space-expansion]].
 - Raised: [[sessions/2026-11-19-lunar-bases-and-cargo]]
 
 ## What product and complete delivery service justify lunar exports to Earth's surface?
@@ -132,9 +132,9 @@ Unresolved evidence, feasibility checks, and decisions within branches. Each que
 
 ## What public purpose and commitments sustain state-funded infrastructure?
 
-- Blocks: [[wiki/society/state-funded-space-industry]]
+- Blocks: [[wiki/society/state-funded-space-industry]], [[wiki/concepts/geopolitical-drivers-of-space-expansion]]
 - Scope: `state-funded-expansion`; separately, `lunar-military-industrialization`.
-- Options: identify the public objective, purchaser, budget duration, fallback on withdrawal, and alternatives. For the separate lunar military hypothesis, establish the assumed treaty situation, political consequences, public rationale, and full industrial costs at a non-operational level. Cheapness and strategic superiority remain unproven; no weapon design, targeting, or performance optimization is required to record this uncertainty.
+- Options: identify the public objective, purchaser, budget duration, fallback on withdrawal, and alternatives. For the separate lunar military hypothesis, establish the assumed treaty situation, political consequences, public rationale, and full industrial costs at a non-operational level. Cheapness and strategic superiority remain unproven; no weapon design, targeting, or performance optimization is required to record this uncertainty. For the geopolitical motive within `state-funded-expansion`, distinguish announced targets from funded recurring purchases and identify a credible contract horizon, cancellation terms, maintenance responsibility, and funding after political support changes. Developed in [[sessions/2026-11-19-geopolitical-drivers-of-space-expansion]].
 - Raised: [[sessions/2026-11-19-drivers-of-space-expansion]]
 
 ## When does early space capacity confer durable commercial advantage?

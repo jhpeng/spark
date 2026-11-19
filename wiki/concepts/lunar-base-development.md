@@ -39,6 +39,8 @@ A possible combination explicitly adopts `state-funded-expansion` to support ini
 
 Community organization and autonomy are described in [[wiki/society/community-led-settlement]]; employer-supported migration, residence rights, and exit arrangements are examined in [[wiki/society/migration-contracts-and-resident-rights]]. These institutional options are not automatically established by industrial infrastructure.
 
+For the optional geopolitical motive within `state-funded-expansion`, [[wiki/concepts/geopolitical-drivers-of-space-expansion]] explains how governments may fund independent access before a broad market exists. Its dated Chinese lunar-station reference explicitly envisages autonomous operation with short human visits. Such competition can support the shared-service path above without choosing the residential path. Any later user still needs access to the facilities, a funded purpose, and a plan for continuity if the initial sponsor withdraws.
+
 ## Validation
 
 ### NASA reference, checked 2026-11-19
