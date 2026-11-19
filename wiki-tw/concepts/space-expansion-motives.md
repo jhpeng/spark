@@ -26,7 +26,7 @@ depends_on:
 
 企業可以把設備放到太空，讓客戶、總部與多數員工留在地球。候選動機包括提供受益於軌道位置的服務、履行政府訂單、在當地供應既有太空客戶、利用有利的生產環境，以及提早投資可能吸引未來客戶的能力。每一種都需要個別的成本與需求論證。供應鏈必須有最終付費用途，不能只讓礦場與運輸公司以彼此的需求循環證明存在價值。
 
-家庭追求的可能是收入、住宅、家人前途、文化自主或安全。示意性的雇主方案可以提供旅費與訓練，換取數年服務，再提供住宅權益與家屬遷入支援。本設定尚未採用任何這類契約。其吸引力取決於承諾能否執行、扣除生活成本的淨收入，以及可行的退出選項；控制空氣、飲水、住宅與回程交通，也可能製造依附關係。
+家庭追求的可能是收入、住宅、家人前途、文化自主或安全。[[wiki-tw/society/migration-contracts-and-resident-rights|移民契約與居民權利]]描述可選的雇主支援途徑，以及它對可執行承諾、淨收入與可行退出選項的依賴。[[wiki-tw/society/community-led-settlement|社群主導的太空定居]]探索為文化或制度自主而集體移居的情境。兩種安排都不是太空擴張的普遍條件。
 
 工作據點要成為聚落，還需要長住、醫療、教育與家庭生活的額外理由。可靠的自動化可能讓成功的太空產業僅有少量居民。軌道、月球與火星各需個別比較；距離本身不會創造自主，也不能證明商業價值。
 
@@ -39,18 +39,11 @@ depends_on:
 | `ai-industrial-expansion` | [[wiki-tw/concepts/ai-driven-industrial-demand]] 定義付費需求、實體生產與可能地外供應的條件式成長。 |
 | `climate-adaptation-pressure` | [[wiki-tw/concepts/climate-adaptation-pressure]] 定義環境壓力下維持生活所需支出的增加。 |
 | `earth-development-limits` | [[wiki-tw/concepts/earth-development-limits]] 定義全球協調的限制，以及對獲准地外供應的競爭。 |
-| `state-funded-expansion` | [[wiki-tw/concepts/state-funded-space-industry]] 定義以公共採購與戰略投資形成的早期需求。 |
-| `lunar-military-industrialization` | [[wiki-tw/concepts/state-funded-space-industry]] 個別檢視提出的月球軍事動機，以及尚未確定的法律、戰略與工業前提。 |
+| `state-funded-expansion` | [[wiki-tw/society/state-funded-space-industry]] 定義以公共採購與戰略投資形成的早期需求。 |
+| `lunar-military-industrialization` | [[wiki-tw/society/state-funded-space-industry]] 個別檢視提出的月球軍事動機，以及尚未確定的法律、戰略與工業前提。 |
+| `community-led-settlement` | [[wiki-tw/society/community-led-settlement|社群主導的太空定居]]定義為文化或制度自主而集資定居的分支，以及外部供應對自主的限制。 |
 
-[[wiki-tw/concepts/orbital-data-centers]] 檢視部分分支中的一種候選服務；它不是以下所有動機的必要組成。
-
-### 分支：`community-led-settlement`
-
-- **科學與工程依據：** `speculative`；長久的地外社群仰賴在預期規模下尚未證實的居住與支援系統。
-- **假設：** 社群足夠重視文化或制度自主，願意集資並接受物質生活上的犧牲，且能取得交通、可靠生命維持，以及可執行的居住與供應安排。
-- **分歧：** 即使沒有具競爭力的出口產業，集體定居本身仍值得出資。
-- **影響：** 成員可能共同移居，但對外部供應者的依賴可能限制自主。資金、支援或凝聚力流失，可能迫使社群縮減或返回。
-- **依賴：** [[canon/laws-tw]]，以及經驗證的交通、居住、健康與治理安排；不預設依賴 AI、氣候、政策或加速器分支。
+[[wiki-tw/tech/orbital-data-centers]] 檢視部分分支中的一種候選服務；它不是所有動機的必要組成。文明備援與以地球為中心的替代分支定義於下文。
 
 ### 分支：`civilization-backup`
 
@@ -76,7 +69,7 @@ depends_on:
 
 | 分支 | 範圍與定義條目 |
 |---|---|
-| `lunar-local-supply` | [[wiki-tw/concepts/lunar-resource-utilization|月球早期資源利用]]探索以月壤、水及氧供應有獨立資金的月球客戶，條件包括資源品質、可靠生產與進口比較。 |
+| `lunar-local-supply` | [[wiki-tw/tech/lunar-resource-utilization|月球早期資源利用]]探索以月壤、水及氧供應有獨立資金的月球客戶，條件包括資源品質、可靠生產與進口比較。 |
 | `lunar-earth-export` | [[wiki-tw/concepts/lunar-earth-cargo|月地貨運與出口生產]]探索先驗證小規模生產及完整地球地面交貨，再擴大出口工廠。不假設任何商品、發射器或低運費已獲證實。 |
 
 這些分支不自動繼承彼此或任何動機分支。公共資金、AI 需求、開發限制或定居承諾，都須明確採用。月面供應、軌道供應及地球地面出口，需要各自針對目的地建立理由。
@@ -109,7 +102,7 @@ NASA 曾報告國際太空站達成 98% 水回收里程碑，每人每天飲用�
 
 ### 一致性與動機
 
-已檢查 [[canon/laws-tw]]、[[canon/timeline-tw]] 及 repo 相關詞彙。目前沒有已批准的擴張動機或未來定居日期約束這些分支。既有 [[wiki-tw/concepts/orbital-transportation-network]] 與 [[wiki-tw/tech/modular-orbital-accelerator]] 仍是需求未定的推測工程草案；它們是可選技術，不是繼承的基礎設施。本條目不提出 canon 狀態、時間軸事件或 retcon 變更。本次討論記錄於 [[sessions/2026-11-19-drivers-of-space-expansion]]。
+已檢查 [[canon/laws-tw]]、[[canon/timeline-tw]] 及 repo 相關詞彙。目前沒有已批准的擴張動機或未來定居日期約束這些分支。既有 [[wiki-tw/tech/orbital-transportation-network]] 與 [[wiki-tw/tech/modular-orbital-accelerator]] 仍是需求未定的推測工程草案；它們是可選技術，不是繼承的基礎設施。本條目不提出 canon 狀態、時間軸事件或 retcon 變更。本次討論記錄於 [[sessions/2026-11-19-drivers-of-space-expansion]]。
 
 探索者可以由公共資金支持，企業需要客戶或戰略出資者，定居者需要家庭或集體支援。動機可以一致，但不會自動替彼此付款。此處不確立可能性排名或必然發展順序。
 
@@ -126,4 +119,4 @@ NASA 曾報告國際太空站達成 98% 水回收里程碑，每人每天飲用�
 - 對 `community-led-settlement` 與 `civilization-backup`，什麼支援清單與當地能力能達成預期自主程度，並能承受多久的地球供應中斷？
 - 對所有擴張分支，哪個目的地與最終付費用途足以支撐第一個持續營運據點？需求或贊助結束時會如何？
 
-未解檢查追蹤於 [[open-questions-tw]]；刻意保留的替代未來留在本條目。
+未解檢查追蹤於 [[open-questions-tw]]；刻意保留的替代未來留在本條目及連結的分支定義中。

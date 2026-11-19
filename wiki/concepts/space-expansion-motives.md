@@ -26,7 +26,7 @@ American westward migration provides examples of economic opportunity, hardship,
 
 A company can put equipment in space while keeping its customers, headquarters, and most staff on Earth. Candidate motives include providing a service that benefits from an orbital location; fulfilling government contracts; supplying existing space customers locally; exploiting an advantageous production environment; and investing early in capabilities that may attract later customers. Each needs a distinct cost and demand case. Supplier chains need a final paying use, rather than a mine and transport company each justifying the other through circular demand.
 
-Households may instead seek income, housing, family prospects, cultural autonomy, or safety. An illustrative employer could offer transport and training in exchange for years of service, with later housing rights and family relocation support. No such contract is adopted as a setting fact. Its appeal depends on enforceable promises, net income after living costs, and viable exit options; control over air, water, housing, and return transport can create dependence.
+Households may instead seek income, housing, family prospects, cultural autonomy, or safety. [[wiki/society/migration-contracts-and-resident-rights]] describes the optional employer-supported route and its dependence on enforceable promises, net income, and viable exit. [[wiki/society/community-led-settlement]] explores collective migration for cultural or institutional autonomy. Neither arrangement is a universal condition of expansion.
 
 Moving from a work site to a settlement requires an additional case for long residence, healthcare, education, and family life. Reliable automation can leave a successful space industry with few residents. Orbital, lunar, and Martian locations require separate comparisons; distance alone neither creates autonomy nor proves commercial value.
 
@@ -39,18 +39,11 @@ These branches do not automatically inherit one another. Compatible motives can 
 | `ai-industrial-expansion` | [[wiki/concepts/ai-driven-industrial-demand]] defines conditional growth in paying demand, physical production, and potential space supply. |
 | `climate-adaptation-pressure` | [[wiki/concepts/climate-adaptation-pressure]] defines increased expenditure to maintain life under environmental stress. |
 | `earth-development-limits` | [[wiki/concepts/earth-development-limits]] defines globally coordinated limits and competition for permitted off-world supply. |
-| `state-funded-expansion` | [[wiki/concepts/state-funded-space-industry]] defines public procurement and strategic investment as early demand. |
-| `lunar-military-industrialization` | [[wiki/concepts/state-funded-space-industry]] separately evaluates the proposed lunar military motive and its unresolved legal, strategic, and industrial premises. |
+| `state-funded-expansion` | [[wiki/society/state-funded-space-industry]] defines public procurement and strategic investment as early demand. |
+| `lunar-military-industrialization` | [[wiki/society/state-funded-space-industry]] separately evaluates the proposed lunar military motive and its unresolved legal, strategic, and industrial premises. |
+| `community-led-settlement` | [[wiki/society/community-led-settlement]] defines collectively funded settlement for cultural or institutional autonomy, including the limits imposed by external supply. |
 
-[[wiki/concepts/orbital-data-centers]] examines one candidate service across selected branches. It is not a necessary component of every motive below.
-
-### Branch: `community-led-settlement`
-
-- **Grounding:** `speculative`; a durable off-world community depends on unproven habitat and support systems at the intended scale.
-- **Assumptions:** A community values cultural or institutional autonomy enough to pool capital and accept material sacrifices. It can obtain transport, reliable life support, and enforceable arrangements for residence and supply.
-- **Divergence:** Collective settlement itself is worth funding, even without a competitive export industry.
-- **Consequences:** Members may migrate together, but dependence on external suppliers can limit autonomy. Loss of financing, support, or cohesion can force contraction or return.
-- **Dependencies:** [[canon/laws]] and validated transport, habitat, health, and governance arrangements; no assumed dependence on the AI, climate, policy, or accelerator branches.
+[[wiki/tech/orbital-data-centers]] examines one candidate service across selected branches. It is not a necessary component of every motive. The civilization-backup and Earth-centered alternatives are defined below.
 
 ### Branch: `civilization-backup`
 
@@ -76,7 +69,7 @@ Two additional conditional branches are defined separately:
 
 | Branch | Scope and defining entry |
 |---|---|
-| `lunar-local-supply` | [[wiki/concepts/lunar-resource-utilization]] explores regolith, water, and oxygen for independently funded lunar customers, conditional on resource quality, reliable production, and import comparisons. |
+| `lunar-local-supply` | [[wiki/tech/lunar-resource-utilization]] explores regolith, water, and oxygen for independently funded lunar customers, conditional on resource quality, reliable production, and import comparisons. |
 | `lunar-earth-export` | [[wiki/concepts/lunar-earth-cargo]] explores validating small-scale production and end-to-end Earth-surface delivery before expanding export factories. No commodity, launcher, or low freight price is assumed proven. |
 
 These branches do not automatically inherit one another or any motive branch. Any public funding, AI demand, development limits, or settlement commitments must be explicitly adopted. Local supply, orbital supply, and Earth-surface exports require separate destination-specific cases.
@@ -109,7 +102,7 @@ Radiation, altered gravity, isolation, and closed environments remain additional
 
 ### Consistency and motive
 
-Checked [[canon/laws]], [[canon/timeline]], and related repository terms. No approved expansion motive or future settlement date constrains these branches. The existing [[wiki/concepts/orbital-transportation-network]] and [[wiki/tech/modular-orbital-accelerator]] remain speculative drafts with unresolved demand; they are optional technologies, not inherited infrastructure. No canon status, timeline event, or retcon is proposed. The discussion is recorded in [[sessions/2026-11-19-drivers-of-space-expansion]].
+Checked [[canon/laws]], [[canon/timeline]], and related repository terms. No approved expansion motive or future settlement date constrains these branches. The existing [[wiki/tech/orbital-transportation-network]] and [[wiki/tech/modular-orbital-accelerator]] remain speculative drafts with unresolved demand; they are optional technologies, not inherited infrastructure. No canon status, timeline event, or retcon is proposed. The discussion is recorded in [[sessions/2026-11-19-drivers-of-space-expansion]].
 
 Explorers can be publicly funded, companies need customers or strategic backers, and settlers need household or collective support. These motives may align, but none automatically pays for the others. No probability ranking or inevitable sequence is established.
 
@@ -126,4 +119,4 @@ Explorers can be publicly funded, companies need customers or strategic backers,
 - For `community-led-settlement` and `civilization-backup`, what support inventory and local capabilities establish the intended degree of autonomy, and for how long can Earth supply be interrupted?
 - For all expansion branches, which destination and final paying use justify the first sustained operation, and what happens if demand or sponsorship ends?
 
-Unresolved checks are tracked in [[open-questions]]; the intentional alternatives remain in this entry.
+Unresolved checks are tracked in [[open-questions]]; intentional alternatives remain in this entry and the linked branch definitions.

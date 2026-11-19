@@ -33,47 +33,21 @@ If lunar industry is intended to serve customers on Earth's surface, affordable 
 3. Compare expanded rocket service, reusable transport where practical, and fixed electromagnetic launch infrastructure against credible traffic. Producers and carriers can invest together; public buyers may purchase initial capacity.
 4. Expand export factories and freight capacity together once the complete delivery case supports them. Cargo preparation, standard containers, inspection, dispatch, and Earth-side recovery can precede a large refinery.
 
-This order is a candidate, not a requirement to finish a giant launcher before any production exists. Cheap transport alone cannot identify a worthwhile product or create demand. Regolith, water, and oxygen useful locally in [[wiki/concepts/lunar-resource-utilization]] are not automatically attractive Earth imports.
+This order is a candidate, not a requirement to finish a giant launcher before any production exists. Cheap transport alone cannot identify a worthwhile product or create demand. Regolith, water, and oxygen useful locally in [[wiki/tech/lunar-resource-utilization]] are not automatically attractive Earth imports.
 
-### The full service and launcher alternatives
+### Candidate engineering
 
-| Segment | Required capability | Costs and limits to include |
-|---|---|---|
-| Surface departure | Put packaged cargo onto a suitable trajectory | Vehicle and propulsion, or fixed launcher construction, power, storage, cooling, maintenance, and compatible cargo interfaces. |
-| Transfer toward Earth | Tracking, navigation, and any required corrections | Cargo carrier, control hardware, operations, transit time, and reliability. No orbit or transit duration is selected here. |
-| Delivery to the surface | Controlled reentry, deceleration, protection, landing, and recovery | Thermal protection, load tolerance, recovery operations, losses, refurbishment, and any return or replacement of transport hardware. |
-
-A fixed lunar electromagnetic launcher could retain heavy power and acceleration equipment at the site and reuse it. Recoil is transferred through its foundation to the Moon, unlike the free-flying modules in [[wiki/tech/modular-orbital-accelerator]]. Momentum remains conserved. The distinction removes the free-module orbit-recovery problem; it does not validate lunar construction, structural loads, alignment, dust resistance, wear, heat rejection, or payload acceleration tolerance.
-
-At low traffic, rockets may avoid the fixed cost of a dedicated launcher. Greater, sustained throughput could favor more infrastructure, but the crossover remains unknown. Electromagnetic departure does not eliminate onboard guidance or Earth-arrival hardware. A direct return and a transfer involving an orbital service are alternatives to compare, not selected architectures. An advantage at one orbital destination does not establish an advantage delivering to low Earth orbit or Earth's surface.
+[[wiki/tech/lunar-earth-cargo-system]] compares surface departure, transfer navigation, and Earth reentry and recovery, including rocket and fixed electromagnetic-launcher options. The export-development path does not assume either architecture has been validated.
 
 ## Validation
 
-### Demonstrated return versus industrial scale
+### Return capability and commercial service
 
-Apollo returned approximately **382 kg** of lunar material over six surface missions. This demonstrates physical return, not a freight price or an industrial production rate. [NASA: Apollo samples](https://science.nasa.gov/science-research/planetary-science/astrobiology/nasas-apollo-samples-yield-new-information-about-the-moon/)
-
-A 1979 report describes construction and initial tests of a **2.5 m** electromagnetic mass-driver prototype. It supports the acceleration mechanism; it does not demonstrate a full-speed lunar export installation. [NASA technical report](https://ntrs.nasa.gov/citations/19800026231)
-
-### Surface-departure energy scale
-
-NASA lists lunar escape speed at approximately **2.38 km/s**, compared with **11.2 km/s** for Earth. Using the lunar value only as a reference scale, the kinetic energy per kilogram is:
-
-**E/m = v²/2 = 2,380²/2 ≈ 2.83 MJ/kg ≈ 0.79 kWh/kg.**
-
-This isolated-body escape-speed calculation is not a lunar-to-Earth trajectory solution, required mission delta-v, electricity bill, or delivered cost. A selected Earth–Moon trajectory must include both gravity fields and departure conditions. The estimate excludes carrier and packaging mass, propulsion or electrical losses, construction, maintenance, and operations. [NASA: Moon fact sheet](https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html), [OpenStax: kinetic energy](https://openstax.org/books/university-physics-volume-1/pages/7-2-kinetic-energy)
-
-### Earth-arrival energy scale
-
-Artemis I's lunar-return entry was approximately **11 km/s**. At that illustrative speed:
-
-**E/m = 11,000²/2 = 60.5 MJ/kg ≈ 16.8 kWh/kg.**
-
-This is kinetic energy per kilogram of the entering vehicle, not per kilogram of saleable product, and not heat all deposited into its shield or cargo. Much is transferred to the atmosphere during deceleration. Earth's gravity increases arrival speed; the different departure and arrival energy scales do not violate conservation. Atmospheric braking can save propellant, but thermal protection, guidance, deceleration loads, and recovery remain necessary. This is not a shield design or proof of economical bulk entry. [NASA: Artemis I mission results](https://ntrs.nasa.gov/api/citations/20230012789/downloads/IAC%202023Artemis%20I%20paper-FINALSTRIVES.pdf)
+Demonstrated returns, prototypes, and departure/arrival energy checks are collected in [[wiki/tech/lunar-earth-cargo-system]]. These engineering results cannot alone establish a sustained export market, freight price, or investment return.
 
 ### Consistency and economic test
 
-Checked [[canon/laws]], [[canon/timeline]], motive entries, [[wiki/concepts/orbital-transportation-network]], and its accelerator during [[sessions/2026-11-19-lunar-bases-and-cargo]]. No approved route, export commodity, or deployment date conflicts. This branch neither relocates the existing orbital-accelerator draft nor assumes it is available, and it does not adopt the separate military branch.
+Checked [[canon/laws]], [[canon/timeline]], motive entries, [[wiki/tech/orbital-transportation-network]], and its accelerator during [[sessions/2026-11-19-lunar-bases-and-cargo]]. No approved route, export commodity, or deployment date conflicts. This branch neither relocates the existing orbital-accelerator draft nor assumes it is available, and it does not adopt the separate military branch.
 
 No complete trajectory, trip duration, power and thermal budget, cargo survival rate, equipment lifetime, or shipping price has been established. Compare total production and delivery cost per accepted product with the customer's alternatives, including terrestrial production, recycling, and substitutes. Account for utilization, capital recovery, imported transport hardware, recovery losses, and sustained demand; low launch energy alone cannot settle that comparison.
 
@@ -87,8 +61,7 @@ No complete trajectory, trip duration, power and thermal budget, cargo survival 
 ## Open questions
 
 - For `lunar-earth-export`, which product, purchaser, delivered specification, and sustained volume justify the whole chain?
-- Which departure, transfer, reentry, and recovery architecture meets that service requirement, including reusable versus replaceable hardware?
-- At what traffic and equipment life would fixed electromagnetic infrastructure improve on rocket service after construction, power, storage, thermal control, maintenance, and arrival costs?
+- Which [[wiki/tech/lunar-earth-cargo-system|cargo system]] can deliver the cost, specifications, and reliability accepted by product customers?
 - Who finances demonstrations and initial capacity, and what happens if product demand or public support ends?
 
 These checks are tracked in [[open-questions]].

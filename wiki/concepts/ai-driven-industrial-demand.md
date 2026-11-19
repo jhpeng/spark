@@ -22,7 +22,7 @@ AI could lower the cost of design, research, coordination, and some physical ope
 - **Assumptions:** AI produces useful, affordable improvements; customers or public purchasers can pay for more services and physical outcomes; production and robotics become reliable enough for the proposed tasks. For sustained resource growth, additional activity exceeds savings from efficiency, sharing, substitution, and recycling.
 - **Divergence:** Productive plans and orders accumulate faster than some energy, equipment, or material supply chains can expand. Firms invest in supply assurance and may finance off-world capacity where it beats available alternatives.
 - **Consequences:** Long-term power and manufacturing contracts become valuable; some firms integrate into upstream supply. Robotics can lower the labor burden of space operations, while also leaving successful industries largely uninhabited. Price increases, demand saturation, technical failure, or better terrestrial alternatives can interrupt expansion.
-- **Dependencies:** [[canon/laws]], specified paying applications, credible automation, and validated energy/material/transport budgets. [[wiki/concepts/orbital-data-centers]] is one optional pathway. Neither [[wiki/concepts/earth-development-limits]] nor [[wiki/concepts/climate-adaptation-pressure]] is inherited automatically; the earlier orbital accelerator is not required.
+- **Dependencies:** [[canon/laws]], specified paying applications, credible automation, and validated energy/material/transport budgets. [[wiki/tech/orbital-data-centers]] is one optional pathway. Neither [[wiki/concepts/earth-development-limits]] nor [[wiki/concepts/climate-adaptation-pressure]] is inherited automatically; the earlier orbital accelerator is not required.
 
 The alternative `earth-centered-development`, defined in [[wiki/concepts/space-expansion-motives]], retains strong AI with predominantly terrestrial industry when those conditions are not met. It is a viable future rather than a question requiring a single choice now.
 
@@ -60,9 +60,9 @@ All numbers in these examples are assumptions for accounting, not demographic, e
 
 - **Efficiency and activity:** If energy per completed task falls to 1/10 while the number of tasks rises 30-fold, task energy becomes 30 × 0.1 = **3 times** its original value. A smaller increase in task count could instead reduce energy. This is a conditional rebound mechanism, not proof that it will occur. It excludes embodied energy and changes in the task mix.
 - **Recurring services:** 100 million households purchasing 2 hours/day produce **200 million service-hours/day**. This measures an output people might value, not a required robot count or centralized compute load. Sharing, utilization, task capabilities, and price must be specified before converting hours into hardware demand.
-- **Growing material stock:** With unchanged material intensity, increasing metal embodied in operating equipment from 100 to 130 units requires **30 additional units**. Recycling retired stock can reduce primary material demand for replacements, but metal still operating in the original equipment cannot simultaneously become the expansion stock. The example does not assume unavoidable waste, fixed technology, or the absence of inventories.
+- **Growing material stock:** With unchanged material use per unit of equipment, increasing metal embodied in operating equipment from 100 to 130 units requires **30 additional units**. Recycling retired stock can reduce primary material demand for replacements, but metal still operating in the original equipment cannot simultaneously become the expansion stock. The example does not assume unavoidable waste, fixed technology, or the absence of inventories.
 
-Physical output is bounded by supplied energy and material, while operating equipment must reject waste heat under [[canon/laws]]. No deployment scale, launch mass, or end-to-end industrial energy budget is established. The optional orbital computing pathway has its own checks in [[wiki/concepts/orbital-data-centers]].
+Physical output is bounded by supplied energy and material, while operating equipment must reject waste heat under [[canon/laws]]. No deployment scale, launch mass, or end-to-end industrial energy budget is established. The optional orbital computing pathway has its own checks in [[wiki/tech/orbital-data-centers]].
 
 ### Evidence and limits
 
@@ -76,7 +76,7 @@ WHO estimates that over 2.5 billion people need one or more assistive products, 
 
 ### Consistency and motive
 
-Checked [[canon/laws]], [[canon/timeline]], and related repository terms. No approved AI adoption trajectory, resource shortage, or space-industry date conflicts with this conditional branch. [[wiki/concepts/orbital-transportation-network]] remains a draft with unproven demand and is not assumed available. The discussion is recorded in [[sessions/2026-11-19-drivers-of-space-expansion]].
+Checked [[canon/laws]], [[canon/timeline]], and related repository terms. No approved AI adoption trajectory, resource shortage, or space-industry date conflicts with this conditional branch. [[wiki/tech/orbital-transportation-network]] remains a draft with unproven demand and is not assumed available. The discussion is recorded in [[sessions/2026-11-19-drivers-of-space-expansion]].
 
 Households, businesses, and public purchasers fund final outcomes; firms and investors finance capacity in expectation of those payments. Technical feasibility, household need, willingness to pay, and investor returns are separate claims. Efficiency, saturation, inequality, substitution, shared services, and terrestrial expansion can all weaken the demand case without violating physics.
 
