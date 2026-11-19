@@ -24,9 +24,9 @@ topic: Orbital acceleration network
 
 ## Entries created or changed
 
-- [[modular-orbital-accelerator]] — draft, new; speculative engineering with sourced calculations and explicit limits.
-- [[orbital-transportation-network]] — draft, new; speculative network and economic hypothesis dependent on the accelerator.
-- [[open-questions]] — added six design forks, each linked to the entries it blocks.
+- [modular-orbital-accelerator](../wiki/tech/modular-orbital-accelerator.md) — draft, new; speculative engineering with sourced calculations and explicit limits.
+- [orbital-transportation-network](../wiki/tech/orbital-transportation-network.md) — draft, new; speculative network and economic hypothesis dependent on the accelerator.
+- [open-questions](../open-questions.md) — added six design forks, each linked to the entries it blocks.
 
 ## Open questions raised
 
@@ -37,4 +37,4 @@ topic: Orbital acceleration network
 - What propulsion and resource chain restore module orbits?
 - Which location, routes, and traffic volumes make the network worthwhile compared with alternatives?
 
-The wiki entries contain the validation calculations and sources. Radiation dose, full orbital trajectories, recovery budgets, and economic viability remain unresolved in [[open-questions]].
+The wiki entries contain the validation calculations and sources. Radiation dose, full orbital trajectories, recovery budgets, and economic viability remain unresolved in [open-questions](../open-questions.md).

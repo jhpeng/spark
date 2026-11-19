@@ -14,7 +14,7 @@ lifecycle: "active"
 
 # Later lunar independence after no household milestone in 2126
 
-Root: [[forecasts/index]] · Parent: [[forecasts/local-supply-no-households-2126]]
+Root: [forecasts/index](./index.md) · Parent: [forecasts/local-supply-no-households-2126](./local-supply-no-households-2126.md)
 
 This leaf is not yet expanded: later expansion is not assigned zero probability, and non-lunar pathways remain possible.
 
@@ -28,10 +28,10 @@ Evaluate on **3026-12-31** using the complete root criteria; inadequate evidence
 
 **Conditional probability: 20%; confidence: very low.** Twenty percent preserves a substantial late-start possibility over nine centuries. Its lower weight than the early-household history reflects more uncompleted transitions, not a claim that missing 2126 makes settlement physically impossible. The value has no thousand-year empirical calibration and can shift sharply with new evidence.
 
-This is an uncalibrated subjective starting estimate from the selective evidence in [[forecasts/index]] and the repository's reasoning, conditional on the full ancestral path, not just the immediate parent.
+This is an uncalibrated subjective starting estimate from the selective evidence in [forecasts/index](./index.md) and the repository's reasoning, conditional on the full ancestral path, not just the immediate parent.
 
 ## Validation and revision signals
 
-Observe subsequent household adoption, health capability, food and manufacturing closure, and an audited 30-year operating record. [[wiki/society/community-led-settlement]] supplies an optional motive; [[wiki/concepts/space-expansion-motives]] supplies the distinct backup test. All critical physical budgets and biological continuity remain unresolved until demonstrated. A successful robotic mine by itself is not evidence of household viability.
+Observe subsequent household adoption, health capability, food and manufacturing closure, and an audited 30-year operating record. [wiki/society/community-led-settlement](../wiki/society/community-led-settlement.md) supplies an optional motive; [wiki/concepts/space-expansion-motives](../wiki/concepts/space-expansion-motives.md) supplies the distinct backup test. All critical physical budgets and biological continuity remain unresolved until demonstrated. A successful robotic mine by itself is not evidence of household viability.
 
-Sources and unresolved checks follow the links above and [[open-questions]]. Initial estimate recorded in [[sessions/2026-11-19-initial-forecast-tree]].
+Sources and unresolved checks follow the links above and [open-questions](../open-questions.md). Initial estimate recorded in [sessions/2026-11-19-initial-forecast-tree](../sessions/2026-11-19-initial-forecast-tree.md).

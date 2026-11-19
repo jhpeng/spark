@@ -5,7 +5,7 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws-tw]]"
+  - "[canon/laws-tw](../../canon/laws-tw.md)"
 ---
 
 # 太空擴張的動機
@@ -26,13 +26,13 @@ depends_on:
 
 企業可以把設備放到太空，讓客戶、總部與多數員工留在地球。候選動機包括提供受益於軌道位置的服務、履行政府訂單、在當地供應既有太空客戶、利用有利的生產環境，以及提早投資可能吸引未來客戶的能力。每一種都需要個別的成本與需求論證。供應鏈必須有最終付費用途，不能只讓礦場與運輸公司以彼此的需求循環證明存在價值。
 
-家庭追求的可能是收入、住宅、家人前途、文化自主或安全。[[wiki-tw/society/migration-contracts-and-resident-rights|移民契約與居民權利]]描述可選的雇主支援途徑，以及它對可執行承諾、淨收入與可行退出選項的依賴。[[wiki-tw/society/community-led-settlement|社群主導的太空定居]]探索為文化或制度自主而集體移居的情境。兩種安排都不是太空擴張的普遍條件。
+家庭追求的可能是收入、住宅、家人前途、文化自主或安全。[移民契約與居民權利](../society/migration-contracts-and-resident-rights.md)描述可選的雇主支援途徑，以及它對可執行承諾、淨收入與可行退出選項的依賴。[社群主導的太空定居](../society/community-led-settlement.md)探索為文化或制度自主而集體移居的情境。兩種安排都不是太空擴張的普遍條件。
 
 工作據點要成為聚落，還需要長住、醫療、教育與家庭生活的額外理由。可靠的自動化可能讓成功的太空產業僅有少量居民。軌道、月球與火星各需個別比較；距離本身不會創造自主，也不能證明商業價值。
 
 ### 國家競爭與家庭移民
 
-[[wiki-tw/concepts/geopolitical-drivers-of-space-expansion|地緣政治如何推動太空擴張]]探討自主使用能力與國際影響力，如何在 `state-funded-expansion` 中促成早期支出。國家資助的服務可能讓後來的活動更容易負擔，卻不因此提供家庭搬遷的理由。政府可以重視以機器為主的據點或輪班人員；居民仍需要自己的收入、健康、家庭與權利條件。這項可選動機不要求資源耗盡或全球開發限制，也不讓永久定居成為競爭的自動結果。
+[地緣政治如何推動太空擴張](./geopolitical-drivers-of-space-expansion.md)探討自主使用能力與國際影響力，如何在 `state-funded-expansion` 中促成早期支出。國家資助的服務可能讓後來的活動更容易負擔，卻不因此提供家庭搬遷的理由。政府可以重視以機器為主的據點或輪班人員；居民仍需要自己的收入、健康、家庭與權利條件。這項可選動機不要求資源耗盡或全球開發限制，也不讓永久定居成為競爭的自動結果。
 
 ### 分支導覽
 
@@ -40,14 +40,14 @@ depends_on:
 
 | 分支 | 定義條目與範圍 |
 |---|---|
-| `ai-industrial-expansion` | [[wiki-tw/concepts/ai-driven-industrial-demand]] 定義付費需求、實體生產與可能地外供應的條件式成長。 |
-| `climate-adaptation-pressure` | [[wiki-tw/concepts/climate-adaptation-pressure]] 定義環境壓力下維持生活所需支出的增加。 |
-| `earth-development-limits` | [[wiki-tw/concepts/earth-development-limits]] 定義全球協調的限制，以及對獲准地外供應的競爭。 |
-| `state-funded-expansion` | [[wiki-tw/society/state-funded-space-industry]] 定義以公共採購與戰略投資形成的早期需求。 |
-| `lunar-military-industrialization` | [[wiki-tw/society/state-funded-space-industry]] 個別檢視提出的月球軍事動機，以及尚未確定的法律、戰略與工業前提。 |
-| `community-led-settlement` | [[wiki-tw/society/community-led-settlement|社群主導的太空定居]]定義為文化或制度自主而集資定居的分支，以及外部供應對自主的限制。 |
+| `ai-industrial-expansion` | [wiki-tw/concepts/ai-driven-industrial-demand](./ai-driven-industrial-demand.md) 定義付費需求、實體生產與可能地外供應的條件式成長。 |
+| `climate-adaptation-pressure` | [wiki-tw/concepts/climate-adaptation-pressure](./climate-adaptation-pressure.md) 定義環境壓力下維持生活所需支出的增加。 |
+| `earth-development-limits` | [wiki-tw/concepts/earth-development-limits](./earth-development-limits.md) 定義全球協調的限制，以及對獲准地外供應的競爭。 |
+| `state-funded-expansion` | [wiki-tw/society/state-funded-space-industry](../society/state-funded-space-industry.md) 定義以公共採購與戰略投資形成的早期需求。 |
+| `lunar-military-industrialization` | [wiki-tw/society/state-funded-space-industry](../society/state-funded-space-industry.md) 個別檢視提出的月球軍事動機，以及尚未確定的法律、戰略與工業前提。 |
+| `community-led-settlement` | [社群主導的太空定居](../society/community-led-settlement.md)定義為文化或制度自主而集資定居的分支，以及外部供應對自主的限制。 |
 
-[[wiki-tw/tech/orbital-data-centers]] 檢視部分分支中的一種候選服務；它不是所有動機的必要組成。文明備援與以地球為中心的替代分支定義於下文。
+[wiki-tw/tech/orbital-data-centers](../tech/orbital-data-centers.md) 檢視部分分支中的一種候選服務；它不是所有動機的必要組成。文明備援與以地球為中心的替代分支定義於下文。
 
 ### 分支：`civilization-backup`
 
@@ -55,7 +55,7 @@ depends_on:
 - **假設：** 國家、捐助者或社群即使沒有一般商業報酬，仍資助長期存續能力，並最終建立足夠獨立的食物、能源、維修與製造能力。
 - **分歧：** 付款者重視地球以外的文明延續，而不僅是即時服務或定居偏好。
 - **影響：** 小型且昂貴的聚落可能先於大量移民出現。永久有人居住、卻仰賴進口的基地，尚未達成備援目標。
-- **依賴：** [[canon/laws-tw]]，以及地球支援中斷後仍可使用的物資、技能與工業能力清單；不預設特定推進技術。
+- **依賴：** [canon/laws-tw](../../canon/laws-tw.md)，以及地球支援中斷後仍可使用的物資、技能與工業能力清單；不預設特定推進技術。
 
 ### 分支：`earth-centered-development`
 
@@ -63,18 +63,18 @@ depends_on:
 - **假設：** 效率、回收、替代、調適與地球生產對多數付費需求仍然足夠或較便宜，或者資金與需求無法支撐大規模地外擴張。
 - **分歧：** 沒有持續轉向大規模地外工業與定居；衛星服務與有限研究任務仍可繼續。
 - **影響：** 成功的 AI 或環境調適，可以與多數產業及人口留在地球同時存在。這是可保留的結果，不是驗證失敗而應刪除的情況。
-- **依賴：** [[canon/laws-tw]] 及本分支的地球供應假設；不繼承全面開發禁令或不可逆的環境崩潰。
+- **依賴：** [canon/laws-tw](../../canon/laws-tw.md) 及本分支的地球供應假設；不繼承全面開發禁令或不可逆的環境崩潰。
 
 ### 後續討論中的月球應用
 
-[[sessions/2026-11-19-lunar-bases-and-cargo]]將這些動機用於條件式月球據點，不假設 NASA 公開規劃是保證發生的未來事件。[[wiki-tw/concepts/lunar-base-development|月球基地的條件式發展]]比較既有分支下的共用服務、工業供應、居民社群、文明備援與有限發展。
+[sessions/2026-11-19-lunar-bases-and-cargo](../../sessions/2026-11-19-lunar-bases-and-cargo.md)將這些動機用於條件式月球據點，不假設 NASA 公開規劃是保證發生的未來事件。[月球基地的條件式發展](./lunar-base-development.md)比較既有分支下的共用服務、工業供應、居民社群、文明備援與有限發展。
 
 另行定義兩個條件式分支：
 
 | 分支 | 範圍與定義條目 |
 |---|---|
-| `lunar-local-supply` | [[wiki-tw/tech/lunar-resource-utilization|月球早期資源利用]]探索以月壤、水及氧供應有獨立資金的月球客戶，條件包括資源品質、可靠生產與進口比較。 |
-| `lunar-earth-export` | [[wiki-tw/concepts/lunar-earth-cargo|月地貨運與出口生產]]探索先驗證小規模生產及完整地球地面交貨，再擴大出口工廠。不假設任何商品、發射器或低運費已獲證實。 |
+| `lunar-local-supply` | [月球早期資源利用](../tech/lunar-resource-utilization.md)探索以月壤、水及氧供應有獨立資金的月球客戶，條件包括資源品質、可靠生產與進口比較。 |
+| `lunar-earth-export` | [月地貨運與出口生產](./lunar-earth-cargo.md)探索先驗證小規模生產及完整地球地面交貨，再擴大出口工廠。不假設任何商品、發射器或低運費已獲證實。 |
 
 這些分支不自動繼承彼此或任何動機分支。公共資金、AI 需求、開發限制或定居承諾，都須明確採用。月面供應、軌道供應及地球地面出口，需要各自針對目的地建立理由。
 
@@ -106,7 +106,7 @@ NASA 曾報告國際太空站達成 98% 水回收里程碑，每人每天飲用�
 
 ### 一致性與動機
 
-已檢查 [[canon/laws-tw]]、[[canon/timeline-tw]] 及 repo 相關詞彙。目前沒有已批准的擴張動機或未來定居日期約束這些分支。既有 [[wiki-tw/tech/orbital-transportation-network]] 與 [[wiki-tw/tech/modular-orbital-accelerator]] 仍是需求未定的推測工程草案；它們是可選技術，不是繼承的基礎設施。本條目不提出 canon 狀態、時間軸事件或 retcon 變更。本次討論記錄於 [[sessions/2026-11-19-drivers-of-space-expansion]]。
+已檢查 [canon/laws-tw](../../canon/laws-tw.md)、[canon/timeline-tw](../../canon/timeline-tw.md) 及 repo 相關詞彙。目前沒有已批准的擴張動機或未來定居日期約束這些分支。既有 [wiki-tw/tech/orbital-transportation-network](../tech/orbital-transportation-network.md) 與 [wiki-tw/tech/modular-orbital-accelerator](../tech/modular-orbital-accelerator.md) 仍是需求未定的推測工程草案；它們是可選技術，不是繼承的基礎設施。本條目不提出 canon 狀態、時間軸事件或 retcon 變更。本次討論記錄於 [sessions/2026-11-19-drivers-of-space-expansion](../../sessions/2026-11-19-drivers-of-space-expansion.md)。
 
 探索者可以由公共資金支持，企業需要客戶或戰略出資者，定居者需要家庭或集體支援。動機可以一致，但不會自動替彼此付款。此處不確立可能性排名或必然發展順序。
 
@@ -123,4 +123,4 @@ NASA 曾報告國際太空站達成 98% 水回收里程碑，每人每天飲用�
 - 對 `community-led-settlement` 與 `civilization-backup`，什麼支援清單與當地能力能達成預期自主程度，並能承受多久的地球供應中斷？
 - 對所有擴張分支，哪個目的地與最終付費用途足以支撐第一個持續營運據點？需求或贊助結束時會如何？
 
-未解檢查追蹤於 [[open-questions-tw]]；刻意保留的替代未來留在本條目及連結的分支定義中。
+未解檢查追蹤於 [open-questions-tw](../../open-questions-tw.md)；刻意保留的替代未來留在本條目及連結的分支定義中。

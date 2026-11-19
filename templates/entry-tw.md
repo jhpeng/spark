@@ -4,7 +4,8 @@ kind: era | tech | society | place | concept
 era: <此事物存在或適用時期的英文 slug>
 status: draft
 grounding: established | plausible | speculative
-depends_on: [[<slug>]], [[<slug>]]
+depends_on:
+  - "[<依賴條目名稱>](relative/path/to/entry.md)"
 ---
 
 <!-- Authoring guidance: follow ../wiki/AGENTS.md for classification and short drafts. Choose kind by the main subject, independently of maturity. Retain metadata and a useful summary; use body sections as needed and state relevant unknowns explicitly. Remove this comment from entries. -->
@@ -27,7 +28,7 @@ depends_on: [[<slug>]], [[<slug>]]
 
 ## 影響
 
-<它使哪些事成為可能，或帶來哪些必要條件。連結至 [[其他條目]]。>
+<它使哪些事成為可能，或帶來哪些必要條件。連結至 [其他條目](relative/path/to/entry.md)。>
 
 ## 待解問題
 

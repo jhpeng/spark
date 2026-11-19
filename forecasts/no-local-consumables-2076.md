@@ -14,9 +14,9 @@ lifecycle: "active"
 
 # No qualifying lunar consumables in 2076
 
-Root: [[forecasts/index]] · Parent: [[forecasts/lunar-services-2036]]
+Root: [forecasts/index](./index.md) · Parent: [forecasts/lunar-services-2036](./lunar-services-2036.md)
 
-Children: [[forecasts/import-path-households-2126]] · [[forecasts/import-path-no-households-2126]]
+Children: [forecasts/import-path-households-2126](./import-path-households-2126.md) · [forecasts/import-path-no-households-2126](./import-path-no-households-2126.md)
 
 ## Scenario and resolution
 
@@ -28,14 +28,14 @@ Evaluate on **2076-12-31** using the complete root criteria; inadequate evidence
 
 **Conditional probability: 45%; confidence: very low.** The 45% complement captures unreliable extraction, low utilization, weak deposits, short contracts, or successful low-cost Earth supply. A thriving research outpost can rationally keep importing. Initial services do not force a transition to local industry.
 
-This is an uncalibrated subjective starting estimate from the selective evidence in [[forecasts/index]] and the repository's reasoning, conditional on the full ancestral path, not just the immediate parent.
+This is an uncalibrated subjective starting estimate from the selective evidence in [forecasts/index](./index.md) and the repository's reasoning, conditional on the full ancestral path, not just the immediate parent.
 
 ## Validation and revision signals
 
-Compare real annual accepted output and same-product consumption with L; distinguish pilot quantities from supply. [[wiki/tech/lunar-resource-utilization]] and [[wiki/concepts/lunar-base-development]] leave power, maintenance and whole-life cost unresolved. Import prices, continued customer demand, and equipment replacement records can shift the 55/45 pair.
+Compare real annual accepted output and same-product consumption with L; distinguish pilot quantities from supply. [wiki/tech/lunar-resource-utilization](../wiki/tech/lunar-resource-utilization.md) and [wiki/concepts/lunar-base-development](../wiki/concepts/lunar-base-development.md) leave power, maintenance and whole-life cost unresolved. Import prices, continued customer demand, and equipment replacement records can shift the 55/45 pair.
 
 ## Next question
 
 At 2126-12-31, is **H** met despite the missed consumables milestone? Yes 15%, no 85%. Households can be supported by imports; production may also catch up after 2076, so this fork does not require permanent absence of L.
 
-Sources and unresolved checks follow the links above and [[open-questions]]. Initial estimate recorded in [[sessions/2026-11-19-initial-forecast-tree]].
+Sources and unresolved checks follow the links above and [open-questions](../open-questions.md). Initial estimate recorded in [sessions/2026-11-19-initial-forecast-tree](../sessions/2026-11-19-initial-forecast-tree.md).

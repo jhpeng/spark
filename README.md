@@ -45,4 +45,4 @@ The former paths of moved entries contain short relocation notices so historical
 
 The wiki is an evolving workspace: useful ideas can become short `draft` entries while assumptions and validation remain open. Entries are classified by subject and can be revised, split, merged, moved, or removed as the discussion develops. Session logs preserve the discussion history. A draft becomes `canon` only after approval; substantive replacements of approved content follow the retcon rules. See [AGENTS.md](AGENTS.md) for the recording workflow and other agent rules.
 
-Browse it in any Markdown viewer, or open the folder as an [Obsidian](https://obsidian.md) vault for `[[wikilinks]]` and a graph view.
+Browse it in any Markdown viewer. Internal links use standard Markdown with relative file paths and `.md` extensions, so editors such as VS Code can open them with Command-click on macOS or Ctrl-click on Windows/Linux. See [format and language rules](templates/AGENTS.md) for authoring conventions.

@@ -5,20 +5,20 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws]]"
+  - "[canon/laws](../../canon/laws.md)"
 ---
 
 # Modular orbital accelerator
 
 ## Summary
 
-A station composed of separate, free-flying electromagnetic accelerator modules gives passing spacecraft successive velocity changes. Modules arrange their encounter positions and timing around the incoming trajectory, requested departure trajectory, and permitted acceleration. The same infrastructure is intended to serve passengers and cargo within a [[wiki/tech/orbital-transportation-network]].
+A station composed of separate, free-flying electromagnetic accelerator modules gives passing spacecraft successive velocity changes. Modules arrange their encounter positions and timing around the incoming trajectory, requested departure trajectory, and permitted acceleration. The same infrastructure is intended to serve passengers and cargo within a [wiki/tech/orbital-transportation-network](./orbital-transportation-network.md).
 
 ## Reasoning
 
 ### Scope
 
-This is a candidate technology that a branch may explicitly adopt, not an existing facility or a shared premise of space expansion. Its illustrative specifications do not constrain unrelated transport architectures; routes and deployment depend on a separately justified [[wiki/tech/orbital-transportation-network]].
+This is a candidate technology that a branch may explicitly adopt, not an existing facility or a shared premise of space expansion. Its illustrative specifications do not constrain unrelated transport architectures; routes and deployment depend on a separately justified [wiki/tech/orbital-transportation-network](./orbital-transportation-network.md).
 
 ### Design rationale
 
@@ -54,7 +54,7 @@ Assume, without claiming feasibility, a module can push over a 1 km interaction 
 
 Momentum exchange gives module recoil ΔV = −mΔv/M. A 100-tonne ship receiving 1 m/s transfers 100,000 N·s; a 1,000-tonne module recoils by 0.1 m/s. Across a 10 km/s boost, the ship receives 10⁹ N·s. Each free module must handle its own share; the formation's total mass does not mechanically spread an individual module's recoil. [OpenStax: momentum conservation](https://openstax.org/books/university-physics-volume-1/pages/9-3-conservation-of-linear-momentum)
 
-Recovery propulsion still obeys [[canon/laws]] and the rocket equation. Matching incoming and outgoing impulses could reduce recovery demand only where encounter directions, locations, and timing permit; cancellation is not assumed.
+Recovery propulsion still obeys [canon/laws](../../canon/laws.md) and the rocket equation. Matching incoming and outgoing impulses could reduce recovery demand only where encounter directions, locations, and timing permit; cancellation is not assumed.
 
 ### Physics: heat, control, and environment
 
@@ -72,13 +72,13 @@ ESA reports that Proba-3 maintained millimetre-precision formation at 150 m sepa
 
 ### Consistency and motive
 
-Checked [[canon/laws]], [[canon/timeline]], and repository terms for stations, Jupiter, acceleration, and propulsion when recording [[sessions/2026-11-18-orbital-acceleration-network]]. No conflicting canon infrastructure exists. Momentum, energy, heat, and light-delay constraints are retained; no new physics is required.
+Checked [canon/laws](../../canon/laws.md), [canon/timeline](../../canon/timeline.md), and repository terms for stations, Jupiter, acceleration, and propulsion when recording [sessions/2026-11-18-orbital-acceleration-network](../../sessions/2026-11-18-orbital-acceleration-network.md). No conflicting canon infrastructure exists. Momentum, energy, heat, and light-delay constraints are retained; no new physics is required.
 
 The proposed motive is sharing costly power and propulsion equipment across repeated journeys. Modularity could support incremental investment and maintenance. Whether that outweighs formation control, recovery propellant, and construction costs compared with onboard propulsion is unresolved, so this is a candidate technology rather than an established prediction.
 
 ## Consequences
 
-- The [[wiki/tech/orbital-transportation-network]] sells trajectory changes subject to vehicle load limits and station availability.
+- The [wiki/tech/orbital-transportation-network](./orbital-transportation-network.md) sells trajectory changes subject to vehicle load limits and station availability.
 - Compatible ship hardware for electromagnetic coupling is required; its design remains open.
 - Passenger service requires enough cumulative interaction distance at acceptable acceleration, even when modules are widely separated.
 - Ships and modules need procedures for a missed or failed encounter; these are not yet designed.
@@ -92,4 +92,4 @@ The proposed motive is sharing costly power and propulsion equipment across repe
 - How do modules restore their orbits, and where do recovery resources originate?
 - Which location and routes justify the system, and how do its costs compare with alternatives?
 
-These unresolved checks are tracked in [[open-questions]].
+These unresolved checks are tracked in [open-questions](../../open-questions.md).

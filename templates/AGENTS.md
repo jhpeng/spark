@@ -4,7 +4,8 @@ Read this guide before creating, editing, translating, moving, removing, or retc
 
 ## Formats and links
 
-- Slugs are lowercase-kebab. Link content with Obsidian-style `[[slug]]` wikilinks, using vault-relative paths to disambiguate language versions as described below.
+- Slugs are lowercase-kebab. Link content with standard Markdown `[label](relative/path.md)` links. Resolve paths from the containing file's directory, include the `.md` extension, and use `../` for parent directories. Preserve descriptive labels when converting links.
+- In YAML metadata, quote Markdown link strings and use YAML lists for fields containing multiple links, such as `depends_on` and `uses`. Keep identifiers such as forecast `parent` and `children` as IDs; provide navigation links in the body. Replace template link placeholders with paths relative to the new file.
 - Use [entry.md](entry.md) for wiki entries, [story.md](story.md) for stories, and [session.md](session.md) for session logs. Their `-tw.md` counterparts supply translated templates.
 - For forecast node records, use the minimum record in the [forecast guide](../forecasts/AGENTS.md).
 - For wiki classification, short drafts, and entry lifecycle, follow the [wiki guide](../wiki/AGENTS.md); template sections are used according to that guide.
@@ -26,7 +27,7 @@ Keep these file pairs synchronized in both directions. When creating, editing, m
 - Use Taiwan Traditional Chinese and Taiwan usage. Mirror wiki, story, and forecast subfolders and filenames exactly; translate titles and prose.
 - Keep meaning, calculations, citations, and metadata consistent. Retain English metadata keys and controlled values such as `kind`, `status`, and `grounding`; translate human-readable values such as titles. Approval or retcon status applies to both versions of an entry; translation alone does not promote a draft to canon.
 - Keep branch identifiers identical across languages; translate their descriptions and preserve their scope and assumptions.
-- Link to the matching language version where one exists. Use vault-relative wikilinks when filenames are shared, such as `[[wiki/concepts/orbital-transportation-network]]` and `[[wiki-tw/concepts/orbital-transportation-network]]`.
+- Link to the matching language version where one exists. Resolve shared filenames through explicit relative directories; from this guide, the corresponding entries are [English](../wiki/tech/orbital-transportation-network.md) and [Taiwan Traditional Chinese](../wiki-tw/tech/orbital-transportation-network.md).
 - After moving, splitting, merging, or removing content, repair inbound links and `depends_on` references in both languages, update affected open questions and timeline references, and verify that retained claims still have the premises they need. Preserve historical session statements; redirect their links to an appropriate successor or replace obsolete links with plain text when none exists. Do not silently drop a dependency that an argument still requires.
 - Keep `sessions/` English-only. `templates/session-tw.md` is a translated reference template; actual session logs use English headings and content. Both languages link to the same English session log.
 - Before completing the change, verify that every retained affected pair exists at matching paths, conveys the same information, and has working links; removed pairs must leave no dangling references.

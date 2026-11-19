@@ -14,9 +14,9 @@ lifecycle: "active"
 
 # 2126 年在地供應路徑未達家戶門檻
 
-根節點：[[forecasts-tw/index]] · 父節點：[[forecasts-tw/local-consumables-2076]]
+根節點：[forecasts-tw/index](./index.md) · 父節點：[forecasts-tw/local-consumables-2076](./local-consumables-2076.md)
 
-子節點：[[forecasts-tw/later-households-independent-3026]] · [[forecasts-tw/later-households-not-independent-3026]]
+子節點：[forecasts-tw/later-households-independent-3026](./later-households-independent-3026.md) · [forecasts-tw/later-households-not-independent-3026](./later-households-not-independent-3026.md)
 
 ## 情境與判定
 
@@ -28,14 +28,14 @@ lifecycle: "active"
 
 **條件機率：60%；信心：極低。** 60% 的補集反映工業用途與家戶偏好之間的差距。自動化可讓少數居民支持有效生產，但健康、費用、住房、權利或失去經費仍可阻止 H。此結果可以與技術成功並存，不一定代表工業失敗。
 
-這是根據 [[forecasts-tw/index]] 的選擇性證據與 repo 推論所作的主觀起始估計，未經頻率校準；估計條件包括完整前置路徑，而非只看直接父節點。
+這是根據 [forecasts-tw/index](./index.md) 的選擇性證據與 repo 推論所作的主觀起始估計，未經頻率校準；估計條件包括完整前置路徑，而非只看直接父節點。
 
 ## 驗證與修訂訊號
 
-檢查哪些工作需要居住而非遠端作業、家戶留居率、醫療能力、實際可支配所得，以及贊助方退出後的持續性。[[wiki-tw/concepts/ai-driven-industrial-demand]] 將自動化視為可能幫助產出的機制，而非移民證據；這裡只將它列為可選機制。永久居住與製造問題仍未解決。
+檢查哪些工作需要居住而非遠端作業、家戶留居率、醫療能力、實際可支配所得，以及贊助方退出後的持續性。[wiki-tw/concepts/ai-driven-industrial-demand](../wiki-tw/concepts/ai-driven-industrial-demand.md) 將自動化視為可能幫助產出的機制，而非移民證據；這裡只將它列為可選機制。永久居住與製造問題仍未解決。
 
 ## 下一個問題
 
 錯過此家戶里程碑後，至 3026-12-31 是否達成 **I**？後來達成自主維持 20%，未達標 80%。還有九個世紀可讓動機、技術與居住情況改變。
 
-來源與未決檢查依上方連結及 [[open-questions-tw]]。初次估計記錄於 [[sessions/2026-11-19-initial-forecast-tree]]。
+來源與未決檢查依上方連結及 [open-questions-tw](../open-questions-tw.md)。初次估計記錄於 [sessions/2026-11-19-initial-forecast-tree](../sessions/2026-11-19-initial-forecast-tree.md)。

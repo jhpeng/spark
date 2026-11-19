@@ -5,8 +5,8 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws-tw]]"
-  - "[[wiki-tw/society/state-funded-space-industry]]"
+  - "[canon/laws-tw](../../canon/laws-tw.md)"
+  - "[wiki-tw/society/state-funded-space-industry](../society/state-funded-space-industry.md)"
 ---
 
 # 地緣政治如何推動太空擴張
@@ -19,7 +19,7 @@ depends_on:
 
 ### 範圍：`state-funded-expansion` 中的可選動機
 
-分支仍由[[wiki-tw/society/state-funded-space-industry|國家資助的太空工業]]定義。本條目補充其中可選的地緣政治動機，不另立分支，也不把競爭當成所有公共太空支出的必要原因。
+分支仍由[國家資助的太空工業](../society/state-funded-space-industry.md)定義。本條目補充其中可選的地緣政治動機，不另立分支，也不把競爭當成所有公共太空支出的必要原因。
 
 - **額外假設：**政府對自主使用能力、供應安全、技術領先或國際合作影響力的重視，足以支持持續採購。對依賴競爭者的擔憂促成支出，不假設未來壟斷確實會發生。
 - **分歧：**投資在私人需求尚不足以支持時開始，因為喪失使用能力或影響力，對付款者具有政治成本。
@@ -35,7 +35,7 @@ depends_on:
 3. 若形成的運輸、公共供應、通訊或維修服務開放使用，且能與其他任務相容，後來客戶就可能不必自行建造完整支援系統。總成本可能下降，但運量增加不保證降價或獲利。
 4. 只有在後來客戶自己的活動足以支持採購時，新增需求才會出現。永久居民還需要長住、健康、家庭收入、權利與家庭生活的額外理由。
 
-採購與使用安排詳見[[wiki-tw/society/state-funded-space-industry|國家資助的太空工業]]；月球應用由[[wiki-tw/concepts/lunar-base-development|月球基地的條件式發展]]比較。地球仍適合居住、地面資源仍可取得時，這項機制就可能運作。
+採購與使用安排詳見[國家資助的太空工業](../society/state-funded-space-industry.md)；月球應用由[月球基地的條件式發展](./lunar-base-development.md)比較。地球仍適合居住、地面資源仍可取得時，這項機制就可能運作。
 
 ### 競爭的不同意義
 
@@ -61,16 +61,16 @@ depends_on:
 
 ### 物理與一致性
 
-本因果機制討論制度與資金，沒有提出需要數值計算的新物理性能主張。它不能驗證任何運輸成本、工業產能或聚落設計。所選設施仍須完成質量、能源、散熱、維修與供應收支；長住仍受[[wiki-tw/concepts/space-expansion-motives|太空擴張的動機]]所列健康及支援條件限制。
+本因果機制討論制度與資金，沒有提出需要數值計算的新物理性能主張。它不能驗證任何運輸成本、工業產能或聚落設計。所選設施仍須完成質量、能源、散熱、維修與供應收支；長住仍受[太空擴張的動機](./space-expansion-motives.md)所列健康及支援條件限制。
 
-已檢查[[canon/laws-tw|物理定律]]、[[canon/timeline-tw|時間軸]]、所屬分支，以及相關動機與月球發展條目。沒有已批准的未來地緣政治結果或移民時程約束這項延伸。新增情境主張均維持草案，不新增時間軸事件或提出 retcon。討論與記錄經過保留於[[sessions/2026-11-19-geopolitical-drivers-of-space-expansion]]。
+已檢查[物理定律](../../canon/laws-tw.md)、[時間軸](../../canon/timeline-tw.md)、所屬分支，以及相關動機與月球發展條目。沒有已批准的未來地緣政治結果或移民時程約束這項延伸。新增情境主張均維持草案，不新增時間軸事件或提出 retcon。討論與記錄經過保留於[sessions/2026-11-19-geopolitical-drivers-of-space-expansion](../../sessions/2026-11-19-geopolitical-drivers-of-space-expansion.md)。
 
 ## 影響
 
 - 競爭可能支付後來使用者能共用的能力之起始成本。即使沒有廣泛私人市場，政府需求仍可構成持續用途。
 - 限制使用、不相容系統、重複設施或供應商控制，可能阻止後來使用者受益。商業開放是一項條件，不是公共支出的自動結果。
 - 競爭也可能減少合作、把預算轉向干擾或破壞太空服務的系統，或增加中斷風險與營運成本。更多競爭不代表更多定居。
-- 撤回預算、持續補貼、成功的機器工業、輪班科研據點與最終形成居民社群，仍是不同的可能結果。定居延伸須另外採用[[wiki-tw/concepts/space-expansion-motives|太空擴張的動機]]與[[wiki-tw/society/migration-contracts-and-resident-rights|移民契約與居民權利]]中的動機及安排。
+- 撤回預算、持續補貼、成功的機器工業、輪班科研據點與最終形成居民社群，仍是不同的可能結果。定居延伸須另外採用[太空擴張的動機](./space-expansion-motives.md)與[移民契約與居民權利](../society/migration-contracts-and-resident-rights.md)中的動機及安排。
 
 ## 待解問題
 
@@ -78,4 +78,4 @@ depends_on:
 - 哪些使用權、相容性、定價、容量與客戶條件，能讓後來使用者共用設施，而不必重複建設？
 - 若選擇定居延伸，哪些工作足以支持長住而非遠端操作或輪班？第一位贊助者撤資後，由誰支付家庭生活服務？
 
-這些問題延伸[[open-questions-tw|待解問題]]中的既有檢查；替代結果保留於本條目，不當成必須選出唯一未來的問題。
+這些問題延伸[待解問題](../../open-questions-tw.md)中的既有檢查；替代結果保留於本條目，不當成必須選出唯一未來的問題。

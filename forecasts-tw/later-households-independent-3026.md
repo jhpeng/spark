@@ -14,7 +14,7 @@ lifecycle: "active"
 
 # 2126 年未達家戶門檻後，於 3026 年達成月球自主維持
 
-根節點：[[forecasts-tw/index]] · 父節點：[[forecasts-tw/local-supply-no-households-2126]]
+根節點：[forecasts-tw/index](./index.md) · 父節點：[forecasts-tw/local-supply-no-households-2126](./local-supply-no-households-2126.md)
 
 這是尚未展開的葉節點，不表示之後擴張的機率為零；月球以外的路徑亦未被排除。
 
@@ -28,10 +28,10 @@ lifecycle: "active"
 
 **條件機率：20%；信心：極低。** 20% 為九個世紀內的晚起步保留相當可能。比早期家戶路徑低，是因為尚需完成更多轉變，不是認為錯過 2126 年就物理上無法定居。此數值沒有千年尺度的實證校準，可能隨新證據大幅改變。
 
-這是根據 [[forecasts-tw/index]] 的選擇性證據與 repo 推論所作的主觀起始估計，未經頻率校準；估計條件包括完整前置路徑，而非只看直接父節點。
+這是根據 [forecasts-tw/index](./index.md) 的選擇性證據與 repo 推論所作的主觀起始估計，未經頻率校準；估計條件包括完整前置路徑，而非只看直接父節點。
 
 ## 驗證與修訂訊號
 
-觀察後來的家戶形成、健康能力、食物與製造鏈閉合，以及經查核的 30 年運作紀錄。[[wiki-tw/society/community-led-settlement]] 提供可選動機；[[wiki-tw/concepts/space-expansion-motives]] 提供不同的備份檢驗。所有關鍵物理預算與生物延續，在示範前都仍未解決。機器礦場成功，本身不是家戶可存續的證據。
+觀察後來的家戶形成、健康能力、食物與製造鏈閉合，以及經查核的 30 年運作紀錄。[wiki-tw/society/community-led-settlement](../wiki-tw/society/community-led-settlement.md) 提供可選動機；[wiki-tw/concepts/space-expansion-motives](../wiki-tw/concepts/space-expansion-motives.md) 提供不同的備份檢驗。所有關鍵物理預算與生物延續，在示範前都仍未解決。機器礦場成功，本身不是家戶可存續的證據。
 
-來源與未決檢查依上方連結及 [[open-questions-tw]]。初次估計記錄於 [[sessions/2026-11-19-initial-forecast-tree]]。
+來源與未決檢查依上方連結及 [open-questions-tw](../open-questions-tw.md)。初次估計記錄於 [sessions/2026-11-19-initial-forecast-tree](../sessions/2026-11-19-initial-forecast-tree.md)。

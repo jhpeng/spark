@@ -5,7 +5,7 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws]]"
+  - "[canon/laws](../../canon/laws.md)"
 ---
 
 # Migration contracts and resident rights
@@ -18,7 +18,7 @@ An employer-supported migration arrangement could exchange transport and trainin
 
 ### Scope
 
-This is an optional institutional arrangement for explicitly chosen settlement extensions of the expansion branches. It defines no additional branch and does not imply that any industrial outpost becomes a permanent settlement. [[wiki/concepts/space-expansion-motives]] compares the motives; [[wiki/society/community-led-settlement]] defines collective migration for autonomy, which does not automatically adopt employer sponsorship.
+This is an optional institutional arrangement for explicitly chosen settlement extensions of the expansion branches. It defines no additional branch and does not imply that any industrial outpost becomes a permanent settlement. [wiki/concepts/space-expansion-motives](../concepts/space-expansion-motives.md) compares the motives; [wiki/society/community-led-settlement](./community-led-settlement.md) defines collective migration for autonomy, which does not automatically adopt employer sponsorship.
 
 ### The proposed exchange
 
@@ -32,15 +32,15 @@ Control over air, water, housing, and return transport could make residents depe
 
 ## Validation
 
-The arrangement remains `speculative` because its off-world residential application depends on unresolved transport, habitat, health, and supply capabilities. The habitation checks in [[wiki/concepts/space-expansion-motives]] illustrate continuing physical needs; a contract does not supply missing engineering or establish multigenerational health. No calculation here could demonstrate that a promise is enforceable.
+The arrangement remains `speculative` because its off-world residential application depends on unresolved transport, habitat, health, and supply capabilities. The habitation checks in [wiki/concepts/space-expansion-motives](../concepts/space-expansion-motives.md) illustrate continuing physical needs; a contract does not supply missing engineering or establish multigenerational health. No calculation here could demonstrate that a promise is enforceable.
 
-The proposal comes from [[sessions/2026-11-19-drivers-of-space-expansion]], with lunar residence and exit implications explored in [[sessions/2026-11-19-lunar-bases-and-cargo]]. It changes no approved rights, settlement date, or timeline event.
+The proposal comes from [sessions/2026-11-19-drivers-of-space-expansion](../../sessions/2026-11-19-drivers-of-space-expansion.md), with lunar residence and exit implications explored in [sessions/2026-11-19-lunar-bases-and-cargo](../../sessions/2026-11-19-lunar-bases-and-cargo.md). It changes no approved rights, settlement date, or timeline event.
 
 ## Consequences
 
 - Financing could allow a household that cannot independently afford transport to migrate, conditional on acceptable obligations and reliable support.
 - Employment can provide an entry route without establishing permanent residency, autonomy, or a self-sustaining population.
-- [[wiki/concepts/lunar-base-development]] explores the facilities that a lunar residential extension might require; institutional commitments and engineering capability need separate support.
+- [wiki/concepts/lunar-base-development](../concepts/lunar-base-development.md) explores the facilities that a lunar residential extension might require; institutional commitments and engineering capability need separate support.
 
 ## Open questions
 
@@ -48,4 +48,4 @@ The proposal comes from [[sessions/2026-11-19-drivers-of-space-expansion]], with
 - How would promises be enforced, and what net income and exit options remain if employment or sponsorship ends?
 - What health and supply capabilities support the proposed residents for the intended duration?
 
-These checks form part of the permanent-residence question in [[open-questions]].
+These checks form part of the permanent-residence question in [open-questions](../../open-questions.md).

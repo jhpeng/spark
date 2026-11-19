@@ -18,7 +18,7 @@ This is a **lunar-led subtree**, developed from the repository's existing scenar
 
 ## Baseline and evidence
 
-Recorded and selectively checked on **2026-11-19**; this is the evidence cutoff, not a claim to have surveyed every event through that date. [[canon/timeline]] supplies the repository's 2026 starting setting; [[canon/laws]] binds every path. Future wiki scenarios remain assumptions, not observations.
+Recorded and selectively checked on **2026-11-19**; this is the evidence cutoff, not a claim to have surveyed every event through that date. [canon/timeline](../canon/timeline.md) supplies the repository's 2026 starting setting; [canon/laws](../canon/laws.md) binds every path. Future wiki scenarios remain assumptions, not observations.
 
 | Dated evidence | Supported conclusion and limit |
 |---|---|
@@ -27,7 +27,7 @@ Recorded and selectively checked on **2026-11-19**; this is the evidence cutoff,
 | NASA's 2026-11-07 release reported awards for miniCAST power-related components, with integration and testing still ahead. [NASA awards](https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/) | Procurement is more concrete than ambition, but component awards do not demonstrate a working shared service. |
 | NASA's phases page, checked 2026-11-19, describes infrastructure deployment in 2029–2032 and outpost assembly from 2032. [NASA phases](https://www.nasa.gov/moonbase-phases/) | A published sequence helps define milestones; it does not warrant treating the schedule as certain. |
 
-These references motivate a lunar starting point. Repository reasoning comes from [[wiki/concepts/geopolitical-drivers-of-space-expansion]], [[wiki/concepts/lunar-base-development]], and [[wiki/concepts/space-expansion-motives]]. Public scientific or strategic purchases are a candidate early payer; rivalry is optional. Continued funding, compatibility, reliability, and access for later users remain conditions.
+These references motivate a lunar starting point. Repository reasoning comes from [wiki/concepts/geopolitical-drivers-of-space-expansion](../wiki/concepts/geopolitical-drivers-of-space-expansion.md), [wiki/concepts/lunar-base-development](../wiki/concepts/lunar-base-development.md), and [wiki/concepts/space-expansion-motives](../wiki/concepts/space-expansion-motives.md). Public scientific or strategic purchases are a candidate early payer; rivalry is optional. Continued funding, compatibility, reliability, and access for later users remain conditions.
 
 ## How to read the probabilities
 
@@ -54,13 +54,13 @@ Resolve a yes outcome only with adequate operational evidence; resolve its compl
 
 | Horizon and inherited path | Next alternatives: conditional probability |
 |---|---|
-| 2036, from this baseline | [[forecasts/lunar-services-2036|S met: 65%]] · [[forecasts/no-lunar-services-2036|S not met: 35%]] |
-| 2076, after S in 2036 | [[forecasts/local-consumables-2076|L met: 55%]] · [[forecasts/no-local-consumables-2076|L not met: 45%]] |
-| 2076, after no S in 2036 | [[forecasts/delayed-lunar-services-2076|S met later: 45%]] · [[forecasts/still-no-lunar-services-2076|S still not met: 55%]] |
-| 2126, after early S and L | [[forecasts/local-supply-households-2126|H met: 40%]] · [[forecasts/local-supply-no-households-2126|H not met: 60%]] |
-| 2126, after early S but no L | [[forecasts/import-path-households-2126|H met: 15%]] · [[forecasts/import-path-no-households-2126|H not met: 85%]] |
-| 3026, after early S, L, and H | [[forecasts/early-households-independent-3026|I met: 45%]] · [[forecasts/early-households-not-independent-3026|I not met: 55%]] |
-| 3026, after early S and L but no H in 2126 | [[forecasts/later-households-independent-3026|I met later: 20%]] · [[forecasts/later-households-not-independent-3026|I not met: 80%]] |
+| 2036, from this baseline | [S met: 65%](./lunar-services-2036.md) · [S not met: 35%](./no-lunar-services-2036.md) |
+| 2076, after S in 2036 | [L met: 55%](./local-consumables-2076.md) · [L not met: 45%](./no-local-consumables-2076.md) |
+| 2076, after no S in 2036 | [S met later: 45%](./delayed-lunar-services-2076.md) · [S still not met: 55%](./still-no-lunar-services-2076.md) |
+| 2126, after early S and L | [H met: 40%](./local-supply-households-2126.md) · [H not met: 60%](./local-supply-no-households-2126.md) |
+| 2126, after early S but no L | [H met: 15%](./import-path-households-2126.md) · [H not met: 85%](./import-path-no-households-2126.md) |
+| 3026, after early S, L, and H | [I met: 45%](./early-households-independent-3026.md) · [I not met: 55%](./early-households-not-independent-3026.md) |
+| 3026, after early S and L but no H in 2126 | [I met later: 20%](./later-households-independent-3026.md) · [I not met: 80%](./later-households-not-independent-3026.md) |
 
 ## 2031 checkpoint and revision triggers
 
@@ -68,10 +68,10 @@ By **2031-12-31**, review operational deliveries, recurring paid contracts, cros
 
 ## Dependencies and unresolved validation
 
-The long path draws on service demand, `lunar-local-supply`, residential motives, and the capability requirements of `civilization-backup` at their relevant nodes. Outcomes are defined by demonstrated capabilities; no single motive is required, including deliberate backup funding. [[wiki/concepts/ai-driven-industrial-demand]], [[wiki/concepts/earth-development-limits]], and [[wiki/concepts/climate-adaptation-pressure]] are optional demand mechanisms, not baseline assumptions of limitless consumption, global restrictions, or an uninhabitable Earth.
+The long path draws on service demand, `lunar-local-supply`, residential motives, and the capability requirements of `civilization-backup` at their relevant nodes. Outcomes are defined by demonstrated capabilities; no single motive is required, including deliberate backup funding. [wiki/concepts/ai-driven-industrial-demand](../wiki/concepts/ai-driven-industrial-demand.md), [wiki/concepts/earth-development-limits](../wiki/concepts/earth-development-limits.md), and [wiki/concepts/climate-adaptation-pressure](../wiki/concepts/climate-adaptation-pressure.md) are optional demand mechanisms, not baseline assumptions of limitless consumption, global restrictions, or an uninhabitable Earth.
 
-[[wiki/tech/orbital-data-centers]], [[wiki/concepts/lunar-earth-cargo]], and [[wiki/tech/orbital-transportation-network]] remain optional, unproven applications. The forecast assumes neither cheap Earth exports nor a modular accelerator. Neither fusion, mind uploading, nor unknown physics is required. No geopolitical winner or military-industrial branch is selected.
+[wiki/tech/orbital-data-centers](../wiki/tech/orbital-data-centers.md), [wiki/concepts/lunar-earth-cargo](../wiki/concepts/lunar-earth-cargo.md), and [wiki/tech/orbital-transportation-network](../wiki/tech/orbital-transportation-network.md) remain optional, unproven applications. The forecast assumes neither cheap Earth exports nor a modular accelerator. Neither fusion, mind uploading, nor unknown physics is required. No geopolitical winner or military-industrial branch is selected.
 
-Physics checks are inherited only within their stated assumptions. For example, the lunar-base entry's hypothetical 30/(10−2) = 3.75-year imported-mass offset does not establish financial payback or equipment lifetime. No complete production, radiation, thermal, food, manufacturing, or transport budget has been closed here. Relevant checks remain in [[open-questions]]; each node identifies which ones constrain its estimate. [[canon/laws]] and [[canon/timeline]] contain no approved future industrial sequence that this tree changes.
+Physics checks are inherited only within their stated assumptions. For example, the lunar-base entry's hypothetical 30/(10−2) = 3.75-year imported-mass offset does not establish financial payback or equipment lifetime. No complete production, radiation, thermal, food, manufacturing, or transport budget has been closed here. Relevant checks remain in [open-questions](../open-questions.md); each node identifies which ones constrain its estimate. [canon/laws](../canon/laws.md) and [canon/timeline](../canon/timeline.md) contain no approved future industrial sequence that this tree changes.
 
-Initial creation and estimate provenance: [[sessions/2026-11-19-initial-forecast-tree]]. The root is a baseline, not a pending future outcome; its null probability and pending resolution are administrative placeholders.
+Initial creation and estimate provenance: [sessions/2026-11-19-initial-forecast-tree](../sessions/2026-11-19-initial-forecast-tree.md). The root is a baseline, not a pending future outcome; its null probability and pending resolution are administrative placeholders.

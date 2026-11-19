@@ -14,7 +14,7 @@ lifecycle: "active"
 
 # 2076 年仍未達月球共用服務門檻
 
-根節點：[[forecasts-tw/index]] · 父節點：[[forecasts-tw/no-lunar-services-2036]]
+根節點：[forecasts-tw/index](./index.md) · 父節點：[forecasts-tw/no-lunar-services-2036](./no-lunar-services-2036.md)
 
 這是尚未展開的葉節點，不表示之後擴張的機率為零；月球以外的路徑亦未被排除。
 
@@ -28,10 +28,10 @@ lifecycle: "active"
 
 **條件機率：55%；信心：極低。** 55% 的補集，在早期未達標後略偏向障礙持續：地球替代方案可能仍足夠、獨立客戶可能未出現，或使用權仍分散。重大災變若使 S 無法成立也包含在此，但不被指定為預期原因。
 
-這是根據 [[forecasts-tw/index]] 的選擇性證據與 repo 推論所作的主觀起始估計，未經頻率校準；估計條件包括完整前置路徑，而非只看直接父節點。
+這是根據 [forecasts-tw/index](./index.md) 的選擇性證據與 repo 推論所作的主觀起始估計，未經頻率校準；估計條件包括完整前置路徑，而非只看直接父節點。
 
 ## 驗證與修訂訊號
 
-使用營運紀錄與客戶使用權判定，不能只看發射次數。[[wiki-tw/concepts/space-expansion-motives]] 保留地球中心發展；[[wiki-tw/concepts/lunar-base-development]] 允許小型但有用的前哨站。良好的在地科研可以與未達 S 並存。追蹤共用服務使用率與經費問題；尚未對 2126 或 3026 年指派結論。
+使用營運紀錄與客戶使用權判定，不能只看發射次數。[wiki-tw/concepts/space-expansion-motives](../wiki-tw/concepts/space-expansion-motives.md) 保留地球中心發展；[wiki-tw/concepts/lunar-base-development](../wiki-tw/concepts/lunar-base-development.md) 允許小型但有用的前哨站。良好的在地科研可以與未達 S 並存。追蹤共用服務使用率與經費問題；尚未對 2126 或 3026 年指派結論。
 
-來源與未決檢查依上方連結及 [[open-questions-tw]]。初次估計記錄於 [[sessions/2026-11-19-initial-forecast-tree]]。
+來源與未決檢查依上方連結及 [open-questions-tw](../open-questions-tw.md)。初次估計記錄於 [sessions/2026-11-19-initial-forecast-tree](../sessions/2026-11-19-initial-forecast-tree.md)。

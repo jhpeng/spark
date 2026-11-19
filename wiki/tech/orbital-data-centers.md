@@ -5,7 +5,7 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws]]"
+  - "[canon/laws](../../canon/laws.md)"
 ---
 
 # Orbital data centers
@@ -20,12 +20,12 @@ Orbital data centers combine computing hardware, power collection, heat rejectio
 
 The physical accounting below applies wherever this architecture is considered; no branch assumes that it is deployed automatically. Large-scale deployment remains `speculative` in each of these conditional applications:
 
-- `ai-industrial-expansion`: customers in [[wiki/concepts/ai-driven-industrial-demand]] purchase enough useful computing to justify orbital investment after terrestrial and local-device alternatives are compared.
-- `earth-development-limits`: [[wiki/concepts/earth-development-limits]] constrains additional terrestrial environmental loads while explicitly permitting qualifying off-world facilities. Policy must count Earth-side manufacturing, launch, replacement, and disposal rather than merely moving the operating address.
-- `climate-adaptation-pressure`: the demand described in [[wiki/concepts/climate-adaptation-pressure]] may include computing services, but adaptation needs do not by themselves establish an orbital advantage.
-- `state-funded-expansion`: public procurement in [[wiki/society/state-funded-space-industry]] could fund early services or research. Continuing subsidy and independent commercial demand are distinct possibilities.
+- `ai-industrial-expansion`: customers in [wiki/concepts/ai-driven-industrial-demand](../concepts/ai-driven-industrial-demand.md) purchase enough useful computing to justify orbital investment after terrestrial and local-device alternatives are compared.
+- `earth-development-limits`: [wiki/concepts/earth-development-limits](../concepts/earth-development-limits.md) constrains additional terrestrial environmental loads while explicitly permitting qualifying off-world facilities. Policy must count Earth-side manufacturing, launch, replacement, and disposal rather than merely moving the operating address.
+- `climate-adaptation-pressure`: the demand described in [wiki/concepts/climate-adaptation-pressure](../concepts/climate-adaptation-pressure.md) may include computing services, but adaptation needs do not by themselves establish an orbital advantage.
+- `state-funded-expansion`: public procurement in [wiki/society/state-funded-space-industry](../society/state-funded-space-industry.md) could fund early services or research. Continuing subsidy and independent commercial demand are distinct possibilities.
 
-These applications are optional combinations, not inherited premises across branches. `earth-centered-development`, discussed in [[wiki/concepts/space-expansion-motives]], remains possible if terrestrial efficiency, supply, or changed consumption removes the advantage.
+These applications are optional combinations, not inherited premises across branches. `earth-centered-development`, discussed in [wiki/concepts/space-expansion-motives](../concepts/space-expansion-motives.md), remains possible if terrestrial efficiency, supply, or changed consumption removes the advantage.
 
 ### Customer and business case
 
@@ -59,7 +59,7 @@ Google's November 2025 Project Suncatcher describes research into solar-powered 
 
 ### Consistency and environmental accounting
 
-During [[sessions/2026-11-19-drivers-of-space-expansion]], checked [[canon/laws]], [[canon/timeline]], and related repository entries. Energy conservation, radiative cooling, light-speed limits, and orbital transport costs are retained; no canon deployment or date is added. The existing [[wiki/tech/orbital-transportation-network]] and [[wiki/tech/modular-orbital-accelerator]] remain independent speculative proposals, not required infrastructure or proven cost reductions.
+During [sessions/2026-11-19-drivers-of-space-expansion](../../sessions/2026-11-19-drivers-of-space-expansion.md), checked [canon/laws](../../canon/laws.md), [canon/timeline](../../canon/timeline.md), and related repository entries. Energy conservation, radiative cooling, light-speed limits, and orbital transport costs are retained; no canon deployment or date is added. The existing [wiki/tech/orbital-transportation-network](./orbital-transportation-network.md) and [wiki/tech/modular-orbital-accelerator](./modular-orbital-accelerator.md) remain independent speculative proposals, not required infrastructure or proven cost reductions.
 
 Moving operation off Earth does not eliminate Earth-side emissions or licensing. For example, US satellite rules include orbital-debris and end-of-mission requirements. A branch claiming environmental benefit must compare complete lifecycles and define where energy is used and waste heat is rejected. [FCC: satellite rules](https://docs.fcc.gov/public/attachments/FCC-25-69A1.pdf)
 
@@ -67,7 +67,7 @@ Moving operation off Earth does not eliminate Earth-side emissions or licensing.
 
 - Recurring demand could finance transport, assembly, repair, and selected material production, if their full costs are competitive.
 - Large unmanned facilities can coexist with very small human populations. Permanent settlement requires a separate motive and support system.
-- Early operators may gain customer relationships and operational experience; competitors, standardization, or stranded investment remain possible. Policy-driven competition is developed in [[wiki/concepts/earth-development-limits]].
+- Early operators may gain customer relationships and operational experience; competitors, standardization, or stranded investment remain possible. Policy-driven competition is developed in [wiki/concepts/earth-development-limits](../concepts/earth-development-limits.md).
 - Ground-based efficiency, local inference, improved power supply, or weaker demand can leave computing primarily on Earth.
 
 ## Open questions
@@ -78,4 +78,4 @@ Moving operation off Earth does not eliminate Earth-side emissions or licensing.
 - Under `earth-development-limits`, what is the complete lifecycle environmental burden and how is it counted against the agreement?
 - Which services or materials could be supplied locally at a genuine advantage, without assuming the existing accelerator proposal works?
 
-These unresolved checks are tracked in [[open-questions]].
+These unresolved checks are tracked in [open-questions](../../open-questions.md).

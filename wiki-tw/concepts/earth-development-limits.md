@@ -5,7 +5,7 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws-tw]]"
+  - "[canon/laws-tw](../../canon/laws-tw.md)"
 ---
 
 # 地球開發限制
@@ -19,14 +19,14 @@ depends_on:
 ### 範圍與分支：`earth-development-limits`
 
 - **假設：** 主要政府維持可信且協調一致的限制，企業難以單靠遷往另一國規避。客戶仍願意為部分新增產出支付足夠價格；受監管的地外活動獲准；地球工業仍有能力建造初期設備。
-- **分歧：** 地球仍有資源與生產能力，但社會限制部分新增環境代價。這與 [[wiki-tw/concepts/climate-adaptation-pressure|氣候調適壓力]] 的惡化情境不同，不繼承該分支，也不預設資源耗盡。
+- **分歧：** 地球仍有資源與生產能力，但社會限制部分新增環境代價。這與 [氣候調適壓力](./climate-adaptation-pressure.md) 的惡化情境不同，不繼承該分支，也不預設資源耗盡。
 - **影響：** 企業先改善效率與利用既有產能。當合法的地球替代方案無法滿足可獲利需求時，部分企業投資地外。各國可能支持自主取得供應，避免本國產業依賴外國供應商。
-- **依賴：** 共享物理法則、有效的國際執行、可行的過渡供應鏈、付費需求，以及在足夠重要的客戶條件上勝過替代方案的地外服務。運算路徑另須滿足 [[wiki-tw/tech/orbital-data-centers|軌道資料中心]] 的條件；整個機制不依賴既有軌道加速器。AI 帶動需求與國家支持仍是可選機制，見 [[wiki-tw/concepts/ai-driven-industrial-demand|AI 帶動的工業需求]] 與 [[wiki-tw/society/state-funded-space-industry|國家資助的太空工業]]，不自動繼承那些分支。
+- **依賴：** 共享物理法則、有效的國際執行、可行的過渡供應鏈、付費需求，以及在足夠重要的客戶條件上勝過替代方案的地外服務。運算路徑另須滿足 [軌道資料中心](../tech/orbital-data-centers.md) 的條件；整個機制不依賴既有軌道加速器。AI 帶動需求與國家支持仍是可選機制，見 [AI 帶動的工業需求](./ai-driven-industrial-demand.md) 與 [國家資助的太空工業](../society/state-funded-space-industry.md)，不自動繼承那些分支。
 - **依據程度：** 對轉向持續擴張地外工業的完整過程而言是 `speculative`。限制與配額制度已有現實先例；所提規模的軌道工業能否合算仍未驗證。此工程等級不代表預測全球協議一定會成立。
 
 ### 限制與有效需求
 
-[[wiki-tw/society/global-environmental-governance|全球環境治理]]描述制度安排：協調涵蓋範圍與執行、分別核算環境負荷、過渡配額，以及地外活動的監管。這些安排仍是本分支的假設或尚待決定的選項。
+[全球環境治理](../society/global-environmental-governance.md)描述制度安排：協調涵蓋範圍與執行、分別核算環境負荷、過渡配額，以及地外活動的監管。這些安排仍是本分支的假設或尚待決定的選項。
 
 用電或環境負荷上限仍可能容許效率改善帶來更多產出：電力配額不變，每單位能源可完成的有效運算增加一倍，交付的運算就能增加一倍。這些是示意比例。只有當有支付能力的需求超過這類改善與其他合法供應選項時，地外擴張壓力才會持續。
 
@@ -52,31 +52,31 @@ AI 用電增加，不能證明全球排放以相同比例增加。結果取決�
 
 僅作量級示意：地球平均接收的太陽輻射約 **340 W/m²**。若整體行星反照率假設下降 **0.001**，初步增加的吸收為 **340 × 0.001 = 0.34 W/m²**。這是包含大氣效果的假設行星變化，不是目前或未來光電部署的估算，也不是溫度預測。實際影響須知道部署面積、位置、雲量、原有地表、植被與避免的排放。[NASA：地球能量收支](https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/)
 
-陽光轉成電、最後成為熱，是同一份能源，不能算成兩次新增。比較時必須包含它原本會被吸收還是反射。地外設施仍須遵守守恆與散熱要求；供電與散熱器檢查見 [[wiki-tw/tech/orbital-data-centers|軌道資料中心]]。環境限制改變誘因，不會改變物理成本。
+陽光轉成電、最後成為熱，是同一份能源，不能算成兩次新增。比較時必須包含它原本會被吸收還是反射。地外設施仍須遵守守恆與散熱要求；供電與散熱器檢查見 [軌道資料中心](../tech/orbital-data-centers.md)。環境限制改變誘因，不會改變物理成本。
 
 ### 制度依據
 
-支持制度假設的配額先例與法律限制，記錄於[[wiki-tw/society/global-environmental-governance|全球環境治理]]。它們不能證明全球協議會成立，或將生產移往地外能夠獲利。
+支持制度假設的配額先例與法律限制，記錄於[全球環境治理](../society/global-environmental-governance.md)。它們不能證明全球協議會成立，或將生產移往地外能夠獲利。
 
 ### 一致性與動機
 
-於 [[sessions/2026-11-19-drivers-of-space-expansion]] 檢查 [[canon/laws-tw|物理法則]]、[[canon/timeline-tw|時間線]] 與既有運輸草案，未新增 canon 協議、部署日期、資源權利或壟斷。[[wiki-tw/tech/orbital-transportation-network|軌道運輸網路]] 仍是獨立且尚待驗證的候選方案，不是必要設施，也不構成需求的證據。
+於 [sessions/2026-11-19-drivers-of-space-expansion](../../sessions/2026-11-19-drivers-of-space-expansion.md) 檢查 [物理法則](../../canon/laws-tw.md)、[時間線](../../canon/timeline-tw.md) 與既有運輸草案，未新增 canon 協議、部署日期、資源權利或壟斷。[軌道運輸網路](../tech/orbital-transportation-network.md) 仍是獨立且尚待驗證的候選方案，不是必要設施，也不構成需求的證據。
 
 客戶為可用服務付費，投資者為預期報酬出資，國家則可能為供應取得與韌性支付；它們的動機不同。對限制會長期維持的信心很重要：政策反轉、需求下降、更便宜的地球方案或不如預期的技術表現，都可能讓投資閒置。
 
 ## 影響
 
-- 在太空工業成功之前，分配與取得方式就可能影響誰能受益；分配方面的影響見[[wiki-tw/society/global-environmental-governance|全球環境治理]]。
+- 在太空工業成功之前，分配與取得方式就可能影響誰能受益；分配方面的影響見[全球環境治理](../society/global-environmental-governance.md)。
 - 昂貴設施與更換供應商的困難，可能形成集中的供應體系；開放介面與共享服務則可能支持競爭。高估需求可能造成產能過剩與退出。這些是條件式結果，不是必然壟斷的預測。
 - 保護地球的政策可與激烈的國家及企業地外供應競爭並存。政府支持可能加速發展，也可能維持不合算的計畫。
-- 自動化設施可能比居民人口增加得更快。永久定居仍需 [[wiki-tw/concepts/space-expansion-motives|太空擴張動機]] 中的獨立經濟與社會理由。
-- 若地球改善與受抑制的需求避免大規模地外擴張，[[wiki-tw/concepts/space-expansion-motives|太空擴張動機]] 定義的 `earth-centered-development` 仍是可行替代分支。
+- 自動化設施可能比居民人口增加得更快。永久定居仍需 [太空擴張動機](./space-expansion-motives.md) 中的獨立經濟與社會理由。
+- 若地球改善與受抑制的需求避免大規模地外擴張，[太空擴張動機](./space-expansion-motives.md) 定義的 `earth-centered-development` 仍是可行替代分支。
 
 ## 待解問題
 
-- 本分支未解的制度設計與生命週期核算問題，記錄於[[wiki-tw/society/global-environmental-governance|全球環境治理]]。
+- 本分支未解的制度設計與生命週期核算問題，記錄於[全球環境治理](../society/global-environmental-governance.md)。
 - 計入效率改善、價格提高與地球替代方案後，哪些付費客戶與服務仍足以支持地外投資？
 - 哪些營運成本、使用率、融資與技術表現能建立持續優勢，而不是閒置投資？
 - 哪些更換供應商成本、設施使用規則與國家採購安排，會決定集中度、競爭與收益分配？
 
-這些未解檢查記錄於 [[open-questions-tw|待解問題]]。
+這些未解檢查記錄於 [待解問題](../../open-questions-tw.md)。

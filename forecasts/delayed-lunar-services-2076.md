@@ -14,7 +14,7 @@ lifecycle: "active"
 
 # Delayed shared lunar services by 2076
 
-Root: [[forecasts/index]] · Parent: [[forecasts/no-lunar-services-2036]]
+Root: [forecasts/index](./index.md) · Parent: [forecasts/no-lunar-services-2036](./no-lunar-services-2036.md)
 
 This leaf is not yet expanded: later expansion is not assigned zero probability, and non-lunar pathways remain possible.
 
@@ -28,10 +28,10 @@ Evaluate on **2076-12-31** using the complete root criteria; inadequate evidence
 
 **Conditional probability: 45%; confidence: very low.** Forty additional years permit recovery from schedule slips and changes in funding or technology, giving delayed success 45%. The remaining 55% recognizes that a missed early milestone can reveal structural demand or operating problems, not merely a postponement.
 
-This is an uncalibrated subjective starting estimate from the selective evidence in [[forecasts/index]] and the repository's reasoning, conditional on the full ancestral path, not just the immediate parent.
+This is an uncalibrated subjective starting estimate from the selective evidence in [forecasts/index](./index.md) and the repository's reasoning, conditional on the full ancestral path, not just the immediate parent.
 
 ## Validation and revision signals
 
-Look for newly funded independent customers, multi-year operating records, compatibility, and the cause of earlier failure being corrected. [[wiki/society/state-funded-space-industry]] and [[wiki/concepts/geopolitical-drivers-of-space-expansion]] supply candidate mechanisms, not a predicted regime or winner. The public-commitment and shared-service questions still apply; no local mine or household community is inherited.
+Look for newly funded independent customers, multi-year operating records, compatibility, and the cause of earlier failure being corrected. [wiki/society/state-funded-space-industry](../wiki/society/state-funded-space-industry.md) and [wiki/concepts/geopolitical-drivers-of-space-expansion](../wiki/concepts/geopolitical-drivers-of-space-expansion.md) supply candidate mechanisms, not a predicted regime or winner. The public-commitment and shared-service questions still apply; no local mine or household community is inherited.
 
-Sources and unresolved checks follow the links above and [[open-questions]]. Initial estimate recorded in [[sessions/2026-11-19-initial-forecast-tree]].
+Sources and unresolved checks follow the links above and [open-questions](../open-questions.md). Initial estimate recorded in [sessions/2026-11-19-initial-forecast-tree](../sessions/2026-11-19-initial-forecast-tree.md).

@@ -4,7 +4,8 @@ kind: era | tech | society | place | concept
 era: <era slug when this exists or applies>
 status: draft
 grounding: established | plausible | speculative
-depends_on: [[<slug>]], [[<slug>]]
+depends_on:
+  - "[<dependency name>](relative/path/to/entry.md)"
 ---
 
 <!-- Authoring guidance: follow ../wiki/AGENTS.md for classification and short drafts. Choose kind by the main subject, independently of maturity. Retain metadata and a useful summary; use body sections as needed and state relevant unknowns explicitly. Remove this comment from entries. -->
@@ -27,7 +28,7 @@ depends_on: [[<slug>]], [[<slug>]]
 
 ## Consequences
 
-<What this enables or forces. Link to [[other entries]].>
+<What this enables or forces. Link to [other entries](relative/path/to/entry.md).>
 
 ## Open questions
 

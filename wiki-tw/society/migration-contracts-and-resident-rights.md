@@ -5,7 +5,7 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws-tw]]"
+  - "[canon/laws-tw](../../canon/laws-tw.md)"
 ---
 
 # 移民契約與居民權利
@@ -18,7 +18,7 @@ depends_on:
 
 ### 範圍
 
-這是一種可選的制度安排，適用於各擴張分支中明確選擇的定居延伸。它不另立分支，也不表示任何工業據點都會成為永久聚落。[[wiki-tw/concepts/space-expansion-motives|太空擴張的動機]]比較各種動機；[[wiki-tw/society/community-led-settlement|社群主導的太空定居]]定義為自主而集體移居的分支，並不自動採用雇主資助。
+這是一種可選的制度安排，適用於各擴張分支中明確選擇的定居延伸。它不另立分支，也不表示任何工業據點都會成為永久聚落。[太空擴張的動機](../concepts/space-expansion-motives.md)比較各種動機；[社群主導的太空定居](./community-led-settlement.md)定義為自主而集體移居的分支，並不自動採用雇主資助。
 
 ### 提出的交換安排
 
@@ -32,15 +32,15 @@ depends_on:
 
 ## 驗證
 
-此安排維持 `speculative`，因為它在地外居住情境的應用，依賴尚未解決的交通、居住、健康與供應能力。[[wiki-tw/concepts/space-expansion-motives|太空擴張的動機]]中的居住檢查展示持續的物理需求；契約不能補上缺少的工程能力，也不能證明跨世代健康。這裡的計算也無法證明承諾可以執行。
+此安排維持 `speculative`，因為它在地外居住情境的應用，依賴尚未解決的交通、居住、健康與供應能力。[太空擴張的動機](../concepts/space-expansion-motives.md)中的居住檢查展示持續的物理需求；契約不能補上缺少的工程能力，也不能證明跨世代健康。這裡的計算也無法證明承諾可以執行。
 
-此構想來自[[sessions/2026-11-19-drivers-of-space-expansion]]，月球居住與退出的影響則在[[sessions/2026-11-19-lunar-bases-and-cargo]]延伸討論。它不改變任何已批准的權利、定居日期或時間軸事件。
+此構想來自[sessions/2026-11-19-drivers-of-space-expansion](../../sessions/2026-11-19-drivers-of-space-expansion.md)，月球居住與退出的影響則在[sessions/2026-11-19-lunar-bases-and-cargo](../../sessions/2026-11-19-lunar-bases-and-cargo.md)延伸討論。它不改變任何已批准的權利、定居日期或時間軸事件。
 
 ## 影響
 
 - 在義務可接受且支援可靠的條件下，融資可能讓無法獨力負擔旅費的家庭移居。
 - 就業可以提供移居入口，但不因此確立永久居住、自主或可自給自足的人口。
-- [[wiki-tw/concepts/lunar-base-development|月球基地的條件式發展]]探索月球居住延伸可能需要的設施；制度承諾與工程能力需要分別建立依據。
+- [月球基地的條件式發展](../concepts/lunar-base-development.md)探索月球居住延伸可能需要的設施；制度承諾與工程能力需要分別建立依據。
 
 ## 待解問題
 
@@ -48,4 +48,4 @@ depends_on:
 - 承諾如何執行？就業或贊助結束時，還有哪些淨收入與退出選項？
 - 哪些健康與供應能力，可以在預定期間內支援所提居民？
 
-這些檢查屬於[[open-questions-tw|待解問題]]中的永久居住問題。
+這些檢查屬於[待解問題](../../open-questions-tw.md)中的永久居住問題。

@@ -27,25 +27,25 @@ topic: Drivers of space expansion
 - The user requested repository recording and explicitly authorized sub-agent work. This authorizes draft documentation, not canon promotion or selection of one inevitable future.
 - Preserve the historical and personal motivations alongside the later corporate, environmental, and geopolitical reasoning. Do not overwrite earlier viable branches with the final policy scenario.
 - Use stable branch identifiers and define assumptions, divergence, consequences, dependencies, and grounding in the relevant entries:
-  - `ai-industrial-expansion` — [[wiki/concepts/ai-driven-industrial-demand]].
-  - `climate-adaptation-pressure` — [[wiki/concepts/climate-adaptation-pressure]].
-  - `earth-development-limits` — [[wiki/concepts/earth-development-limits]].
-  - `state-funded-expansion`, `lunar-military-industrialization` — [[wiki/concepts/state-funded-space-industry]].
-  - `community-led-settlement`, `civilization-backup`, `earth-centered-development` — [[wiki/concepts/space-expansion-motives]].
+  - `ai-industrial-expansion` — [wiki/concepts/ai-driven-industrial-demand](../wiki/concepts/ai-driven-industrial-demand.md).
+  - `climate-adaptation-pressure` — [wiki/concepts/climate-adaptation-pressure](../wiki/concepts/climate-adaptation-pressure.md).
+  - `earth-development-limits` — [wiki/concepts/earth-development-limits](../wiki/concepts/earth-development-limits.md).
+  - `state-funded-expansion`, `lunar-military-industrialization` — [wiki/concepts/state-funded-space-industry](../wiki/concepts/state-funded-space-industry.md).
+  - `community-led-settlement`, `civilization-backup`, `earth-centered-development` — [wiki/concepts/space-expansion-motives](../wiki/concepts/space-expansion-motives.md).
 - Keep climate damage and preventive global limits independent. Combining them requires an explicit combined scenario; one does not silently inherit the other.
 - Treat broad public procurement and a lunar weapons industry separately. General state sponsorship does not inherit militarization or treaty-conflict assumptions.
 - Record numerical examples as assumptions for validation, not approved specifications. Present source-based history and present engineering separately from forecasts and scenario choices.
-- Read [[canon/laws]] and [[canon/timeline]] and checked related repository content. No new canon event or retcon is proposed. The pre-existing [[wiki/concepts/orbital-transportation-network]] and [[wiki/tech/modular-orbital-accelerator]] remain independent speculative drafts, not required infrastructure or proof of future demand.
+- Read [canon/laws](../canon/laws.md) and [canon/timeline](../canon/timeline.md) and checked related repository content. No new canon event or retcon is proposed. The pre-existing [wiki/concepts/orbital-transportation-network](../wiki/concepts/orbital-transportation-network.md) and [wiki/tech/modular-orbital-accelerator](../wiki/tech/modular-orbital-accelerator.md) remain independent speculative drafts, not required infrastructure or proof of future demand.
 
 ## Entries created or changed
 
-- [[wiki/concepts/space-expansion-motives]] — draft, new; motives, historical comparison, branch navigation, community settlement, civilization backup, and Earth-centered alternatives. Paired with [[wiki-tw/concepts/space-expansion-motives]].
-- [[wiki/concepts/ai-driven-industrial-demand]] — draft, new; paying consumer demand, conditional rebound, industrial bottlenecks, materials, and automation. Paired with [[wiki-tw/concepts/ai-driven-industrial-demand]].
-- [[wiki/concepts/orbital-data-centers]] — draft, new; a cross-branch candidate service with limited physical calculations and unresolved full costs. Paired with [[wiki-tw/concepts/orbital-data-centers]].
-- [[wiki/concepts/state-funded-space-industry]] — draft, new; public customers and strategic supply, with the lunar military proposal isolated as a separate unvalidated branch. Paired with [[wiki-tw/concepts/state-funded-space-industry]].
-- [[wiki/concepts/climate-adaptation-pressure]] — draft, new; maintaining living conditions under environmental stress and the limits of the proposed feedback. Paired with [[wiki-tw/concepts/climate-adaptation-pressure]].
-- [[wiki/concepts/earth-development-limits]] — draft, new; hypothetical global environmental limits, transition mechanisms, and competition for expandable off-Earth supply. Paired with [[wiki-tw/concepts/earth-development-limits]].
-- [[open-questions]] and [[open-questions-tw]] — updated with unresolved evidence and feasibility checks scoped to the new branches; existing accelerator questions retained.
+- [wiki/concepts/space-expansion-motives](../wiki/concepts/space-expansion-motives.md) — draft, new; motives, historical comparison, branch navigation, community settlement, civilization backup, and Earth-centered alternatives. Paired with [wiki-tw/concepts/space-expansion-motives](../wiki-tw/concepts/space-expansion-motives.md).
+- [wiki/concepts/ai-driven-industrial-demand](../wiki/concepts/ai-driven-industrial-demand.md) — draft, new; paying consumer demand, conditional rebound, industrial bottlenecks, materials, and automation. Paired with [wiki-tw/concepts/ai-driven-industrial-demand](../wiki-tw/concepts/ai-driven-industrial-demand.md).
+- [wiki/concepts/orbital-data-centers](../wiki/concepts/orbital-data-centers.md) — draft, new; a cross-branch candidate service with limited physical calculations and unresolved full costs. Paired with [wiki-tw/concepts/orbital-data-centers](../wiki-tw/concepts/orbital-data-centers.md).
+- [wiki/concepts/state-funded-space-industry](../wiki/concepts/state-funded-space-industry.md) — draft, new; public customers and strategic supply, with the lunar military proposal isolated as a separate unvalidated branch. Paired with [wiki-tw/concepts/state-funded-space-industry](../wiki-tw/concepts/state-funded-space-industry.md).
+- [wiki/concepts/climate-adaptation-pressure](../wiki/concepts/climate-adaptation-pressure.md) — draft, new; maintaining living conditions under environmental stress and the limits of the proposed feedback. Paired with [wiki-tw/concepts/climate-adaptation-pressure](../wiki-tw/concepts/climate-adaptation-pressure.md).
+- [wiki/concepts/earth-development-limits](../wiki/concepts/earth-development-limits.md) — draft, new; hypothetical global environmental limits, transition mechanisms, and competition for expandable off-Earth supply. Paired with [wiki-tw/concepts/earth-development-limits](../wiki-tw/concepts/earth-development-limits.md).
+- [open-questions](../open-questions.md) and [open-questions-tw](../open-questions-tw.md) — updated with unresolved evidence and feasibility checks scoped to the new branches; existing accelerator questions retained.
 
 ## Open questions raised
 
@@ -60,4 +60,4 @@ topic: Drivers of space expansion
 - What durable public purpose justifies state funding, and what separate legal and strategic assumptions would the lunar military branch require?
 - Under what cost, capacity, interoperability, and customer conditions does first-mover advantage persist, dissipate, or lead to overinvestment?
 
-These are checks within named branches, not a requirement to choose one future. Sources, calculations, and limitations are recorded in the wiki entries; [[open-questions]] identifies affected entries and branch scopes.
+These are checks within named branches, not a requirement to choose one future. Sources, calculations, and limitations are recorded in the wiki entries; [open-questions](../open-questions.md) identifies affected entries and branch scopes.

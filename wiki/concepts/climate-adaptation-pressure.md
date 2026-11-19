@@ -5,7 +5,7 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws]]"
+  - "[canon/laws](../../canon/laws.md)"
 ---
 
 # Climate adaptation pressure
@@ -21,7 +21,7 @@ The `climate-adaptation-pressure` branch explores rising demand for technology m
 - **Assumptions:** Environmental hazards increase adaptation costs in affected regions; governments, households, or firms retain enough purchasing power and industrial capacity to commission responses. AI assists planning and operation, while construction, energy, materials, finance, and institutions remain constraints.
 - **Divergence:** Demand grows even without expanding personal consumption: maintaining an existing standard of living requires more infrastructure. This branch does not assume Earth becomes globally uninhabitable or its mineral resources are exhausted.
 - **Consequences:** Water, food, cooling, maintenance, and resilient infrastructure become recurring markets. Off-world suppliers enter only if they offer a competitive service; disaster may instead consume the capacity needed to build them.
-- **Dependencies:** Shared physical laws; effective paying demand; workable adaptation technologies. An orbital-computing route additionally requires the engineering and delivered-service economics in [[wiki/tech/orbital-data-centers]]. Other space industries require their own validation. Neither [[wiki/concepts/earth-development-limits]] nor the existing orbital accelerator is inherited.
+- **Dependencies:** Shared physical laws; effective paying demand; workable adaptation technologies. An orbital-computing route additionally requires the engineering and delivered-service economics in [wiki/tech/orbital-data-centers](../tech/orbital-data-centers.md). Other space industries require their own validation. Neither [wiki/concepts/earth-development-limits](./earth-development-limits.md) nor the existing orbital accelerator is inherited.
 - **Grounding:** `speculative` for the complete path to substantial off-world industry. Existing adaptation methods provide precedents, but the scale, costs, and industrial transition are unvalidated. This grade does not assign a probability to political choices.
 
 The candidate demand is concrete: reliable drinking water may require storage, reuse, conveyance, or desalination; agriculture may require different varieties, water management, monitoring, or partial environmental control; heat and flood risks may require building improvements, cooling, drainage, protection, or relocation. Households buy continuity of everyday life, governments procure public services, and firms protect productive assets. Need alone does not create purchasing power.
@@ -32,7 +32,7 @@ AI could reduce waste and operating costs and keep strained systems functioning.
 
 One possible sequence is rising maintenance costs, long-term procurement for essential services, selective entry of off-world suppliers, and eventually limited settlement supported by existing jobs and infrastructure. It is not a dated forecast. Firms must compare local adaptation, relocation elsewhere on Earth, different technologies and consumption patterns, and off-world supply.
 
-The separately defined `earth-centered-development` branch in [[wiki/concepts/space-expansion-motives]] retains effective adaptation, efficiency, and terrestrial supply as a viable outcome. Mostly terrestrial development, automated off-world industry with few residents, or failure to fund adaptation are outcomes to preserve rather than questions that require choosing a single future.
+The separately defined `earth-centered-development` branch in [wiki/concepts/space-expansion-motives](./space-expansion-motives.md) retains effective adaptation, efficiency, and terrestrial supply as a viable outcome. Mostly terrestrial development, automated off-world industry with few residents, or failure to fund adaptation are outcomes to preserve rather than questions that require choosing a single future.
 
 ## Validation
 
@@ -54,7 +54,7 @@ The proposed economic crossover must therefore be demonstrated for a specific ac
 
 ### Consistency and motive
 
-Checked [[canon/laws]], [[canon/timeline]], and the existing transport drafts for [[sessions/2026-11-19-drivers-of-space-expansion]]. No canon conflict or dated event is introduced. The existing [[wiki/tech/orbital-transportation-network]] remains an independently speculative transport proposal, not proof that this demand will arise or that its accelerator is necessary.
+Checked [canon/laws](../../canon/laws.md), [canon/timeline](../../canon/timeline.md), and the existing transport drafts for [sessions/2026-11-19-drivers-of-space-expansion](../../sessions/2026-11-19-drivers-of-space-expansion.md). No canon conflict or dated event is introduced. The existing [wiki/tech/orbital-transportation-network](../tech/orbital-transportation-network.md) remains an independently speculative transport proposal, not proof that this demand will arise or that its accelerator is necessary.
 
 Households pay for essential services where they can afford them; governments may use taxes, procurement, or subsidies; firms invest where continuity of production or sales justifies the cost. Who can pay determines who receives protection. No source establishes that this allocation will fund space industry rather than terrestrial alternatives.
 
@@ -63,7 +63,7 @@ Households pay for essential services where they can afford them; governments ma
 - Technology expenditure can rise while the delivered living standard remains roughly constant.
 - Access to water, cooling, food, and reliable infrastructure may become increasingly unequal if purchasing power and public provision fail to keep up.
 - Off-world supply can complement adaptation without moving most people off Earth; it must reduce real burdens rather than merely relocate accounting entries.
-- The policy-led branch in [[wiki/concepts/earth-development-limits]] is distinct: it can develop while Earth remains broadly livable, without inheriting this branch's deterioration assumptions.
+- The policy-led branch in [wiki/concepts/earth-development-limits](./earth-development-limits.md) is distinct: it can develop while Earth remains broadly livable, without inheriting this branch's deterioration assumptions.
 
 ## Open questions
 
@@ -72,4 +72,4 @@ Households pay for essential services where they can afford them; governments ma
 - Does marginal adaptation increase net environmental damage, or do cleaner supply and efficiency weaken the proposed feedback?
 - For which service and destination does off-world supply outperform terrestrial adaptation or relocation before crisis erodes construction capacity?
 
-These unresolved checks are tracked in [[open-questions]].
+These unresolved checks are tracked in [open-questions](../../open-questions.md).

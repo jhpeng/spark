@@ -25,9 +25,9 @@ topic: Initial forecast tree from existing repository scenarios
 
 ## Entries created or changed
 
-- [[forecasts/index]] and [[forecasts-tw/index]] — new forecast roots and navigation for the paired outcome nodes linked below them; initial baseline and probability record.
-- [[README]] — added entry points to both forecast trees.
-- [[open-questions]] and [[open-questions-tw]] — linked the forecast tree to existing feasibility checks and recorded the outstanding probability-calibration question.
+- [forecasts/index](../forecasts/index.md) and [forecasts-tw/index](../forecasts-tw/index.md) — new forecast roots and navigation for the paired outcome nodes linked below them; initial baseline and probability record.
+- [README](../README.md) — added entry points to both forecast trees.
+- [open-questions](../open-questions.md) and [open-questions-tw](../open-questions-tw.md) — linked the forecast tree to existing feasibility checks and recorded the outstanding probability-calibration question.
 
 ### Initial outcome inventory
 
@@ -35,20 +35,20 @@ All nodes below are new active forecasts with matching files under `forecasts-tw
 
 | Outcome node | Parent | Initial conditional probability |
 |---|---|---|
-| [[forecasts/lunar-services-2036]] | `index` | 65% |
-| [[forecasts/no-lunar-services-2036]] | `index` | 35% |
-| [[forecasts/local-consumables-2076]] | `lunar-services-2036` | 55% |
-| [[forecasts/no-local-consumables-2076]] | `lunar-services-2036` | 45% |
-| [[forecasts/delayed-lunar-services-2076]] | `no-lunar-services-2036` | 45% |
-| [[forecasts/still-no-lunar-services-2076]] | `no-lunar-services-2036` | 55% |
-| [[forecasts/local-supply-households-2126]] | `local-consumables-2076` | 40% |
-| [[forecasts/local-supply-no-households-2126]] | `local-consumables-2076` | 60% |
-| [[forecasts/import-path-households-2126]] | `no-local-consumables-2076` | 15% |
-| [[forecasts/import-path-no-households-2126]] | `no-local-consumables-2076` | 85% |
-| [[forecasts/early-households-independent-3026]] | `local-supply-households-2126` | 45% |
-| [[forecasts/early-households-not-independent-3026]] | `local-supply-households-2126` | 55% |
-| [[forecasts/later-households-independent-3026]] | `local-supply-no-households-2126` | 20% |
-| [[forecasts/later-households-not-independent-3026]] | `local-supply-no-households-2126` | 80% |
+| [forecasts/lunar-services-2036](../forecasts/lunar-services-2036.md) | `index` | 65% |
+| [forecasts/no-lunar-services-2036](../forecasts/no-lunar-services-2036.md) | `index` | 35% |
+| [forecasts/local-consumables-2076](../forecasts/local-consumables-2076.md) | `lunar-services-2036` | 55% |
+| [forecasts/no-local-consumables-2076](../forecasts/no-local-consumables-2076.md) | `lunar-services-2036` | 45% |
+| [forecasts/delayed-lunar-services-2076](../forecasts/delayed-lunar-services-2076.md) | `no-lunar-services-2036` | 45% |
+| [forecasts/still-no-lunar-services-2076](../forecasts/still-no-lunar-services-2076.md) | `no-lunar-services-2036` | 55% |
+| [forecasts/local-supply-households-2126](../forecasts/local-supply-households-2126.md) | `local-consumables-2076` | 40% |
+| [forecasts/local-supply-no-households-2126](../forecasts/local-supply-no-households-2126.md) | `local-consumables-2076` | 60% |
+| [forecasts/import-path-households-2126](../forecasts/import-path-households-2126.md) | `no-local-consumables-2076` | 15% |
+| [forecasts/import-path-no-households-2126](../forecasts/import-path-no-households-2126.md) | `no-local-consumables-2076` | 85% |
+| [forecasts/early-households-independent-3026](../forecasts/early-households-independent-3026.md) | `local-supply-households-2126` | 45% |
+| [forecasts/early-households-not-independent-3026](../forecasts/early-households-not-independent-3026.md) | `local-supply-households-2126` | 55% |
+| [forecasts/later-households-independent-3026](../forecasts/later-households-independent-3026.md) | `local-supply-no-households-2126` | 20% |
+| [forecasts/later-households-not-independent-3026](../forecasts/later-households-not-independent-3026.md) | `local-supply-no-households-2126` | 80% |
 
 ## Open questions raised
 

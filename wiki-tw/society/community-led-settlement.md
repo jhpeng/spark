@@ -5,7 +5,7 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws-tw]]"
+  - "[canon/laws-tw](../../canon/laws-tw.md)"
 ---
 
 # 社群主導的太空定居
@@ -23,21 +23,21 @@ depends_on:
 - **分歧：** 即使沒有具競爭力的出口產業，集體定居本身仍值得出資。
 - **行動者與付款者：** 成員組織並投入資源；居民或贊助者資助長住。成員資格、決策與所有權的形式仍未指定。
 - **影響：** 成員可能共同移居，但對外部供應者的依賴可能限制自主。資金、支援或凝聚力流失，可能迫使社群縮減或返回。
-- **依賴：** [[canon/laws-tw]]，以及經驗證的交通、居住、健康與治理安排；不預設依賴 AI、氣候、政策或加速器分支。
+- **依賴：** [canon/laws-tw](../../canon/laws-tw.md)，以及經驗證的交通、居住、健康與治理安排；不預設依賴 AI、氣候、政策或加速器分支。
 
 ### 居住與自主
 
-居民需要住房、醫療、教育、公共空間與家庭生活的安排。[[wiki-tw/concepts/lunar-base-development|月球基地的條件式發展]]探索這些需求在月球的應用；本條目不選定月球地點或制度。
+居民需要住房、醫療、教育、公共空間與家庭生活的安排。[月球基地的條件式發展](../concepts/lunar-base-development.md)探索這些需求在月球的應用；本條目不選定月球地點或制度。
 
-集體目的可以構成支出理由，但不能證明獨立存續。[[wiki-tw/concepts/space-expansion-motives|太空擴張的動機]]另行定義 `civilization-backup`，其目標包含失去地球支援後仍可延續。追求自主的社群不自動繼承該能力或目標。
+集體目的可以構成支出理由，但不能證明獨立存續。[太空擴張的動機](../concepts/space-expansion-motives.md)另行定義 `civilization-backup`，其目標包含失去地球支援後仍可延續。追求自主的社群不自動繼承該能力或目標。
 
-[[wiki-tw/society/migration-contracts-and-resident-rights|移民契約與居民權利]]檢視以就業進入居住的可選途徑。採用它需要明確的供應、權利與退出安排；雇主控制必需品，可能與社群自主衝突。
+[移民契約與居民權利](./migration-contracts-and-resident-rights.md)檢視以就業進入居住的可選途徑。採用它需要明確的供應、權利與退出安排；雇主控制必需品，可能與社群自主衝突。
 
 ## 驗證
 
-採用相同假設時，[[wiki-tw/concepts/space-expansion-motives|太空擴張的動機]]中既有的居住計算與有來源的健康限制仍適用。僅有一定程度的水回收，不能證明食物、維修、製造或政治自主。預期規模、期間與治理安排仍未解；本條目不宣稱超出那些有限檢查的物理或制度可行性。
+採用相同假設時，[太空擴張的動機](../concepts/space-expansion-motives.md)中既有的居住計算與有來源的健康限制仍適用。僅有一定程度的水回收，不能證明食物、維修、製造或政治自主。預期規模、期間與治理安排仍未解；本條目不宣稱超出那些有限檢查的物理或制度可行性。
 
-此分支在[[sessions/2026-11-19-drivers-of-space-expansion]]探索，並於[[sessions/2026-11-19-lunar-bases-and-cargo]]有條件地應用到月球。將定義移至此處，不新增任何已批准事件、人口或政治體制。
+此分支在[sessions/2026-11-19-drivers-of-space-expansion](../../sessions/2026-11-19-drivers-of-space-expansion.md)探索，並於[sessions/2026-11-19-lunar-bases-and-cargo](../../sessions/2026-11-19-lunar-bases-and-cargo.md)有條件地應用到月球。將定義移至此處，不新增任何已批准事件、人口或政治體制。
 
 ## 待解問題
 
@@ -45,4 +45,4 @@ depends_on:
 - 需要哪些當地能力與支援清單？地球供應可以中斷多久？
 - 資金、外部支援或社群凝聚力失效時，居民與共用服務會如何？
 
-這些檢查屬於[[open-questions-tw|待解問題]]中的永久居住問題。
+這些檢查屬於[待解問題](../../open-questions-tw.md)中的永久居住問題。

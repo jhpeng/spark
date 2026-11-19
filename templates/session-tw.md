@@ -17,7 +17,7 @@ topic: <主題>
 
 ## 新增或更新的條目
 
-- [[<slug>]] — draft，<新增 | 更新>
+- [<條目名稱>](relative/path/to/entry.md) — draft，<新增 | 更新>
 
 ## 提出的待解問題
 

@@ -18,7 +18,7 @@ lifecycle: "active"
 
 ## 基準與證據
 
-記錄並選擇性查核於 **2026-11-19**；這是證據截止日，不表示已調查截至當天的每件事件。[[canon/timeline-tw]] 提供 repo 的 2026 年起始設定；所有路徑均遵守 [[canon/laws-tw]]。wiki 中的未來情境仍是假設，不是觀測事實。
+記錄並選擇性查核於 **2026-11-19**；這是證據截止日，不表示已調查截至當天的每件事件。[canon/timeline-tw](../canon/timeline-tw.md) 提供 repo 的 2026 年起始設定；所有路徑均遵守 [canon/laws-tw](../canon/laws-tw.md)。wiki 中的未來情境仍是假設，不是觀測事實。
 
 | 有日期的證據 | 支持的判斷與限制 |
 |---|---|
@@ -27,7 +27,7 @@ lifecycle: "active"
 | NASA 於 2026-11-07 公布 miniCAST 電力相關組件的採購結果，整合與測試仍在後續階段。[NASA 採購公告](https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/) | 採購比願景具體，但組件合約不代表共用服務已能運作。 |
 | 於 2026-11-19 查核的 NASA 階段頁面，描述 2029–2032 年部署基礎設施，2032 年起組裝前哨站。[NASA 階段規劃](https://www.nasa.gov/moonbase-phases/) | 公布的順序可協助定義里程碑；時程並非確定會實現。 |
 
-這些參考資料支持以月球為切入點。repo 的推論來自 [[wiki-tw/concepts/geopolitical-drivers-of-space-expansion]]、[[wiki-tw/concepts/lunar-base-development]] 與 [[wiki-tw/concepts/space-expansion-motives]]。公共科研或戰略採購是可能的早期付費來源；競爭並非必要條件。持續經費、相容性、可靠度與後續使用者的使用權，都仍有待成立。
+這些參考資料支持以月球為切入點。repo 的推論來自 [wiki-tw/concepts/geopolitical-drivers-of-space-expansion](../wiki-tw/concepts/geopolitical-drivers-of-space-expansion.md)、[wiki-tw/concepts/lunar-base-development](../wiki-tw/concepts/lunar-base-development.md) 與 [wiki-tw/concepts/space-expansion-motives](../wiki-tw/concepts/space-expansion-motives.md)。公共科研或戰略採購是可能的早期付費來源；競爭並非必要條件。持續經費、相容性、可靠度與後續使用者的使用權，都仍有待成立。
 
 ## 如何閱讀機率
 
@@ -54,13 +54,13 @@ lifecycle: "active"
 
 | 時間尺度與前置路徑 | 下一組結果：條件機率 |
 |---|---|
-| 2036 年，從目前基準出發 | [[forecasts-tw/lunar-services-2036|達成 S：65%]] · [[forecasts-tw/no-lunar-services-2036|未達 S：35%]] |
-| 2076 年，2036 年已達成 S | [[forecasts-tw/local-consumables-2076|達成 L：55%]] · [[forecasts-tw/no-local-consumables-2076|未達 L：45%]] |
-| 2076 年，2036 年未達 S | [[forecasts-tw/delayed-lunar-services-2076|較晚達成 S：45%]] · [[forecasts-tw/still-no-lunar-services-2076|仍未達 S：55%]] |
-| 2126 年，先前達成早期 S 與 L | [[forecasts-tw/local-supply-households-2126|達成 H：40%]] · [[forecasts-tw/local-supply-no-households-2126|未達 H：60%]] |
-| 2126 年，先前達成早期 S，但未達 L | [[forecasts-tw/import-path-households-2126|達成 H：15%]] · [[forecasts-tw/import-path-no-households-2126|未達 H：85%]] |
-| 3026 年，先前達成早期 S、L 與 H | [[forecasts-tw/early-households-independent-3026|達成 I：45%]] · [[forecasts-tw/early-households-not-independent-3026|未達 I：55%]] |
-| 3026 年，先前達成早期 S 與 L，但 2126 年未達 H | [[forecasts-tw/later-households-independent-3026|後來達成 I：20%]] · [[forecasts-tw/later-households-not-independent-3026|未達 I：80%]] |
+| 2036 年，從目前基準出發 | [達成 S：65%](./lunar-services-2036.md) · [未達 S：35%](./no-lunar-services-2036.md) |
+| 2076 年，2036 年已達成 S | [達成 L：55%](./local-consumables-2076.md) · [未達 L：45%](./no-local-consumables-2076.md) |
+| 2076 年，2036 年未達 S | [較晚達成 S：45%](./delayed-lunar-services-2076.md) · [仍未達 S：55%](./still-no-lunar-services-2076.md) |
+| 2126 年，先前達成早期 S 與 L | [達成 H：40%](./local-supply-households-2126.md) · [未達 H：60%](./local-supply-no-households-2126.md) |
+| 2126 年，先前達成早期 S，但未達 L | [達成 H：15%](./import-path-households-2126.md) · [未達 H：85%](./import-path-no-households-2126.md) |
+| 3026 年，先前達成早期 S、L 與 H | [達成 I：45%](./early-households-independent-3026.md) · [未達 I：55%](./early-households-not-independent-3026.md) |
+| 3026 年，先前達成早期 S 與 L，但 2126 年未達 H | [後來達成 I：20%](./later-households-independent-3026.md) · [未達 I：80%](./later-households-not-independent-3026.md) |
 
 ## 2031 年檢查點與修訂訊號
 
@@ -68,10 +68,10 @@ lifecycle: "active"
 
 ## 依賴與尚未完成的驗證
 
-長路徑在對應節點參考服務需求、`lunar-local-supply`、居住動機，以及 `civilization-backup` 的能力要求。結果依經驗證的能力定義，不要求任何單一動機，也不要求刻意為文明備援提供資金。[[wiki-tw/concepts/ai-driven-industrial-demand]]、[[wiki-tw/concepts/earth-development-limits]] 與 [[wiki-tw/concepts/climate-adaptation-pressure]] 是可選的需求機制，不是無限消費、全球限制或地球無法居住的基準假設。
+長路徑在對應節點參考服務需求、`lunar-local-supply`、居住動機，以及 `civilization-backup` 的能力要求。結果依經驗證的能力定義，不要求任何單一動機，也不要求刻意為文明備援提供資金。[wiki-tw/concepts/ai-driven-industrial-demand](../wiki-tw/concepts/ai-driven-industrial-demand.md)、[wiki-tw/concepts/earth-development-limits](../wiki-tw/concepts/earth-development-limits.md) 與 [wiki-tw/concepts/climate-adaptation-pressure](../wiki-tw/concepts/climate-adaptation-pressure.md) 是可選的需求機制，不是無限消費、全球限制或地球無法居住的基準假設。
 
-[[wiki-tw/tech/orbital-data-centers]]、[[wiki-tw/concepts/lunar-earth-cargo]] 與 [[wiki-tw/tech/orbital-transportation-network]] 仍是可選、尚未驗證的應用。本預測沒有假設便宜的對地出口或模組化加速器已可用，也不依賴核融合、心智上傳或未知物理。沒有選定地緣政治贏家或軍事工業分支。
+[wiki-tw/tech/orbital-data-centers](../wiki-tw/tech/orbital-data-centers.md)、[wiki-tw/concepts/lunar-earth-cargo](../wiki-tw/concepts/lunar-earth-cargo.md) 與 [wiki-tw/tech/orbital-transportation-network](../wiki-tw/tech/orbital-transportation-network.md) 仍是可選、尚未驗證的應用。本預測沒有假設便宜的對地出口或模組化加速器已可用，也不依賴核融合、心智上傳或未知物理。沒有選定地緣政治贏家或軍事工業分支。
 
-物理檢查僅能在原本假設內沿用。例如月球基地條目的假想進口質量抵銷計算 30/(10−2) = 3.75 年，不能證明財務回本或設備壽命。這裡尚未完成整體生產、輻射、散熱、食物、製造或運輸預算。相關檢查保留於 [[open-questions-tw]]；各節點指出哪些檢查影響其估計。[[canon/laws-tw]] 與 [[canon/timeline-tw]] 並無被本樹更改的已核准未來工業順序。
+物理檢查僅能在原本假設內沿用。例如月球基地條目的假想進口質量抵銷計算 30/(10−2) = 3.75 年，不能證明財務回本或設備壽命。這裡尚未完成整體生產、輻射、散熱、食物、製造或運輸預算。相關檢查保留於 [open-questions-tw](../open-questions-tw.md)；各節點指出哪些檢查影響其估計。[canon/laws-tw](../canon/laws-tw.md) 與 [canon/timeline-tw](../canon/timeline-tw.md) 並無被本樹更改的已核准未來工業順序。
 
-初次建立與估計來源：[[sessions/2026-11-19-initial-forecast-tree]]。根節點是基準，不是待發生事件；其 null 機率與 pending 判定僅是管理欄位。
+初次建立與估計來源：[sessions/2026-11-19-initial-forecast-tree](../sessions/2026-11-19-initial-forecast-tree.md)。根節點是基準，不是待發生事件；其 null 機率與 pending 判定僅是管理欄位。

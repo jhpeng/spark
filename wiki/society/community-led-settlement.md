@@ -5,7 +5,7 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws]]"
+  - "[canon/laws](../../canon/laws.md)"
 ---
 
 # Community-led space settlement
@@ -23,21 +23,21 @@ A community could pool resources to settle beyond Earth because it values cultur
 - **Divergence:** Collective settlement itself is worth funding, even without a competitive export industry.
 - **Actors and payers:** Members organize and contribute resources; residents or sponsors fund long residence. The form of membership, decision-making, and ownership remains unspecified.
 - **Consequences:** Members may migrate together, but dependence on external suppliers can limit autonomy. Loss of financing, support, or cohesion can force contraction or return.
-- **Dependencies:** [[canon/laws]] and validated transport, habitat, health, and governance arrangements; no assumed dependence on the AI, climate, policy, or accelerator branches.
+- **Dependencies:** [canon/laws](../../canon/laws.md) and validated transport, habitat, health, and governance arrangements; no assumed dependence on the AI, climate, policy, or accelerator branches.
 
 ### Residence and autonomy
 
-Residents would need housing, healthcare, education, shared spaces, and provision for family life. These needs are explored for a lunar application in [[wiki/concepts/lunar-base-development]]; no lunar site or institution is selected here.
+Residents would need housing, healthcare, education, shared spaces, and provision for family life. These needs are explored for a lunar application in [wiki/concepts/lunar-base-development](../concepts/lunar-base-development.md); no lunar site or institution is selected here.
 
-Collective purpose can justify spending but does not establish independent survival. [[wiki/concepts/space-expansion-motives]] separately defines `civilization-backup`, whose objective includes persistence after loss of Earth support. A community seeking autonomy does not automatically inherit that capability or objective.
+Collective purpose can justify spending but does not establish independent survival. [wiki/concepts/space-expansion-motives](../concepts/space-expansion-motives.md) separately defines `civilization-backup`, whose objective includes persistence after loss of Earth support. A community seeking autonomy does not automatically inherit that capability or objective.
 
-[[wiki/society/migration-contracts-and-resident-rights]] examines an optional employment route into residence. Adopting it would require explicit supply, rights, and exit arrangements; employer control of necessities could conflict with community autonomy.
+[wiki/society/migration-contracts-and-resident-rights](./migration-contracts-and-resident-rights.md) examines an optional employment route into residence. Adopting it would require explicit supply, rights, and exit arrangements; employer control of necessities could conflict with community autonomy.
 
 ## Validation
 
-The existing habitation calculations and sourced health constraints in [[wiki/concepts/space-expansion-motives]] apply when their assumptions are used. A degree of water recycling alone does not establish food, maintenance, manufacturing, or political independence. The intended scale, duration, and governance arrangements remain unresolved; no physical or institutional feasibility beyond those limited checks is claimed.
+The existing habitation calculations and sourced health constraints in [wiki/concepts/space-expansion-motives](../concepts/space-expansion-motives.md) apply when their assumptions are used. A degree of water recycling alone does not establish food, maintenance, manufacturing, or political independence. The intended scale, duration, and governance arrangements remain unresolved; no physical or institutional feasibility beyond those limited checks is claimed.
 
-This branch was explored in [[sessions/2026-11-19-drivers-of-space-expansion]] and applied conditionally to the Moon in [[sessions/2026-11-19-lunar-bases-and-cargo]]. Moving its definition here adds no approved event, population, or political constitution.
+This branch was explored in [sessions/2026-11-19-drivers-of-space-expansion](../../sessions/2026-11-19-drivers-of-space-expansion.md) and applied conditionally to the Moon in [sessions/2026-11-19-lunar-bases-and-cargo](../../sessions/2026-11-19-lunar-bases-and-cargo.md). Moving its definition here adds no approved event, population, or political constitution.
 
 ## Open questions
 
@@ -45,4 +45,4 @@ This branch was explored in [[sessions/2026-11-19-drivers-of-space-expansion]] a
 - Which local capabilities and support inventory are required, and how long could Earth supply be interrupted?
 - What happens to residents and shared services if financing, external support, or community cohesion fails?
 
-These checks form part of the permanent-residence question in [[open-questions]].
+These checks form part of the permanent-residence question in [open-questions](../../open-questions.md).

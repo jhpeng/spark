@@ -5,15 +5,15 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws-tw]]"
-  - "[[wiki-tw/tech/modular-orbital-accelerator]]"
+  - "[canon/laws-tw](../../canon/laws-tw.md)"
+  - "[wiki-tw/tech/modular-orbital-accelerator](./modular-orbital-accelerator.md)"
 ---
 
 # 軌道運輸網路
 
 ## 摘要
 
-這項構想以網路串聯資源開採、加工、補給站、運輸載具與可重複使用的加速服務。其特色組件是[[wiki-tw/tech/modular-orbital-accelerator|模組化軌道加速器]]，可為客運與貨運太空船提供速度變化，同時將大部分供電與軌道復原設備留在加速站。
+這項構想以網路串聯資源開採、加工、補給站、運輸載具與可重複使用的加速服務。其特色組件是[模組化軌道加速器](./modular-orbital-accelerator.md)，可為客運與貨運太空船提供速度變化，同時將大部分供電與軌道復原設備留在加速站。
 
 ## 推論
 
@@ -31,7 +31,7 @@ depends_on:
 
 ### 物理
 
-[[wiki-tw/tech/modular-orbital-accelerator|模組化軌道加速器]]中的加速站估算顯示，在加速站的初始參考系中，將一艘 100 公噸的太空船由靜止加速至 10 km/s，會增加 5 TJ 的船體動能。若以每天一次這樣的出發作為收支估算範例，平均有效功率為 5 × 10¹² / 86,400 ≈ 58 MW，儘管加速期間的功率達吉瓦等級。儲能可讓發電速率與發射頻率分開安排；其質量與可行性仍未確定。此處使用 P_average = E/t。[OpenStax：功率](https://openstax.org/books/university-physics-volume-1/pages/7-4-power)
+[模組化軌道加速器](./modular-orbital-accelerator.md)中的加速站估算顯示，在加速站的初始參考系中，將一艘 100 公噸的太空船由靜止加速至 10 km/s，會增加 5 TJ 的船體動能。若以每天一次這樣的出發作為收支估算範例，平均有效功率為 5 × 10¹² / 86,400 ≈ 58 MW，儘管加速期間的功率達吉瓦等級。儲能可讓發電速率與發射頻率分開安排；其質量與可行性仍未確定。此處使用 P_average = E/t。[OpenStax：功率](https://openstax.org/books/university-physics-volume-1/pages/7-4-power)
 
 若採用示例中的 90% 轉換效率，每次出發所需電能約為 5.56 TJ = 154 萬 kWh。若電價為每 kWh 收取 p 個貨幣單位，則每次出發的這部分成本為 154 萬 × p，尚未計入建造、維護、軌道復原與融資成本。此處未假定任何電價或獲利能力。
 
@@ -39,7 +39,7 @@ depends_on:
 
 ### 一致性
 
-在[[sessions/2026-11-18-orbital-acceleration-network|2026-11-18 軌道加速網路討論]]期間，已檢查[[canon/laws-tw|物理定律]]、[[canon/timeline-tw|時間軸]]與儲存庫中的相關詞彙。現有正史發展並無衝突。本構想未提出部署日期或新的時間軸事件。可信程度列為 `speculative`，因為此網路依賴尚未證實的加速器架構，以及尚未明確定義的配套工業體系。
+在[2026-11-18 軌道加速網路討論](../../sessions/2026-11-18-orbital-acceleration-network.md)期間，已檢查[物理定律](../../canon/laws-tw.md)、[時間軸](../../canon/timeline-tw.md)與儲存庫中的相關詞彙。現有正史發展並無衝突。本構想未提出部署日期或新的時間軸事件。可信程度列為 `speculative`，因為此網路依賴尚未證實的加速器架構，以及尚未明確定義的配套工業體系。
 
 ### 動機
 
@@ -59,4 +59,4 @@ depends_on:
 - 哪些服務限制與復原程序能讓客貨運實際運作？
 - 每單位送達酬載的完整成本，是否低於其他競爭運輸方式？
 
-這些未解檢查記錄於[[open-questions-tw|待解問題]]。
+這些未解檢查記錄於[待解問題](../../open-questions-tw.md)。

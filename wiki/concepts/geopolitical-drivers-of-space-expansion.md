@@ -5,8 +5,8 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws]]"
-  - "[[wiki/society/state-funded-space-industry]]"
+  - "[canon/laws](../../canon/laws.md)"
+  - "[wiki/society/state-funded-space-industry](../society/state-funded-space-industry.md)"
 ---
 
 # Geopolitical drivers of space expansion
@@ -19,7 +19,7 @@ Geopolitical competition can motivate governments to fund independent space capa
 
 ### Scope: an optional motive within `state-funded-expansion`
 
-The branch remains defined in [[wiki/society/state-funded-space-industry]]. This entry develops an optional geopolitical motive within it, rather than introducing a separate branch or making rivalry necessary for all public space spending.
+The branch remains defined in [wiki/society/state-funded-space-industry](../society/state-funded-space-industry.md). This entry develops an optional geopolitical motive within it, rather than introducing a separate branch or making rivalry necessary for all public space spending.
 
 - **Additional assumption:** governments value independent access, supply security, technical leadership, or influence over international cooperation enough to sustain relevant purchases. Perceived dependence on a competitor motivates spending; an actual future monopoly is not assumed.
 - **Divergence:** investment begins before private demand alone justifies it, because losing access or influence carries political costs for the payer.
@@ -35,7 +35,7 @@ The branch remains defined in [[wiki/society/state-funded-space-industry]]. This
 3. If the resulting transport, utilities, communications, or maintenance services are accessible and compatible with other missions, later customers may avoid building a complete support system themselves. Their total costs can fall, but greater traffic does not guarantee lower prices or profitable operation.
 4. Further customers appear only if their own activities justify purchasing those services. Permanent residents require an additional case for long stays, health, household income, rights, and family life.
 
-The procurement and access arrangements belong in [[wiki/society/state-funded-space-industry]]. Lunar applications are compared in [[wiki/concepts/lunar-base-development]]. This mechanism can operate while Earth remains habitable and terrestrial resources remain available.
+The procurement and access arrangements belong in [wiki/society/state-funded-space-industry](../society/state-funded-space-industry.md). Lunar applications are compared in [wiki/concepts/lunar-base-development](./lunar-base-development.md). This mechanism can operate while Earth remains habitable and terrestrial resources remain available.
 
 ### Different meanings of competition
 
@@ -61,16 +61,16 @@ These are real-world references, not approved Spark events. Keep policy targets,
 
 ### Physics and consistency
 
-The causal mechanism concerns institutions and funding; it makes no new physical performance claim requiring a numerical calculation. It does not validate any transport cost, industrial capacity, or settlement design. Selected facilities must still close their mass, energy, thermal, maintenance, and supply budgets; long residence retains the health and support constraints discussed in [[wiki/concepts/space-expansion-motives]].
+The causal mechanism concerns institutions and funding; it makes no new physical performance claim requiring a numerical calculation. It does not validate any transport cost, industrial capacity, or settlement design. Selected facilities must still close their mass, energy, thermal, maintenance, and supply budgets; long residence retains the health and support constraints discussed in [wiki/concepts/space-expansion-motives](./space-expansion-motives.md).
 
-Checked [[canon/laws]], [[canon/timeline]], the parent branch, and related motive and lunar-development entries. No approved future geopolitical outcome or migration schedule constrains this extension. All new scenario claims remain draft; no timeline event or retcon is proposed. Discussion and recording are preserved in [[sessions/2026-11-19-geopolitical-drivers-of-space-expansion]].
+Checked [canon/laws](../../canon/laws.md), [canon/timeline](../../canon/timeline.md), the parent branch, and related motive and lunar-development entries. No approved future geopolitical outcome or migration schedule constrains this extension. All new scenario claims remain draft; no timeline event or retcon is proposed. Discussion and recording are preserved in [sessions/2026-11-19-geopolitical-drivers-of-space-expansion](../../sessions/2026-11-19-geopolitical-drivers-of-space-expansion.md).
 
 ## Consequences
 
 - Competition can help pay the initial cost of capabilities that later users share. Government demand remains a valid continuing use even if a broad private market never appears.
 - Restricted access, incompatible systems, duplicated facilities, or supplier control can prevent later users from benefiting. Commercial opening is a condition, not an automatic result of public spending.
 - Rivalry may also reduce cooperation, redirect budgets toward counterspace systems, or increase disruption and operating costs. More competition does not imply more settlement.
-- Budget withdrawal, continued subsidy, successful robotic industry, rotating research outposts, and eventual residential communities remain different possible outcomes. The settlement extension needs the additional motives and arrangements in [[wiki/concepts/space-expansion-motives]] and [[wiki/society/migration-contracts-and-resident-rights]].
+- Budget withdrawal, continued subsidy, successful robotic industry, rotating research outposts, and eventual residential communities remain different possible outcomes. The settlement extension needs the additional motives and arrangements in [wiki/concepts/space-expansion-motives](./space-expansion-motives.md) and [wiki/society/migration-contracts-and-resident-rights](../society/migration-contracts-and-resident-rights.md).
 
 ## Open questions
 
@@ -78,4 +78,4 @@ Checked [[canon/laws]], [[canon/timeline]], the parent branch, and related motiv
 - Which access, compatibility, pricing, capacity, and customer conditions let later users share facilities rather than duplicate them?
 - For a chosen settlement extension, which tasks justify long residence over remote operation or rotation, and who funds household services after the first sponsor withdraws?
 
-These extend existing checks in [[open-questions]]; alternative outcomes are retained here rather than treated as questions requiring a single chosen future.
+These extend existing checks in [open-questions](../../open-questions.md); alternative outcomes are retained here rather than treated as questions requiring a single chosen future.

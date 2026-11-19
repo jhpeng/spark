@@ -5,7 +5,7 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws-tw]]"
+  - "[canon/laws-tw](../../canon/laws-tw.md)"
 ---
 
 # AI 帶動的工業需求
@@ -22,9 +22,9 @@ AI 可能降低設計、研究、協作與部分實體操作的成本，讓更�
 - **假設：** AI 帶來有用且負擔得起的改善；客戶或公共採購者能支付更多服務與實體成果；生產與機器人對預定任務達到足夠可靠程度。資源需求若要持續成長，新增活動必須超過效率、共享、替代與回收帶來的節省。
 - **分歧：** 可生產的計畫與訂單累積速度，超過部分能源、設備或材料供應鏈的擴充速度。企業投資供應保障，並可能在地外產能勝過可行替代方案時提供資金。
 - **影響：** 長期電力與製造合約更有價值；部分企業整合上游供應。機器人可能降低太空操作的人力負擔，也讓成功產業仍以無人設施為主。漲價、需求飽和、技術失敗或更好的地球方案，都可能中斷擴張。
-- **依賴：** [[canon/laws-tw]]、明確付費用途、可信的自動化，以及經驗證的能源／材料／運輸收支。[[wiki-tw/tech/orbital-data-centers]] 是可選途徑之一。不自動繼承 [[wiki-tw/concepts/earth-development-limits]] 或 [[wiki-tw/concepts/climate-adaptation-pressure]]；也不需要先前提出的軌道加速器。
+- **依賴：** [canon/laws-tw](../../canon/laws-tw.md)、明確付費用途、可信的自動化，以及經驗證的能源／材料／運輸收支。[wiki-tw/tech/orbital-data-centers](../tech/orbital-data-centers.md) 是可選途徑之一。不自動繼承 [wiki-tw/concepts/earth-development-limits](./earth-development-limits.md) 或 [wiki-tw/concepts/climate-adaptation-pressure](./climate-adaptation-pressure.md)；也不需要先前提出的軌道加速器。
 
-[[wiki-tw/concepts/space-expansion-motives]] 定義的替代分支 `earth-centered-development`，在上述條件不成立時，保留強大 AI 與主要位於地球的工業。這是可行的未來，不是現在必須選出唯一答案的問題。
+[wiki-tw/concepts/space-expansion-motives](./space-expansion-motives.md) 定義的替代分支 `earth-centered-development`，在上述條件不成立時，保留強大 AI 與主要位於地球的工業。這是可行的未來，不是現在必須選出唯一答案的問題。
 
 ### 最終需求可能從哪裡來
 
@@ -62,7 +62,7 @@ AI 可能同時增加需求、降低部分自主施工與維修的成本，但�
 - **持續服務：** 一億戶家庭每天購買兩小時，產生**每天兩億服務小時**。這衡量人們可能重視的產出，不是所需機器人數或集中運算量。將時數轉成硬體需求之前，必須指定共享、使用率、任務能力與價格。
 - **成長中的材料存量：** 單位設備的材料用量不變時，讓運轉設備含有的金屬從 100 單位增至 130 單位，需要**額外 30 單位**。回收退役設備可降低替換設備所需的原生材料需求，但仍在原設備運作的金屬不能同時成為擴張存量。此例不預設必然浪費、技術固定或沒有庫存。
 
-實體產出受供應的能源與材料限制；運轉設備也必須依 [[canon/laws-tw]] 排出廢熱。此處尚未確立部署規模、發射質量或完整工業能源收支。可選的軌道運算途徑另於 [[wiki-tw/tech/orbital-data-centers]] 檢查。
+實體產出受供應的能源與材料限制；運轉設備也必須依 [canon/laws-tw](../../canon/laws-tw.md) 排出廢熱。此處尚未確立部署規模、發射質量或完整工業能源收支。可選的軌道運算途徑另於 [wiki-tw/tech/orbital-data-centers](../tech/orbital-data-centers.md) 檢查。
 
 ### 證據與限制
 
@@ -76,7 +76,7 @@ WHO 估計超過 25 億人需要至少一種輔助產品，包括眼鏡與助聽
 
 ### 一致性與動機
 
-已檢查 [[canon/laws-tw]]、[[canon/timeline-tw]] 及 repo 相關詞彙。沒有已批准的 AI 採用軌跡、資源短缺或太空產業日期與此條件式分支衝突。[[wiki-tw/tech/orbital-transportation-network]] 仍是需求未證實的草案，不預設可用。本次討論記錄於 [[sessions/2026-11-19-drivers-of-space-expansion]]。
+已檢查 [canon/laws-tw](../../canon/laws-tw.md)、[canon/timeline-tw](../../canon/timeline-tw.md) 及 repo 相關詞彙。沒有已批准的 AI 採用軌跡、資源短缺或太空產業日期與此條件式分支衝突。[wiki-tw/tech/orbital-transportation-network](../tech/orbital-transportation-network.md) 仍是需求未證實的草案，不預設可用。本次討論記錄於 [sessions/2026-11-19-drivers-of-space-expansion](../../sessions/2026-11-19-drivers-of-space-expansion.md)。
 
 家庭、企業與公共採購者為最終成果付款；企業與投資者因預期這些收入而出資建設產能。技術可行、家庭需要、願意付費與投資報酬是不同主張。效率、飽和、不平等、替代、共享服務與地球產能擴充，都可能在不違反物理的情況下削弱需求論證。
 
@@ -85,7 +85,7 @@ WHO 估計超過 25 億人需要至少一種輔助產品，包括眼鏡與助聽
 - 企業可能先爭取長期電力、材料與製造能力，再擴大客戶服務。
 - 便宜的設計可以與昂貴的實體執行、漫長交貨排程同時存在。
 - 更強的 AI 可以支持更多資源使用，也可以提高效率；結果取決於條件。
-- 即使地外產業很大，也可能只需少量永久居民；定居仍是 [[wiki-tw/concepts/space-expansion-motives]] 中個別的動機與可行性問題。
+- 即使地外產業很大，也可能只需少量永久居民；定居仍是 [wiki-tw/concepts/space-expansion-motives](./space-expansion-motives.md) 中個別的動機與可行性問題。
 
 ## 待解問題
 
@@ -95,4 +95,4 @@ WHO 估計超過 25 億人需要至少一種輔助產品，包括眼鏡與助聽
 - 實體 AI 對選定任務能提供何種可靠性、維修與安全能力，尤其是在太空？
 - 哪一種最初地外產品或服務，在包含建造、運輸、融資、替換與處置後，仍具有完整成本與環境優勢？
 
-未解檢查追蹤於 [[open-questions-tw]]。
+未解檢查追蹤於 [open-questions-tw](../../open-questions-tw.md)。

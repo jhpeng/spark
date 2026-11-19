@@ -5,15 +5,15 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws]]"
-  - "[[wiki/tech/modular-orbital-accelerator]]"
+  - "[canon/laws](../../canon/laws.md)"
+  - "[wiki/tech/modular-orbital-accelerator](./modular-orbital-accelerator.md)"
 ---
 
 # Orbital transportation network
 
 ## Summary
 
-A proposed network connects resource extraction, processing, depots, transport vehicles, and reusable acceleration services. Its distinctive component is the [[wiki/tech/modular-orbital-accelerator]], which supplies velocity changes to passenger and cargo spacecraft while leaving much of the power and recovery machinery at the station.
+A proposed network connects resource extraction, processing, depots, transport vehicles, and reusable acceleration services. Its distinctive component is the [wiki/tech/modular-orbital-accelerator](./modular-orbital-accelerator.md), which supplies velocity changes to passenger and cargo spacecraft while leaving much of the power and recovery machinery at the station.
 
 ## Reasoning
 
@@ -31,7 +31,7 @@ The commercial hypothesis is a service priced around spacecraft mass, required t
 
 ### Physics
 
-The station estimates in [[wiki/tech/modular-orbital-accelerator]] give 5 TJ of ship kinetic energy for a 100-tonne craft boosted from rest to 10 km/s in the station's initial frame. As a bookkeeping example, one such departure per day corresponds to 5 × 10¹² / 86,400 ≈ 58 MW of average useful power, despite gigawatt power during acceleration. Energy storage could separate generation rate from launch rate; its mass and feasibility remain unresolved. This uses P_average = E/t. [OpenStax: power](https://openstax.org/books/university-physics-volume-1/pages/7-4-power)
+The station estimates in [wiki/tech/modular-orbital-accelerator](./modular-orbital-accelerator.md) give 5 TJ of ship kinetic energy for a 100-tonne craft boosted from rest to 10 km/s in the station's initial frame. As a bookkeeping example, one such departure per day corresponds to 5 × 10¹² / 86,400 ≈ 58 MW of average useful power, despite gigawatt power during acceleration. Energy storage could separate generation rate from launch rate; its mass and feasibility remain unresolved. This uses P_average = E/t. [OpenStax: power](https://openstax.org/books/university-physics-volume-1/pages/7-4-power)
 
 At the illustrative 90% conversion efficiency, electrical energy per departure is about 5.56 TJ = 1.54 million kWh. If electricity costs p currency units/kWh, that portion of a departure costs 1.54 million × p, before construction, maintenance, recovery, and financing. No electricity price or profitability is assumed.
 
@@ -39,7 +39,7 @@ The network does not eliminate reaction mass or momentum exchange: station modul
 
 ### Consistency
 
-Checked [[canon/laws]], [[canon/timeline]], and related repository terms during [[sessions/2026-11-18-orbital-acceleration-network]]. No conflicting canon development exists. No deployment date or new timeline event is proposed. The grounding is speculative because the network depends on an unproven accelerator architecture and an unspecified supporting industrial system.
+Checked [canon/laws](../../canon/laws.md), [canon/timeline](../../canon/timeline.md), and related repository terms during [sessions/2026-11-18-orbital-acceleration-network](../../sessions/2026-11-18-orbital-acceleration-network.md). No conflicting canon development exists. No deployment date or new timeline event is proposed. The grounding is speculative because the network depends on an unproven accelerator architecture and an unspecified supporting industrial system.
 
 ### Motive
 
@@ -59,4 +59,4 @@ The proposed economic benefit is reuse of heavy equipment across many journeys. 
 - What service limits and recovery procedures make passenger and cargo operations practical?
 - Does the full cost per delivered payload beat competing transport methods?
 
-These unresolved checks are tracked in [[open-questions]].
+These unresolved checks are tracked in [open-questions](../../open-questions.md).

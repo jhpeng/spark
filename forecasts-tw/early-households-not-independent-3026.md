@@ -14,7 +14,7 @@ lifecycle: "active"
 
 # 3026 年早期家戶路徑未達月球自主維持門檻
 
-根節點：[[forecasts-tw/index]] · 父節點：[[forecasts-tw/local-supply-households-2126]]
+根節點：[forecasts-tw/index](./index.md) · 父節點：[forecasts-tw/local-supply-households-2126](./local-supply-households-2126.md)
 
 這是尚未展開的葉節點，不表示之後擴張的機率為零；月球以外的路徑亦未被排除。
 
@@ -28,10 +28,10 @@ lifecycle: "active"
 
 **條件機率：55%；信心：極低。** 55% 的補集，略偏向至少一項必要依賴持續存在，或未能維持所要求的檢驗。長期居住不要求能自行延續的工業體系，經濟分工也可能仍有吸引力。此估計極易修訂，各種原因尚未分別量化。
 
-這是根據 [[forecasts-tw/index]] 的選擇性證據與 repo 推論所作的主觀起始估計，未經頻率校準；估計條件包括完整前置路徑，而非只看直接父節點。
+這是根據 [forecasts-tw/index](./index.md) 的選擇性證據與 repo 推論所作的主觀起始估計，未經頻率校準；估計條件包括完整前置路徑，而非只看直接父節點。
 
 ## 驗證與修訂訊號
 
-確認實際未達的要求：地球運補、必要遠端操作、替換能力或生物延續。[[wiki-tw/society/community-led-settlement]] 區分追求自主的動機與自主存續。追蹤製造與永久居住問題。若只是無法取得三十年紀錄，應維持 unresolved，不能自動當成此結果的證據。
+確認實際未達的要求：地球運補、必要遠端操作、替換能力或生物延續。[wiki-tw/society/community-led-settlement](../wiki-tw/society/community-led-settlement.md) 區分追求自主的動機與自主存續。追蹤製造與永久居住問題。若只是無法取得三十年紀錄，應維持 unresolved，不能自動當成此結果的證據。
 
-來源與未決檢查依上方連結及 [[open-questions-tw]]。初次估計記錄於 [[sessions/2026-11-19-initial-forecast-tree]]。
+來源與未決檢查依上方連結及 [open-questions-tw](../open-questions-tw.md)。初次估計記錄於 [sessions/2026-11-19-initial-forecast-tree](../sessions/2026-11-19-initial-forecast-tree.md)。

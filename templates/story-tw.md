@@ -1,8 +1,9 @@
 ---
 title: <故事標題>
 era: <時代的英文 slug>
-setting: [[<地點的英文 slug>]]
-uses: [[<slug>]], [[<slug>]]
+setting: "[<地點名稱>](relative/path/to/place.md)"
+uses:
+  - "[<條目名稱>](relative/path/to/entry.md)"
 status: draft
 ---
 

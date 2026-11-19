@@ -5,7 +5,7 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws]]"
+  - "[canon/laws](../../canon/laws.md)"
 ---
 
 # AI-driven industrial demand
@@ -22,9 +22,9 @@ AI could lower the cost of design, research, coordination, and some physical ope
 - **Assumptions:** AI produces useful, affordable improvements; customers or public purchasers can pay for more services and physical outcomes; production and robotics become reliable enough for the proposed tasks. For sustained resource growth, additional activity exceeds savings from efficiency, sharing, substitution, and recycling.
 - **Divergence:** Productive plans and orders accumulate faster than some energy, equipment, or material supply chains can expand. Firms invest in supply assurance and may finance off-world capacity where it beats available alternatives.
 - **Consequences:** Long-term power and manufacturing contracts become valuable; some firms integrate into upstream supply. Robotics can lower the labor burden of space operations, while also leaving successful industries largely uninhabited. Price increases, demand saturation, technical failure, or better terrestrial alternatives can interrupt expansion.
-- **Dependencies:** [[canon/laws]], specified paying applications, credible automation, and validated energy/material/transport budgets. [[wiki/tech/orbital-data-centers]] is one optional pathway. Neither [[wiki/concepts/earth-development-limits]] nor [[wiki/concepts/climate-adaptation-pressure]] is inherited automatically; the earlier orbital accelerator is not required.
+- **Dependencies:** [canon/laws](../../canon/laws.md), specified paying applications, credible automation, and validated energy/material/transport budgets. [wiki/tech/orbital-data-centers](../tech/orbital-data-centers.md) is one optional pathway. Neither [wiki/concepts/earth-development-limits](./earth-development-limits.md) nor [wiki/concepts/climate-adaptation-pressure](./climate-adaptation-pressure.md) is inherited automatically; the earlier orbital accelerator is not required.
 
-The alternative `earth-centered-development`, defined in [[wiki/concepts/space-expansion-motives]], retains strong AI with predominantly terrestrial industry when those conditions are not met. It is a viable future rather than a question requiring a single choice now.
+The alternative `earth-centered-development`, defined in [wiki/concepts/space-expansion-motives](./space-expansion-motives.md), retains strong AI with predominantly terrestrial industry when those conditions are not met. It is a viable future rather than a question requiring a single choice now.
 
 ### Where final demand could come from
 
@@ -62,7 +62,7 @@ All numbers in these examples are assumptions for accounting, not demographic, e
 - **Recurring services:** 100 million households purchasing 2 hours/day produce **200 million service-hours/day**. This measures an output people might value, not a required robot count or centralized compute load. Sharing, utilization, task capabilities, and price must be specified before converting hours into hardware demand.
 - **Growing material stock:** With unchanged material use per unit of equipment, increasing metal embodied in operating equipment from 100 to 130 units requires **30 additional units**. Recycling retired stock can reduce primary material demand for replacements, but metal still operating in the original equipment cannot simultaneously become the expansion stock. The example does not assume unavoidable waste, fixed technology, or the absence of inventories.
 
-Physical output is bounded by supplied energy and material, while operating equipment must reject waste heat under [[canon/laws]]. No deployment scale, launch mass, or end-to-end industrial energy budget is established. The optional orbital computing pathway has its own checks in [[wiki/tech/orbital-data-centers]].
+Physical output is bounded by supplied energy and material, while operating equipment must reject waste heat under [canon/laws](../../canon/laws.md). No deployment scale, launch mass, or end-to-end industrial energy budget is established. The optional orbital computing pathway has its own checks in [wiki/tech/orbital-data-centers](../tech/orbital-data-centers.md).
 
 ### Evidence and limits
 
@@ -76,7 +76,7 @@ WHO estimates that over 2.5 billion people need one or more assistive products, 
 
 ### Consistency and motive
 
-Checked [[canon/laws]], [[canon/timeline]], and related repository terms. No approved AI adoption trajectory, resource shortage, or space-industry date conflicts with this conditional branch. [[wiki/tech/orbital-transportation-network]] remains a draft with unproven demand and is not assumed available. The discussion is recorded in [[sessions/2026-11-19-drivers-of-space-expansion]].
+Checked [canon/laws](../../canon/laws.md), [canon/timeline](../../canon/timeline.md), and related repository terms. No approved AI adoption trajectory, resource shortage, or space-industry date conflicts with this conditional branch. [wiki/tech/orbital-transportation-network](../tech/orbital-transportation-network.md) remains a draft with unproven demand and is not assumed available. The discussion is recorded in [sessions/2026-11-19-drivers-of-space-expansion](../../sessions/2026-11-19-drivers-of-space-expansion.md).
 
 Households, businesses, and public purchasers fund final outcomes; firms and investors finance capacity in expectation of those payments. Technical feasibility, household need, willingness to pay, and investor returns are separate claims. Efficiency, saturation, inequality, substitution, shared services, and terrestrial expansion can all weaken the demand case without violating physics.
 
@@ -85,7 +85,7 @@ Households, businesses, and public purchasers fund final outcomes; firms and inv
 - Firms may seek long-term power, materials, and manufacturing access before expanding customer services.
 - Cheap design can coexist with expensive physical execution and long delivery queues.
 - Better AI can support either more resource use or greater efficiency; the balance is conditional.
-- Even a large off-world industry may require few permanent human residents; settlement remains a separate motive and feasibility problem in [[wiki/concepts/space-expansion-motives]].
+- Even a large off-world industry may require few permanent human residents; settlement remains a separate motive and feasibility problem in [wiki/concepts/space-expansion-motives](./space-expansion-motives.md).
 
 ## Open questions
 
@@ -95,4 +95,4 @@ Households, businesses, and public purchasers fund final outcomes; firms and inv
 - What reliability, maintenance, and safety can physical AI deliver for the chosen tasks, especially in space?
 - Which first off-world product or service has a complete cost and environmental advantage, including construction, transport, financing, replacements, and disposal?
 
-Unresolved checks are tracked in [[open-questions]].
+Unresolved checks are tracked in [open-questions](../../open-questions.md).

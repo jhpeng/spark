@@ -5,7 +5,7 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws]]"
+  - "[canon/laws](../../canon/laws.md)"
 ---
 
 # Early lunar resource utilization
@@ -36,7 +36,7 @@ Early lunar resource utilization comprises candidate excavation, hauling, extrac
 
 This is a set of candidates, not a universal production order. Earthworks can precede chemical processing. A site with poor ice access might import water and hydrogen-bearing fuel while testing oxygen extraction from regolith. A polar location must be selected for the combined terrain, lighting, communications, resource, and transport conditions; habitation and power equipment need not sit inside the shadowed extraction area.
 
-The initial plant could be a small collection of processing modules operated mostly by machines and serviced by rotating crews. Manufacturing precision electronics locally is not required. Supply to other orbital destinations and exports to Earth's surface require separate transport cases; see [[wiki/concepts/lunar-base-development]] and [[wiki/concepts/lunar-earth-cargo]].
+The initial plant could be a small collection of processing modules operated mostly by machines and serviced by rotating crews. Manufacturing precision electronics locally is not required. Supply to other orbital destinations and exports to Earth's surface require separate transport cases; see [wiki/concepts/lunar-base-development](../concepts/lunar-base-development.md) and [wiki/concepts/lunar-earth-cargo](../concepts/lunar-earth-cargo.md).
 
 ## Validation
 
@@ -58,9 +58,9 @@ At an assumed **1%** water concentration with the same recovery, the requirement
 
 ### Consistency and adoption
 
-Checked [[canon/laws]], [[canon/timeline]], and related resource and transport entries during [[sessions/2026-11-19-lunar-bases-and-cargo]]. No approved mining sequence, industrial site, or deployment date constrains this branch. [[wiki/tech/orbital-transportation-network]] remains an optional draft, not existing infrastructure.
+Checked [canon/laws](../../canon/laws.md), [canon/timeline](../../canon/timeline.md), and related resource and transport entries during [sessions/2026-11-19-lunar-bases-and-cargo](../../sessions/2026-11-19-lunar-bases-and-cargo.md). No approved mining sequence, industrial site, or deployment date constrains this branch. [wiki/tech/orbital-transportation-network](./orbital-transportation-network.md) remains an optional draft, not existing infrastructure.
 
-The motive is to satisfy independently funded activities or a specified resilience objective. A mine cannot justify itself solely by supplying a transport company whose only customer is that mine. Full equipment mass, power, heat rejection, radiation protection, maintenance, delivery costs, and contract duration are unresolved. The imported-mass illustration in [[wiki/concepts/lunar-base-development]] shows one screening calculation, not financial payback.
+The motive is to satisfy independently funded activities or a specified resilience objective. A mine cannot justify itself solely by supplying a transport company whose only customer is that mine. Full equipment mass, power, heat rejection, radiation protection, maintenance, delivery costs, and contract duration are unresolved. The imported-mass illustration in [wiki/concepts/lunar-base-development](../concepts/lunar-base-development.md) shows one screening calculation, not financial payback.
 
 ## Consequences
 
@@ -75,4 +75,4 @@ The motive is to satisfy independently funded activities or a specified resilien
 - What recovery, power, thermal control, equipment lifetime, consumables, and human intervention can the selected process achieve?
 - Which layout meets lighting, communications, transport, dust, radiation, and maintenance needs without assuming unverified shielding or continuously available solar power?
 
-These checks are tracked in [[open-questions]].
+These checks are tracked in [open-questions](../../open-questions.md).

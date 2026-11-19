@@ -5,7 +5,7 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws]]"
+  - "[canon/laws](../../canon/laws.md)"
 ---
 
 # Lunar–Earth cargo systems
@@ -18,7 +18,7 @@ A lunar–Earth cargo system combines surface departure, transfer navigation, an
 
 ### Scope
 
-These are candidate technologies for `lunar-earth-export`, defined in [[wiki/concepts/lunar-earth-cargo]], which owns export demand and the staged development path. No architecture, export commodity, deployment date, or low-cost service is established here. Small returns are demonstrated; the complete industrial freight service remains `speculative`. Neither the military branch nor the free-flying orbital accelerator is inherited.
+These are candidate technologies for `lunar-earth-export`, defined in [wiki/concepts/lunar-earth-cargo](../concepts/lunar-earth-cargo.md), which owns export demand and the staged development path. No architecture, export commodity, deployment date, or low-cost service is established here. Small returns are demonstrated; the complete industrial freight service remains `speculative`. Neither the military branch nor the free-flying orbital accelerator is inherited.
 
 ### The full service and launcher alternatives
 
@@ -28,7 +28,7 @@ These are candidate technologies for `lunar-earth-export`, defined in [[wiki/con
 | Transfer toward Earth | Tracking, navigation, and any required corrections | Cargo carrier, control hardware, operations, transit time, and reliability. No orbit or transit duration is selected here. |
 | Delivery to the surface | Controlled reentry, deceleration, protection, landing, and recovery | Thermal protection, load tolerance, recovery operations, losses, refurbishment, and any return or replacement of transport hardware. |
 
-A fixed lunar electromagnetic launcher could retain heavy power and acceleration equipment at the site and reuse it. Recoil is transferred through its foundation to the Moon, unlike the free-flying modules in [[wiki/tech/modular-orbital-accelerator]]. Momentum remains conserved. The distinction removes the free-module orbit-recovery problem; it does not validate lunar construction, structural loads, alignment, dust resistance, wear, heat rejection, or payload acceleration tolerance.
+A fixed lunar electromagnetic launcher could retain heavy power and acceleration equipment at the site and reuse it. Recoil is transferred through its foundation to the Moon, unlike the free-flying modules in [wiki/tech/modular-orbital-accelerator](./modular-orbital-accelerator.md). Momentum remains conserved. The distinction removes the free-module orbit-recovery problem; it does not validate lunar construction, structural loads, alignment, dust resistance, wear, heat rejection, or payload acceleration tolerance.
 
 At low traffic, rockets may avoid the fixed cost of a dedicated launcher. Greater, sustained throughput could favor more infrastructure, but the crossover remains unknown. Electromagnetic departure does not eliminate onboard guidance or Earth-arrival hardware. A direct return and a transfer involving an orbital service are alternatives to compare, not selected architectures. An advantage at one orbital destination does not establish an advantage delivering to low Earth orbit or Earth's surface.
 
@@ -58,7 +58,7 @@ This is kinetic energy per kilogram of the entering vehicle, not per kilogram of
 
 ## Consequences
 
-Departure, transfer, and arrival must be assessed as one service. A surface launcher's potential reduction in transported equipment does not replace navigation, cargo protection, or ground recovery; product form, tolerable loads, and traffic also affect architecture. Payers and investment scale are examined in [[wiki/concepts/lunar-earth-cargo]].
+Departure, transfer, and arrival must be assessed as one service. A surface launcher's potential reduction in transported equipment does not replace navigation, cargo protection, or ground recovery; product form, tolerable loads, and traffic also affect architecture. Payers and investment scale are examined in [wiki/concepts/lunar-earth-cargo](../concepts/lunar-earth-cargo.md).
 
 ## Open questions
 
@@ -66,4 +66,4 @@ Departure, transfer, and arrival must be assessed as one service. A surface laun
 - What are the complete trajectory, trip duration, power and thermal budgets, cargo survival rate, and equipment lifetime?
 - At what traffic and equipment life would fixed electromagnetic infrastructure improve on rocket service after construction, power, storage, thermal control, maintenance, and arrival costs?
 
-These checks are tracked in [[open-questions]]. The proposal and existing calculations originate in [[sessions/2026-11-19-lunar-bases-and-cargo]].
+These checks are tracked in [open-questions](../../open-questions.md). The proposal and existing calculations originate in [sessions/2026-11-19-lunar-bases-and-cargo](../../sessions/2026-11-19-lunar-bases-and-cargo.md).

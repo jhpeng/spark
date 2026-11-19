@@ -14,9 +14,9 @@ lifecycle: "active"
 
 # Local-supply history without household milestone in 2126
 
-Root: [[forecasts/index]] · Parent: [[forecasts/local-consumables-2076]]
+Root: [forecasts/index](./index.md) · Parent: [forecasts/local-consumables-2076](./local-consumables-2076.md)
 
-Children: [[forecasts/later-households-independent-3026]] · [[forecasts/later-households-not-independent-3026]]
+Children: [forecasts/later-households-independent-3026](./later-households-independent-3026.md) · [forecasts/later-households-not-independent-3026](./later-households-not-independent-3026.md)
 
 ## Scenario and resolution
 
@@ -28,14 +28,14 @@ Evaluate on **2126-12-31** using the complete root criteria; inadequate evidence
 
 **Conditional probability: 60%; confidence: very low.** The 60% complement weights the separation between industrial usefulness and household preference. Automation can make operations productive with few residents, while health, expense, housing, rights, or loss of funding can prevent H. This is compatible with technical success rather than necessarily an industrial failure.
 
-This is an uncalibrated subjective starting estimate from the selective evidence in [[forecasts/index]] and the repository's reasoning, conditional on the full ancestral path, not just the immediate parent.
+This is an uncalibrated subjective starting estimate from the selective evidence in [forecasts/index](./index.md) and the repository's reasoning, conditional on the full ancestral path, not just the immediate parent.
 
 ## Validation and revision signals
 
-Check the tasks favoring residence over remote work, household retention, health capability, real disposable income, and continuity after sponsor withdrawal. [[wiki/concepts/ai-driven-industrial-demand]] makes automation a possible aid to output, not proof of migration; it is an optional mechanism here. Permanent-residence and manufacturing questions remain open.
+Check the tasks favoring residence over remote work, household retention, health capability, real disposable income, and continuity after sponsor withdrawal. [wiki/concepts/ai-driven-industrial-demand](../wiki/concepts/ai-driven-industrial-demand.md) makes automation a possible aid to output, not proof of migration; it is an optional mechanism here. Permanent-residence and manufacturing questions remain open.
 
 ## Next question
 
 At 3026-12-31, is **I** met after this missed household milestone? Later independence 20%, no qualifying independence 80%. There are nine further centuries for motives, technology, and residence to change.
 
-Sources and unresolved checks follow the links above and [[open-questions]]. Initial estimate recorded in [[sessions/2026-11-19-initial-forecast-tree]].
+Sources and unresolved checks follow the links above and [open-questions](../open-questions.md). Initial estimate recorded in [sessions/2026-11-19-initial-forecast-tree](../sessions/2026-11-19-initial-forecast-tree.md).

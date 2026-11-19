@@ -5,7 +5,7 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws-tw]]"
+  - "[canon/laws-tw](../../canon/laws-tw.md)"
 ---
 
 # 軌道資料中心
@@ -20,12 +20,12 @@ depends_on:
 
 以下物理收支適用於所有考慮此架構的情境；沒有任何分支自動假設它會部署。在下列條件式應用中，大規模部署都維持 `speculative`：
 
-- `ai-industrial-expansion`：[[wiki-tw/concepts/ai-driven-industrial-demand|AI 推動的工業需求]]中的客戶購買足夠的有效運算服務，使軌道投資在與地面及本地端替代方案比較後成立。
-- `earth-development-limits`：[[wiki-tw/concepts/earth-development-limits|地球開發上限]]限制新增地面環境負荷，同時明確允許符合條件的地外設施。政策必須計入地球端製造、發射、汰換與處置，不能只改變營運地址。
-- `climate-adaptation-pressure`：[[wiki-tw/concepts/climate-adaptation-pressure|氣候調適壓力]]中的需求可能包含運算服務，但調適需求本身不能證明軌道方案有優勢。
-- `state-funded-expansion`：[[wiki-tw/society/state-funded-space-industry|國家資助的太空工業]]中的公共採購可能支持初期服務或研究。持續補貼與獨立商業需求是不同的可能性。
+- `ai-industrial-expansion`：[AI 推動的工業需求](../concepts/ai-driven-industrial-demand.md)中的客戶購買足夠的有效運算服務，使軌道投資在與地面及本地端替代方案比較後成立。
+- `earth-development-limits`：[地球開發上限](../concepts/earth-development-limits.md)限制新增地面環境負荷，同時明確允許符合條件的地外設施。政策必須計入地球端製造、發射、汰換與處置，不能只改變營運地址。
+- `climate-adaptation-pressure`：[氣候調適壓力](../concepts/climate-adaptation-pressure.md)中的需求可能包含運算服務，但調適需求本身不能證明軌道方案有優勢。
+- `state-funded-expansion`：[國家資助的太空工業](../society/state-funded-space-industry.md)中的公共採購可能支持初期服務或研究。持續補貼與獨立商業需求是不同的可能性。
 
-這些應用是可選擇組合的情境，不是跨分支自動繼承的前提。如果地面效率、供應或消費改變消除了優勢，[[wiki-tw/concepts/space-expansion-motives|太空擴張動機]]所討論的 `earth-centered-development` 仍然成立。
+這些應用是可選擇組合的情境，不是跨分支自動繼承的前提。如果地面效率、供應或消費改變消除了優勢，[太空擴張動機](../concepts/space-expansion-motives.md)所討論的 `earth-centered-development` 仍然成立。
 
 ### 客戶與商業理由
 
@@ -59,7 +59,7 @@ Google 在 2025 年 11 月公布的 Project Suncatcher，研究以光通訊連�
 
 ### 一致性與環境核算
 
-在[[sessions/2026-11-19-drivers-of-space-expansion|2026-11-19 太空擴張動機討論]]期間，已檢查[[canon/laws-tw|物理定律]]、[[canon/timeline-tw|時間軸]]與儲存庫相關條目。能量守恆、輻射散熱、光速限制與軌道運輸成本都予以保留；沒有新增正史部署或日期。既有的[[wiki-tw/tech/orbital-transportation-network|軌道運輸網路]]與[[wiki-tw/tech/modular-orbital-accelerator|模組化軌道加速器]]仍是獨立的推測方案，不是必要基礎設施或已證實的降本來源。
+在[2026-11-19 太空擴張動機討論](../../sessions/2026-11-19-drivers-of-space-expansion.md)期間，已檢查[物理定律](../../canon/laws-tw.md)、[時間軸](../../canon/timeline-tw.md)與儲存庫相關條目。能量守恆、輻射散熱、光速限制與軌道運輸成本都予以保留；沒有新增正史部署或日期。既有的[軌道運輸網路](./orbital-transportation-network.md)與[模組化軌道加速器](./modular-orbital-accelerator.md)仍是獨立的推測方案，不是必要基礎設施或已證實的降本來源。
 
 把運作搬離地球，不會消除地球端排放或許可要求。例如美國的衛星規則包含軌道碎片與任務結束處置要求。主張環境效益的分支必須比較完整生命週期，並界定能源在哪裡使用、廢熱在哪裡排出。[FCC：衛星規則](https://docs.fcc.gov/public/attachments/FCC-25-69A1.pdf)
 
@@ -67,7 +67,7 @@ Google 在 2025 年 11 月公布的 Project Suncatcher，研究以光通訊連�
 
 - 如果完整成本有競爭力，持續需求可能支持運輸、組裝、維修與部分材料生產。
 - 大型無人設施可以與極少量人類人口並存。永久定居需要另外的動機與支持系統。
-- 早期業者可能累積客戶關係與操作經驗；競爭者、標準化或投資閒置也都可能發生。政策推動的競爭詳見[[wiki-tw/concepts/earth-development-limits|地球開發上限]]。
+- 早期業者可能累積客戶關係與操作經驗；競爭者、標準化或投資閒置也都可能發生。政策推動的競爭詳見[地球開發上限](../concepts/earth-development-limits.md)。
 - 地面效率、本地端推論、供電改善或需求減弱，都可能使運算主要留在地球。
 
 ## 待解問題
@@ -78,4 +78,4 @@ Google 在 2025 年 11 月公布的 Project Suncatcher，研究以光通訊連�
 - 在 `earth-development-limits` 中，完整生命週期的環境負荷是多少，又如何納入協議核算？
 - 哪些服務或材料能在當地供應並具有實際優勢，而不假設既有加速器方案已經可行？
 
-這些未解檢查記錄於[[open-questions-tw|待解問題]]。
+這些未解檢查記錄於[待解問題](../../open-questions-tw.md)。

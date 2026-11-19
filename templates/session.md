@@ -15,7 +15,7 @@ topic: <topic>
 
 ## Entries created or changed
 
-- [[<slug>]] — draft, <new | updated>
+- [<entry name>](relative/path/to/entry.md) — draft, <new | updated>
 
 ## Open questions raised
 

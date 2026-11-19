@@ -5,7 +5,7 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws-tw]]"
+  - "[canon/laws-tw](../../canon/laws-tw.md)"
 ---
 
 # 月球早期資源利用
@@ -36,7 +36,7 @@ depends_on:
 
 這些是候選項目，不是普遍必經的生產順序。土木作業可以早於化學加工；難以取得水冰的地點，可以進口水與含氫燃料，同時試驗月壤提氧。極區選址須綜合地形、日照、通訊、資源與運輸條件；居住及供電設備不必放在陰影中的開採區。
 
-初期工廠可能由少數加工模組組成，以機器操作為主，由輪班人員維護，不需要先實現在地製造精密電子設備。供應其他軌道目的地及出口地球地面，須各自建立運輸理由，見[[wiki-tw/concepts/lunar-base-development|月球基地的條件式發展]]及[[wiki-tw/concepts/lunar-earth-cargo|月地貨運與出口生產]]。
+初期工廠可能由少數加工模組組成，以機器操作為主，由輪班人員維護，不需要先實現在地製造精密電子設備。供應其他軌道目的地及出口地球地面，須各自建立運輸理由，見[月球基地的條件式發展](../concepts/lunar-base-development.md)及[月地貨運與出口生產](../concepts/lunar-earth-cargo.md)。
 
 ## 驗證
 
@@ -58,9 +58,9 @@ NASA 月面技術工作包含挖掘、建設、供電、月塵處理與資源利
 
 ### 一致性與採用條件
 
-於[[sessions/2026-11-19-lunar-bases-and-cargo]]檢查[[canon/laws-tw]]、[[canon/timeline-tw]]及相關資源與運輸條目。目前沒有已批准的採礦順序、工業地點或部署日期約束此分支。[[wiki-tw/tech/orbital-transportation-network|軌道運輸網路]]仍是可選草案，不是既有設施。
+於[sessions/2026-11-19-lunar-bases-and-cargo](../../sessions/2026-11-19-lunar-bases-and-cargo.md)檢查[canon/laws-tw](../../canon/laws-tw.md)、[canon/timeline-tw](../../canon/timeline-tw.md)及相關資源與運輸條目。目前沒有已批准的採礦順序、工業地點或部署日期約束此分支。[軌道運輸網路](./orbital-transportation-network.md)仍是可選草案，不是既有設施。
 
-動機是滿足具有獨立資金的活動或明確的供應韌性目標。礦場不能只靠供應一家唯一客戶就是該礦場的運輸公司來證明自身價值。完整設備質量、供電、散熱、輻射防護、維修、交貨成本與合約期限仍未解。[[wiki-tw/concepts/lunar-base-development|月球基地的條件式發展]]中的運入質量示例只是一項初步檢查，不是財務回收期。
+動機是滿足具有獨立資金的活動或明確的供應韌性目標。礦場不能只靠供應一家唯一客戶就是該礦場的運輸公司來證明自身價值。完整設備質量、供電、散熱、輻射防護、維修、交貨成本與合約期限仍未解。[月球基地的條件式發展](../concepts/lunar-base-development.md)中的運入質量示例只是一項初步檢查，不是財務回收期。
 
 ## 影響
 
@@ -75,4 +75,4 @@ NASA 月面技術工作包含挖掘、建設、供電、月塵處理與資源利
 - 所選製程可以達到何種回收率、供電、熱控制、設備壽命、耗材與人工介入需求？
 - 哪種配置能滿足日照、通訊、運輸、月塵、輻射與維修要求，而不假設尚未驗證的屏蔽或持續太陽能供應？
 
-這些檢查追蹤於[[open-questions-tw]]。
+這些檢查追蹤於[open-questions-tw](../../open-questions-tw.md)。

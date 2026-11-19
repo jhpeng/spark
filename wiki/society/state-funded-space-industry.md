@@ -5,7 +5,7 @@ era: null
 status: draft
 grounding: speculative
 depends_on:
-  - "[[canon/laws]]"
+  - "[canon/laws](../../canon/laws.md)"
 ---
 
 # State-funded space industry
@@ -18,20 +18,20 @@ State-funded space industry is an arrangement in which public agencies purchase 
 
 ### Shared scope
 
-Only known physics and explicit branch dependencies are shared. Exploration, operating an industrial site, and settling families require different justifications, as discussed in [[wiki/concepts/space-expansion-motives]]. Public expenditure can pay for scientific or strategic value without proving commercial profitability. Neither branch automatically inherits AI demand, a global environmental agreement, or the existing accelerator proposal.
+Only known physics and explicit branch dependencies are shared. Exploration, operating an industrial site, and settling families require different justifications, as discussed in [wiki/concepts/space-expansion-motives](../concepts/space-expansion-motives.md). Public expenditure can pay for scientific or strategic value without proving commercial profitability. Neither branch automatically inherits AI demand, a global environmental agreement, or the existing accelerator proposal.
 
 ### Branch `state-funded-expansion`
 
 - **Assumptions:** governments sustain budgets or contracts for scientific access, transport, communications, research facilities, or dependable industrial services. Suppliers can meet the contracted service requirements.
 - **Divergence:** public demand bridges the period when private customers alone would not fund the service. Governments may also value alternatives to dependence on a foreign or sole provider.
 - **Actors and payers:** public agencies purchase services with public funds; companies and investors supply facilities and take contract and operating risks. Independent customers may follow, but are not assumed.
-- **Dependencies:** existing space engineering and credible incremental development for the selected service. This branch does not require mature lunar mining or any weapon. Combining it with [[wiki/concepts/earth-development-limits]] or [[wiki/concepts/ai-driven-industrial-demand]] requires those branches' assumptions explicitly.
+- **Dependencies:** existing space engineering and credible incremental development for the selected service. This branch does not require mature lunar mining or any weapon. Combining it with [wiki/concepts/earth-development-limits](../concepts/earth-development-limits.md) or [wiki/concepts/ai-driven-industrial-demand](../concepts/ai-driven-industrial-demand.md) requires those branches' assumptions explicitly.
 - **Consequences:** early contracts could support logistics, repairs, and further suppliers. A withdrawn budget, cheaper remote operation, or unsuccessful service can shrink the industry. Persistent government procurement is an alternative to a self-sustaining commercial market.
 - **Grounding:** `plausible` for incremental publicly purchased space services with demonstrated precedents; more ambitious optional facilities retain their own weaker grounding. This rating does not predict political commitment.
 
 ### Making early services usable by later customers
 
-Within `state-funded-expansion`, [[wiki/concepts/geopolitical-drivers-of-space-expansion]] develops rivalry over independent access and influence as an optional reason for sustained purchases. This does not require environmental development limits or lunar military installations.
+Within `state-funded-expansion`, [wiki/concepts/geopolitical-drivers-of-space-expansion](../concepts/geopolitical-drivers-of-space-expansion.md) develops rivalry over independent access and influence as an optional reason for sustained purchases. This does not require environmental development limits or lunar military installations.
 
 For the proposed transition from public demand to shared services, specify contract duration and cancellation terms, who owns and maintains facilities, who may purchase capacity, compatibility with other users, and how prices and service priorities are set. Security restrictions or exclusive capacity reservations may limit wider use. A later customer needs a funded purpose and dependable access; existing equipment alone supplies neither. If the first sponsor withdraws, continued public support, replacement customers, a reduced service, or closure must each have an explicit funding and operating case. These are design conditions, not claims that current programs already provide them.
 
@@ -64,12 +64,12 @@ Under `lunar-military-industrialization`, institutional change or deliberate non
 
 ### Consistency
 
-During [[sessions/2026-11-19-drivers-of-space-expansion]], checked [[canon/laws]], [[canon/timeline]], and repository references to lunar, military, and orbital development. No approved state policy or lunar industry constrains these hypotheses, and no canon event is added. [[wiki/tech/orbital-transportation-network]] remains a separately scoped draft with unresolved economics, not an assumed service. Any use of [[wiki/tech/orbital-data-centers]] likewise inherits its unvalidated engineering and cost conditions.
+During [sessions/2026-11-19-drivers-of-space-expansion](../../sessions/2026-11-19-drivers-of-space-expansion.md), checked [canon/laws](../../canon/laws.md), [canon/timeline](../../canon/timeline.md), and repository references to lunar, military, and orbital development. No approved state policy or lunar industry constrains these hypotheses, and no canon event is added. [wiki/tech/orbital-transportation-network](../tech/orbital-transportation-network.md) remains a separately scoped draft with unresolved economics, not an assumed service. Any use of [wiki/tech/orbital-data-centers](../tech/orbital-data-centers.md) likewise inherits its unvalidated engineering and cost conditions.
 
 ## Consequences
 
 - Public institutions can become the initial customers that make industrial investment reviewable, even when the ultimate motive is collective rather than personal.
-- Governments might compete for dependable supply and technical capability while cooperating on environmental rules; that optional combination is developed in [[wiki/concepts/earth-development-limits]].
+- Governments might compete for dependable supply and technical capability while cooperating on environmental rules; that optional combination is developed in [wiki/concepts/earth-development-limits](../concepts/earth-development-limits.md).
 - A government-funded outpost need not become a city. Robotic or rotating operations, permanent subsidy, or closure remain viable outcomes.
 - The lunar military hypothesis cannot be used as a shared reason that all branches must industrialize the Moon.
 
@@ -81,4 +81,4 @@ During [[sessions/2026-11-19-drivers-of-space-expansion]], checked [[canon/laws]
 - What treaty change or noncompliance is assumed in that military branch, and what are its diplomatic, economic, and escalation consequences?
 - For either branch, what evidence would justify permanent human settlement rather than robotic or rotating operations?
 
-These unresolved checks are tracked in [[open-questions]].
+These unresolved checks are tracked in [open-questions](../../open-questions.md).

@@ -27,11 +27,11 @@ topic: Lunar bases, early resource use, and Earth-return cargo
 
 ## Entries created or changed
 
-- [[wiki/concepts/lunar-resource-utilization]] / [[wiki-tw/concepts/lunar-resource-utilization]] — draft, new; `lunar-local-supply`, early resources, facilities, and production checks.
-- [[wiki/concepts/lunar-base-development]] / [[wiki-tw/concepts/lunar-base-development]] — draft, new; dated NASA reference and conditional lunar extensions of the eight existing motive branches.
-- [[wiki/concepts/lunar-earth-cargo]] / [[wiki-tw/concepts/lunar-earth-cargo]] — draft, new; `lunar-earth-export`, staged logistics/production development, launcher alternatives, and arrival limits.
-- [[wiki/concepts/space-expansion-motives]] / [[wiki-tw/concepts/space-expansion-motives]] — draft, updated; navigation and scope for the lunar applications and new branches.
-- [[open-questions]] / [[open-questions-tw]] — updated; new lunar production, shared-service, export, and launcher checks, plus lunar backup/settlement dependencies.
+- [wiki/concepts/lunar-resource-utilization](../wiki/concepts/lunar-resource-utilization.md) / [wiki-tw/concepts/lunar-resource-utilization](../wiki-tw/concepts/lunar-resource-utilization.md) — draft, new; `lunar-local-supply`, early resources, facilities, and production checks.
+- [wiki/concepts/lunar-base-development](../wiki/concepts/lunar-base-development.md) / [wiki-tw/concepts/lunar-base-development](../wiki-tw/concepts/lunar-base-development.md) — draft, new; dated NASA reference and conditional lunar extensions of the eight existing motive branches.
+- [wiki/concepts/lunar-earth-cargo](../wiki/concepts/lunar-earth-cargo.md) / [wiki-tw/concepts/lunar-earth-cargo](../wiki-tw/concepts/lunar-earth-cargo.md) — draft, new; `lunar-earth-export`, staged logistics/production development, launcher alternatives, and arrival limits.
+- [wiki/concepts/space-expansion-motives](../wiki/concepts/space-expansion-motives.md) / [wiki-tw/concepts/space-expansion-motives](../wiki-tw/concepts/space-expansion-motives.md) — draft, updated; navigation and scope for the lunar applications and new branches.
+- [open-questions](../open-questions.md) / [open-questions-tw](../open-questions-tw.md) — updated; new lunar production, shared-service, export, and launcher checks, plus lunar backup/settlement dependencies.
 
 ## Open questions raised
 
@@ -42,4 +42,4 @@ topic: Lunar bases, early resource use, and Earth-return cargo
 - At what throughput and operating life does a fixed electromagnetic launcher outperform rocket freight?
 - What health, rights, supply, and defined Earth-support outage duration would make a lunar residential or backup extension viable?
 
-Unresolved checks are tracked in [[open-questions]] and [[open-questions-tw]]. Deliberate alternatives remain in their entries.
+Unresolved checks are tracked in [open-questions](../open-questions.md) and [open-questions-tw](../open-questions-tw.md). Deliberate alternatives remain in their entries.

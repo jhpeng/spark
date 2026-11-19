@@ -1,8 +1,9 @@
 ---
 title: <Story title>
 era: <era slug>
-setting: [[<place slug>]]
-uses: [[<slug>]], [[<slug>]]
+setting: "[<place name>](relative/path/to/place.md)"
+uses:
+  - "[<entry name>](relative/path/to/entry.md)"
 status: draft
 ---
 

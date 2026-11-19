@@ -24,12 +24,12 @@ topic: Geopolitical drivers of space expansion
 
 ## Entries created or changed
 
-- [[wiki/concepts/geopolitical-drivers-of-space-expansion]] and [[wiki-tw/concepts/geopolitical-drivers-of-space-expansion]] — new drafts; optional geopolitical motive within `state-funded-expansion`, evidence and limits, conditional attraction of later users, and alternative outcomes.
-- [[wiki/society/state-funded-space-industry]] and [[wiki-tw/society/state-funded-space-industry]] — updated drafts; contract, ownership, access, maintenance, pricing, and withdrawal conditions for services shared with later customers. The separate military branch remains unchanged.
-- [[wiki/concepts/space-expansion-motives]] and [[wiki-tw/concepts/space-expansion-motives]] — updated drafts; distinguish state competition from household migration and link the new mechanism.
-- [[wiki/concepts/lunar-base-development]] and [[wiki-tw/concepts/lunar-base-development]] — updated drafts; connect the optional motive to shared lunar services without assuming the residential path.
-- [[open-questions]] and [[open-questions-tw]] — reconciled three existing checks: enduring public commitments, access to shared lunar services, and permanent residence after initial sponsorship ends.
-- [[README]] — added the paired concept entry to the reading map.
+- [wiki/concepts/geopolitical-drivers-of-space-expansion](../wiki/concepts/geopolitical-drivers-of-space-expansion.md) and [wiki-tw/concepts/geopolitical-drivers-of-space-expansion](../wiki-tw/concepts/geopolitical-drivers-of-space-expansion.md) — new drafts; optional geopolitical motive within `state-funded-expansion`, evidence and limits, conditional attraction of later users, and alternative outcomes.
+- [wiki/society/state-funded-space-industry](../wiki/society/state-funded-space-industry.md) and [wiki-tw/society/state-funded-space-industry](../wiki-tw/society/state-funded-space-industry.md) — updated drafts; contract, ownership, access, maintenance, pricing, and withdrawal conditions for services shared with later customers. The separate military branch remains unchanged.
+- [wiki/concepts/space-expansion-motives](../wiki/concepts/space-expansion-motives.md) and [wiki-tw/concepts/space-expansion-motives](../wiki-tw/concepts/space-expansion-motives.md) — updated drafts; distinguish state competition from household migration and link the new mechanism.
+- [wiki/concepts/lunar-base-development](../wiki/concepts/lunar-base-development.md) and [wiki-tw/concepts/lunar-base-development](../wiki-tw/concepts/lunar-base-development.md) — updated drafts; connect the optional motive to shared lunar services without assuming the residential path.
+- [open-questions](../open-questions.md) and [open-questions-tw](../open-questions-tw.md) — reconciled three existing checks: enduring public commitments, access to shared lunar services, and permanent residence after initial sponsorship ends.
+- [README](../README.md) — added the paired concept entry to the reading map.
 
 ## Open questions raised
 
@@ -37,4 +37,4 @@ topic: Geopolitical drivers of space expansion
 - Which access, compatibility, capacity, pricing, and priority arrangements let later customers share services instead of duplicating restricted infrastructure?
 - For an explicitly chosen settlement extension, which work favors long residence over rotation or remote operation, and who funds household services after sponsor withdrawal?
 
-These refine existing checks under their named branch scopes. The evidence and sources are recorded in the new concept entry; the unresolved checks remain in [[open-questions]].
+These refine existing checks under their named branch scopes. The evidence and sources are recorded in the new concept entry; the unresolved checks remain in [open-questions](../open-questions.md).
