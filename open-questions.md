@@ -97,10 +97,38 @@ Unresolved evidence, feasibility checks, and decisions within branches. Each que
 
 ## What supports permanent residence or an independently surviving settlement?
 
-- Blocks: [[wiki/concepts/space-expansion-motives]], [[wiki/concepts/state-funded-space-industry]], [[wiki/concepts/earth-development-limits]]
+- Blocks: [[wiki/concepts/space-expansion-motives]], [[wiki/concepts/state-funded-space-industry]], [[wiki/concepts/earth-development-limits]], [[wiki/concepts/lunar-base-development]]
 - Scope: `community-led-settlement`, `civilization-backup`, and explicitly chosen settlement extensions of the industrial branches.
-- Options: compare automated operations, rotation, and permanent residence; specify health, radiation, gravity, food, water, repair, medical care, family life, rights, affordability, and return options. A backup settlement additionally needs a credible industrial and biological supply chain after loss of Earth support; the 98% water-recovery example proves neither ecosystem closure nor independence.
+- Options: compare automated operations, rotation, and permanent residence; specify health, radiation, gravity, food, water, repair, medical care, family life, rights, affordability, and return options. A backup settlement additionally needs a credible industrial and biological supply chain for a specified duration after loss of Earth support, including shared failure dependencies between sites; the 98% water-recovery example proves neither ecosystem closure nor independence. Lunar facility implications are also explored in [[sessions/2026-11-19-lunar-bases-and-cargo]].
 - Raised: [[sessions/2026-11-19-drivers-of-space-expansion]]
+
+## Which lunar site and production process can replace recurring imports?
+
+- Blocks: [[wiki/concepts/lunar-resource-utilization]], [[wiki/concepts/lunar-base-development]]
+- Scope: `lunar-local-supply`, including explicitly adopted `state-funded-expansion` or other customers.
+- Options: select deposit, concentration and depth, product specification, customer demand, and recovery; compare water extraction, regolith oxygen, bulk earthworks, and imports separately. Quantify power, heat rejection, equipment life, consumables, maintenance, dust, radiation, terrain, communications, and transport between extraction and support sites. The 25/125-tonne feedstock examples do not establish actual deposits or plant feasibility.
+- Raised: [[sessions/2026-11-19-lunar-bases-and-cargo]]
+
+## Which shared lunar services justify infrastructure expansion?
+
+- Blocks: [[wiki/concepts/lunar-base-development]], [[wiki/concepts/lunar-resource-utilization]]
+- Scope: lunar extensions of `state-funded-expansion`, `ai-industrial-expansion`, `earth-development-limits`, and `climate-adaptation-pressure`; compare `earth-centered-development`.
+- Options: specify independent customers, contracts, utilization, service lifetime, and the response to sponsor withdrawal. Compare shared repair, cargo handling, utilities, remote uncrewed nodes, and separate inhabited sites with mission-specific equipment. Build full cost and operating budgets; 3.75 years to offset hypothetical imported mass is not financial payback or a verified plant lifetime.
+- Raised: [[sessions/2026-11-19-lunar-bases-and-cargo]]
+
+## What product and complete delivery service justify lunar exports to Earth's surface?
+
+- Blocks: [[wiki/concepts/lunar-earth-cargo]], [[wiki/concepts/lunar-base-development]]
+- Scope: `lunar-earth-export`; any public-support, AI-demand, or development-limit assumptions must be explicitly adopted.
+- Options: specify purchaser, product quality and form, annual accepted volume, and alternatives. Compare complete production, packaging, departure, navigation, transfer duration, reentry, recovery, losses, and hardware replacement or reuse. Identify pilot funding and demand after scientific sample returns; assess lifecycle environmental effects if claimed. Lunar escape energy and Apollo sample return establish neither an export market nor low delivered cost.
+- Raised: [[sessions/2026-11-19-lunar-bases-and-cargo]]
+
+## When would a fixed lunar launcher improve on rocket freight?
+
+- Blocks: [[wiki/concepts/lunar-earth-cargo]]
+- Scope: `lunar-earth-export`; not the free-flying modular orbital accelerator or the military branch.
+- Options: compare traffic, capital cost, site construction, foundation loads, cargo interface and acceleration tolerance, precision, equipment wear, storage, electrical efficiency, heat rejection, maintenance, and full arrival costs. Determine an operating lifetime and throughput crossover; grounding the launcher transfers recoil to the Moon but does not validate an industrial launcher or remove guidance and recovery equipment.
+- Raised: [[sessions/2026-11-19-lunar-bases-and-cargo]]
 
 ## What public purpose and commitments sustain state-funded infrastructure?
 

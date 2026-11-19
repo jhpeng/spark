@@ -97,10 +97,38 @@
 
 ## 什麼條件能支持永久居住或可獨立存續的聚落？
 
-- 影響條目：[[wiki-tw/concepts/space-expansion-motives]]、[[wiki-tw/concepts/state-funded-space-industry]]、[[wiki-tw/concepts/earth-development-limits]]
+- 影響條目：[[wiki-tw/concepts/space-expansion-motives]]、[[wiki-tw/concepts/state-funded-space-industry]]、[[wiki-tw/concepts/earth-development-limits]]、[[wiki-tw/concepts/lunar-base-development]]
 - 範圍：`community-led-settlement`、`civilization-backup`，以及明確選擇加入各工業分支的定居延伸。
-- 選項：比較自動化營運、輪調與永久居住；具體訂定健康、輻射、重力、食物、水、維修、醫療、家庭生活、權利、負擔能力與返回選項。文明備援還需要在失去地球支援後仍可運作的可信工業與生物供應鏈；98% 水回收的示例不代表生態系封閉或獨立自給。
+- 選項：比較自動化營運、輪調與永久居住；具體訂定健康、輻射、重力、食物、水、維修、醫療、家庭生活、權利、負擔能力與返回選項。文明備援還需要在失去地球支援後，能維持明確期間的可信工業與生物供應鏈，並考慮不同據點的共同失效依賴；98% 水回收的示例不代表生態系封閉或獨立自給。月球設施的影響另於[[sessions/2026-11-19-lunar-bases-and-cargo]]探索。
 - 提出於：[[sessions/2026-11-19-drivers-of-space-expansion]]
+
+## 哪個月球地點與生產製程能替代持續進口？
+
+- 影響條目：[[wiki-tw/concepts/lunar-resource-utilization]]、[[wiki-tw/concepts/lunar-base-development]]
+- 範圍：`lunar-local-supply`，包含明確採用的 `state-funded-expansion` 或其他客戶。
+- 選項：選定礦區、濃度與深度、產品規格、客戶需求與回收率；分別比較取水、月壤提氧、大宗土木作業與進口。量化供電、散熱、設備壽命、耗材、維修、月塵、輻射、地形、通訊，以及開採與支援地點間的運輸。25／125 公噸原料示例未確立實際礦區或工廠可行性。
+- 提出於：[[sessions/2026-11-19-lunar-bases-and-cargo]]
+
+## 哪些共用月球服務足以支持基礎設施擴張？
+
+- 影響條目：[[wiki-tw/concepts/lunar-base-development]]、[[wiki-tw/concepts/lunar-resource-utilization]]
+- 範圍：`state-funded-expansion`、`ai-industrial-expansion`、`earth-development-limits` 與 `climate-adaptation-pressure` 的月球延伸；與 `earth-centered-development` 比較。
+- 選項：明確訂定獨立客戶、合約、使用率、服務壽命與贊助者撤資後的應對。比較共用維修、貨物處理、公共供應、遠端無人節點、獨立有人據點及任務專用設備。建立完整成本與營運收支；抵銷假設運入質量的 3.75 年，不是財務回收期或經驗證的工廠壽命。
+- 提出於：[[sessions/2026-11-19-lunar-bases-and-cargo]]
+
+## 哪種產品與完整交貨服務足以支持月球出口地球地面？
+
+- 影響條目：[[wiki-tw/concepts/lunar-earth-cargo]]、[[wiki-tw/concepts/lunar-base-development]]
+- 範圍：`lunar-earth-export`；公共支援、AI 需求或開發限制假設均須明確採用。
+- 選項：訂定採購者、產品品質與形式、每年合格貨量及替代方案。比較完整生產、包裝、離站、導航、航程時間、再入、回收、損失及硬體更換或重複使用。指出試驗資金及科學樣品返回以外的後續需求；若主張環境效益，須評估生命週期影響。月球逃逸能量與 Apollo 樣品返回都不能證明出口市場或低送達成本。
+- 提出於：[[sessions/2026-11-19-lunar-bases-and-cargo]]
+
+## 固定月球發射器何時能優於火箭貨運？
+
+- 影響條目：[[wiki-tw/concepts/lunar-earth-cargo]]
+- 範圍：`lunar-earth-export`；不屬於自由飛行的模組化軌道加速器或軍事分支。
+- 選項：比較貨量、資本成本、場址施工、基礎結構負荷、貨物介面與加速度耐受、精度、設備磨耗、儲能、電力效率、散熱、維修及完整抵達成本。確立營運壽命及運量交叉門檻；固定發射器把反作用力傳給月球，但不代表工業發射器已驗證，也不會移除導引與回收設備。
+- 提出於：[[sessions/2026-11-19-lunar-bases-and-cargo]]
 
 ## 什麼公共目的與承諾能維持國家資助的基礎設施？
 

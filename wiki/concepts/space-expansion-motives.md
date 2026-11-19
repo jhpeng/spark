@@ -68,6 +68,19 @@ These branches do not automatically inherit one another. Compatible motives can 
 - **Consequences:** Successful AI or environmental adaptation can coexist with most industry and population remaining on Earth. This is a viable outcome, not a failed validation to remove.
 - **Dependencies:** [[canon/laws]] and the branch's terrestrial supply assumptions; it does not inherit comprehensive development bans or irreversible environmental collapse.
 
+### Lunar applications explored in a later session
+
+[[sessions/2026-11-19-lunar-bases-and-cargo]] applies these motives to a conditional lunar outpost without assuming NASA's published plans are guaranteed future events. [[wiki/concepts/lunar-base-development]] compares shared services, industrial suppliers, residential communities, civilization backup, and limited development under the existing branches.
+
+Two additional conditional branches are defined separately:
+
+| Branch | Scope and defining entry |
+|---|---|
+| `lunar-local-supply` | [[wiki/concepts/lunar-resource-utilization]] explores regolith, water, and oxygen for independently funded lunar customers, conditional on resource quality, reliable production, and import comparisons. |
+| `lunar-earth-export` | [[wiki/concepts/lunar-earth-cargo]] explores validating small-scale production and end-to-end Earth-surface delivery before expanding export factories. No commodity, launcher, or low freight price is assumed proven. |
+
+These branches do not automatically inherit one another or any motive branch. Any public funding, AI demand, development limits, or settlement commitments must be explicitly adopted. Local supply, orbital supply, and Earth-surface exports require separate destination-specific cases.
+
 ## Validation
 
 ### Historical analogy and its limits
