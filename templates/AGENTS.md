@@ -6,6 +6,7 @@ Read this guide before creating, editing, translating, moving, removing, or retc
 
 - Slugs are lowercase-kebab. Link content with Obsidian-style `[[slug]]` wikilinks, using vault-relative paths to disambiguate language versions as described below.
 - Use [entry.md](entry.md) for wiki entries, [story.md](story.md) for stories, and [session.md](session.md) for session logs. Their `-tw.md` counterparts supply translated templates.
+- For forecast node records, use the minimum record in the [forecast guide](../forecasts/AGENTS.md).
 - For wiki classification, short drafts, and entry lifecycle, follow the [wiki guide](../wiki/AGENTS.md); template sections are used according to that guide.
 - When changing a template, read the corresponding [wiki](../wiki/AGENTS.md), [story](../stories/AGENTS.md), or [session](../sessions/AGENTS.md) guide; preserve the [canon guide's](../canon/AGENTS.md) status and branch meanings.
 
@@ -17,11 +18,12 @@ Keep these file pairs synchronized in both directions. When creating, editing, m
 |---|---|
 | `wiki/<path>.md` | `wiki-tw/<path>.md` |
 | `stories/<path>.md` | `stories-tw/<path>.md` |
+| `forecasts/<path>.md` | `forecasts-tw/<path>.md` |
 | `canon/<name>.md` | `canon/<name>-tw.md` |
 | `templates/<name>.md` | `templates/<name>-tw.md` |
 | `open-questions.md` | `open-questions-tw.md` |
 
-- Use Taiwan Traditional Chinese and Taiwan usage. Mirror wiki and story subfolders and filenames exactly; translate titles and prose.
+- Use Taiwan Traditional Chinese and Taiwan usage. Mirror wiki, story, and forecast subfolders and filenames exactly; translate titles and prose.
 - Keep meaning, calculations, citations, and metadata consistent. Retain English metadata keys and controlled values such as `kind`, `status`, and `grounding`; translate human-readable values such as titles. Approval or retcon status applies to both versions of an entry; translation alone does not promote a draft to canon.
 - Keep branch identifiers identical across languages; translate their descriptions and preserve their scope and assumptions.
 - Link to the matching language version where one exists. Use vault-relative wikilinks when filenames are shared, such as `[[wiki/concepts/orbital-transportation-network]]` and `[[wiki-tw/concepts/orbital-transportation-network]]`.

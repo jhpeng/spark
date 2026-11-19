@@ -7,6 +7,7 @@ A hard-science exploration of possible futures for human civilization across the
 ## Layout
 
 - [canon/](canon/) — the laws of physics we obey and the master timeline.
+- [forecasts/](forecasts/AGENTS.md) — rules for evolving prediction trees with conditional probabilities.
 - [wiki/](wiki/) — entries on eras, technology, society, places, and concepts.
 - [stories/](stories/) — fiction set in the world, linked to the entries it relies on.
 - [sessions/](sessions/) — a log of each discussion that shaped the world.

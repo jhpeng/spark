@@ -4,6 +4,8 @@ Spark is a hard-science wiki exploring possible futures for humanity's spread ac
 
 Read this guide before discussing or validating ideas, or changing worldbuilding in any directory. For discussion and recording, also read [the session workflow](../sessions/AGENTS.md). For content edits, read [format and language rules](../templates/AGENTS.md).
 
+For prediction trees in `forecasts/` and `forecasts-tw/`, read [forecast rules](../forecasts/AGENTS.md); that guide owns their probability, revision, and lifecycle rules.
+
 ## The one hard rule
 
 Everything obeys known physics. [canon/laws.md](laws.md) lists the laws; read it before validating anything. An idea that breaks a law is rejected or reworked until it fits — say which law it breaks and propose a physics-respecting alternative. Unknown engineering is fine; unknown physics is not.
