@@ -7,6 +7,8 @@ grounding: established | plausible | speculative
 depends_on: [[<slug>]], [[<slug>]]
 ---
 
+<!-- Authoring guidance: follow ../wiki/AGENTS.md for classification and short drafts. Choose kind by the main subject, independently of maturity. Retain metadata and a useful summary; use body sections as needed and state relevant unknowns explicitly. Remove this comment from entries. -->
+
 # <名稱>
 
 ## 摘要

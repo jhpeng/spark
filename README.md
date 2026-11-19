@@ -15,6 +15,6 @@ A hard-science prediction of how humanity will build civilization across the uni
 
 ## How it grows
 
-Ideas are discussed with an agent, which checks them against physics and against existing canon, then records them as `draft` pages at the end of the session. A draft becomes `canon` only after approval. Old ideas are retconned, not deleted, so the history of the world-building is preserved. Agent rules live in [AGENTS.md](AGENTS.md).
+The wiki is an evolving workspace: useful ideas can become short `draft` entries while assumptions and validation remain open. Entries are classified by subject and can be revised, split, merged, moved, or removed as the discussion develops. Session logs preserve the discussion history. A draft becomes `canon` only after approval; substantive replacements of approved content follow the retcon rules. See [AGENTS.md](AGENTS.md) for the recording workflow and other agent rules.
 
 Browse it in any Markdown viewer, or open the folder as an [Obsidian](https://obsidian.md) vault for `[[wikilinks]]` and a graph view.
