@@ -113,10 +113,17 @@
 
 ## 哪個月球地點與生產製程能替代持續進口？
 
-- 影響條目：[wiki-tw/tech/lunar-resource-utilization](./wiki-tw/tech/lunar-resource-utilization.md)、[wiki-tw/concepts/lunar-base-development](./wiki-tw/concepts/lunar-base-development.md)
+- 影響條目：[wiki-tw/tech/lunar-resource-utilization](./wiki-tw/tech/lunar-resource-utilization.md)、[wiki-tw/concepts/lunar-base-development](./wiki-tw/concepts/lunar-base-development.md)、[wiki-tw/tech/lunar-south-pole-industrial-power](./wiki-tw/tech/lunar-south-pole-industrial-power.md)
 - 範圍：`lunar-local-supply`，包含明確採用的 `state-funded-expansion` 或其他客戶。
-- 選項：選定礦區、濃度與深度、產品規格、客戶需求與回收率；分別比較取水、月壤提氧、大宗土木作業與進口。量化供電、散熱、設備壽命、耗材、維修、月塵、輻射、地形、通訊，以及開採與支援地點間的運輸。25／125 公噸原料示例未確立實際礦區或工廠可行性。
+- 選項：選定礦區、濃度與深度、產品規格、客戶需求與回收率；分別比較取水、月壤提氧、大宗土木作業與進口。[wiki-tw/tech/lunar-south-pole-industrial-power](./wiki-tw/tech/lunar-south-pole-industrial-power.md) 已建立南極 1 MWe 分區與核能／軌道雷射／儲熱的初步能源與散熱基準，但設備壽命、耗材、維修、月塵磨損、實際礦區品質與完整財務收支仍待驗證。25／125 公噸原料示例未確立實際礦區或工廠可行性。
 - 提出於：[sessions/2026-11-19-lunar-bases-and-cargo](./sessions/2026-11-19-lunar-bases-and-cargo.md)
+
+## 兆瓦級月球核能園區與軌道雷射輸能受哪些工程、治理與規模門檻限制？
+
+- 影響條目：[wiki-tw/tech/lunar-south-pole-industrial-power](./wiki-tw/tech/lunar-south-pole-industrial-power.md)、[wiki-tw/concepts/lunar-base-development](./wiki-tw/concepts/lunar-base-development.md)、[wiki-tw/tech/lunar-resource-utilization](./wiki-tw/tech/lunar-resource-utilization.md)、[wiki-tw/concepts/geopolitical-drivers-of-space-expansion](./wiki-tw/concepts/geopolitical-drivers-of-space-expansion.md)
+- 範圍：`lunar-local-supply`、`state-funded-expansion` 與商業分支的南極前進基地工業延伸，並與遠期高鈦月海重工業園區比較。
+- 選項：界定 HALEU 核燃料發射審批、自動化換料或放射性封存隔離區，以及多方在極區陰影與火箭羽流安全區上的協調規則。計入軌道質量、散熱面積與軍民兩用定向能治理成本後，量化永久陰影坑供電中 ELFO 軌道雷射星座與耐月塵月面高壓鋁纜的交叉門檻。確立在何種電力或產量規模下，南極地形、擁擠與缺鐵鈦會迫使業者另開高鈦月海重工業園區。
+- 提出於：進行中的月球工廠討論（2026-11-24；見 [wiki-tw/tech/lunar-south-pole-industrial-power](./wiki-tw/tech/lunar-south-pole-industrial-power.md)）
 
 ## 哪些共用月球服務足以支持基礎設施擴張？
 

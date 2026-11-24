@@ -113,10 +113,17 @@ The lunar-led [forecast tree](./forecasts/lunar-expansion.md) (baseline: [foreca
 
 ## Which lunar site and production process can replace recurring imports?
 
-- Blocks: [wiki/tech/lunar-resource-utilization](./wiki/tech/lunar-resource-utilization.md), [wiki/concepts/lunar-base-development](./wiki/concepts/lunar-base-development.md)
+- Blocks: [wiki/tech/lunar-resource-utilization](./wiki/tech/lunar-resource-utilization.md), [wiki/concepts/lunar-base-development](./wiki/concepts/lunar-base-development.md), [wiki/tech/lunar-south-pole-industrial-power](./wiki/tech/lunar-south-pole-industrial-power.md)
 - Scope: `lunar-local-supply`, including explicitly adopted `state-funded-expansion` or other customers.
-- Options: select deposit, concentration and depth, product specification, customer demand, and recovery; compare water extraction, regolith oxygen, bulk earthworks, and imports separately. Quantify power, heat rejection, equipment life, consumables, maintenance, dust, radiation, terrain, communications, and transport between extraction and support sites. The 25/125-tonne feedstock examples do not establish actual deposits or plant feasibility.
+- Options: select deposit, concentration and depth, product specification, customer demand, and recovery; compare water extraction, regolith oxygen, bulk earthworks, and imports separately. [wiki/tech/lunar-south-pole-industrial-power](./wiki/tech/lunar-south-pole-industrial-power.md) establishes an illustrative 1 MWe South Pole zoning and nuclear/orbital-laser/TES energy baseline, but equipment life, consumables, maintenance, dust wear, actual deposit quality, and full financial budgets remain unresolved. The 25/125-tonne feedstock examples do not establish actual deposits or plant feasibility.
 - Raised: [sessions/2026-11-19-lunar-bases-and-cargo](./sessions/2026-11-19-lunar-bases-and-cargo.md)
+
+## What engineering, governance, and scale thresholds govern MW-class lunar nuclear parks and orbital laser beaming?
+
+- Blocks: [wiki/tech/lunar-south-pole-industrial-power](./wiki/tech/lunar-south-pole-industrial-power.md), [wiki/concepts/lunar-base-development](./wiki/concepts/lunar-base-development.md), [wiki/tech/lunar-resource-utilization](./wiki/tech/lunar-resource-utilization.md), [wiki/concepts/geopolitical-drivers-of-space-expansion](./wiki/concepts/geopolitical-drivers-of-space-expansion.md)
+- Scope: South Pole beachhead industrial extensions of `lunar-local-supply`, `state-funded-expansion`, and commercial branches; compares against a later high-titanium mare industrial annex.
+- Options: define HALEU launch-safety approval, robotic refueling versus radioactive decommissioning zones, and multi-actor deconfliction for polar shadows and plume safety zones. Quantify the crossover between ELFO orbital laser beaming and ruggedized surface HVDC aluminum cables for PSR power after orbital mass, thermal rejection, and dual-use directed-energy governance costs. Determine the power or throughput threshold at which South Pole terrain, congestion, and iron/titanium scarcity justify opening a separate high-titanium mare heavy-industry park.
+- Raised: ongoing lunar factory discussion (2026-11-24; see [wiki/tech/lunar-south-pole-industrial-power](./wiki/tech/lunar-south-pole-industrial-power.md))
 
 ## Which shared lunar services justify infrastructure expansion?
 
