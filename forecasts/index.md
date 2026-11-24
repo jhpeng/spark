@@ -16,6 +16,7 @@ This directory holds evidence-based prediction trees built from the repository's
 | Tree | Horizon | Evidence cutoff | Lifecycle | Scope |
 |---|---|---|---|---|
 | [Lunar-led expansion](./lunar-expansion.md) | 2026–2126 | 2026-11-19 | `active` | Shared lunar services, routine local water/oxygen use, and sustained lunar household residence on the rolling 100-year grid. Does not exhaust Mars, orbital industry, or other routes. |
+| [Lunar South Pole outpost buildup (5-year annual)](./lunar-outpost-near-term.md) | 2026–2031 | 2026-11-24 | `active` | Realistic 2027–2031 annual milestones anchored to 2026 NASA/CNSA schedules: uncrewed landings/relays, crewed return or recon launch, polar volatile survey & night survival, initial kW-class utilities, and 2032–2036 shared-service contracts (factories deferred to 2036–2051+). |
 
 ## Dated baseline and evidence
 
@@ -27,6 +28,7 @@ Recorded and selectively checked on **2026-11-19**; this is the evidence cutoff,
 | A 2025-04-25 interview with China's lunar-program chief designer, published by CNSA, described a basic research station before 2035 and expansion before 2045, with long autonomous operation and short human visits. [Station plan](https://www.cnsa.gov.cn/n6758823/n6758844/n10663475/n10663416/c10666366/content.html) | A stated program direction supports considering repeated operations; its dates and residence model are goals, not achieved capability. |
 | NASA's 2026-11-07 release reported awards for miniCAST power-related components, with integration and testing still ahead. [NASA awards](https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/) | Procurement is more concrete than ambition, but component awards do not demonstrate a working shared service. |
 | NASA's phases page, checked 2026-11-19, describes infrastructure deployment in 2029–2032 and outpost assembly from 2032. [NASA phases](https://www.nasa.gov/moonbase-phases/) | A published sequence helps define milestones; it does not warrant treating the schedule as certain. |
+| Agency and commercial lunar manifest reviewed 2026-11-24: NASA CLPS 2 ($10B ceiling), SpaceX Starship HLS/commercial cargo (NET 2028, ~$100M/t, Astrolab FLEX), Blue Origin Blue Moon Mk1/Mk2 (2027–2028), Intuitive Machines (IM-3/4, relay, Stirling night-survival R&D), Firefly (Blue Ghost), ispace (5-sat Lunar Connect by 2030), Interlune (He-3 precursor), and China's Chang'e 7 (2027) & Chang'e 8 (2028 regolith 3D-printing demo). | Confirms an active 2027–2031 commercial "picks-and-shovels" logistics/comms/mobility market funded mostly by governments, while heavy lunar factories remain post-2031 and contingent on external paying demand. |
 
 ## Shared conventions
 
