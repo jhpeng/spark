@@ -31,24 +31,24 @@ topic: Initial forecast tree from existing repository scenarios
 
 ### Initial outcome inventory
 
-All nodes below are new active forecasts with matching files under `forecasts-tw/`. Probabilities are conditional on their full ancestral path; each adjacent pair shares a parent and question. The dated baseline and criteria are preserved in the initial repository revision.
+All nodes below were created as active forecasts with matching files under `forecasts-tw/` and were consolidated on 2026-11-24 into [forecasts/lunar-expansion](../forecasts/lunar-expansion.md) and [forecasts-tw/lunar-expansion](../forecasts-tw/lunar-expansion.md) without changing probabilities, criteria, or evidence cutoff. Probabilities are conditional on their full ancestral path; each adjacent pair shares a parent and question. The dated baseline and criteria are preserved in the initial repository revision.
 
 | Outcome node | Parent | Initial conditional probability |
 |---|---|---|
-| [forecasts/lunar-services-2036](../forecasts/lunar-services-2036.md) | `index` | 65% |
-| [forecasts/no-lunar-services-2036](../forecasts/no-lunar-services-2036.md) | `index` | 35% |
-| [forecasts/local-consumables-2076](../forecasts/local-consumables-2076.md) | `lunar-services-2036` | 55% |
-| [forecasts/no-local-consumables-2076](../forecasts/no-local-consumables-2076.md) | `lunar-services-2036` | 45% |
-| [forecasts/delayed-lunar-services-2076](../forecasts/delayed-lunar-services-2076.md) | `no-lunar-services-2036` | 45% |
-| [forecasts/still-no-lunar-services-2076](../forecasts/still-no-lunar-services-2076.md) | `no-lunar-services-2036` | 55% |
-| [forecasts/local-supply-households-2126](../forecasts/local-supply-households-2126.md) | `local-consumables-2076` | 40% |
-| [forecasts/local-supply-no-households-2126](../forecasts/local-supply-no-households-2126.md) | `local-consumables-2076` | 60% |
-| [forecasts/import-path-households-2126](../forecasts/import-path-households-2126.md) | `no-local-consumables-2076` | 15% |
-| [forecasts/import-path-no-households-2126](../forecasts/import-path-no-households-2126.md) | `no-local-consumables-2076` | 85% |
-| [forecasts/early-households-independent-3026](../forecasts/early-households-independent-3026.md) | `local-supply-households-2126` | 45% |
-| [forecasts/early-households-not-independent-3026](../forecasts/early-households-not-independent-3026.md) | `local-supply-households-2126` | 55% |
-| [forecasts/later-households-independent-3026](../forecasts/later-households-independent-3026.md) | `local-supply-no-households-2126` | 20% |
-| [forecasts/later-households-not-independent-3026](../forecasts/later-households-not-independent-3026.md) | `local-supply-no-households-2126` | 80% |
+| [`lunar-services-2036`](../forecasts/lunar-expansion.md) | `index` | 65% |
+| [`no-lunar-services-2036`](../forecasts/lunar-expansion.md) | `index` | 35% |
+| [`local-consumables-2076`](../forecasts/lunar-expansion.md) | `lunar-services-2036` | 55% |
+| [`no-local-consumables-2076`](../forecasts/lunar-expansion.md) | `lunar-services-2036` | 45% |
+| [`delayed-lunar-services-2076`](../forecasts/lunar-expansion.md) | `no-lunar-services-2036` | 45% |
+| [`still-no-lunar-services-2076`](../forecasts/lunar-expansion.md) | `no-lunar-services-2036` | 55% |
+| [`local-supply-households-2126`](../forecasts/lunar-expansion.md) | `local-consumables-2076` | 40% |
+| [`local-supply-no-households-2126`](../forecasts/lunar-expansion.md) | `local-consumables-2076` | 60% |
+| [`import-path-households-2126`](../forecasts/lunar-expansion.md) | `no-local-consumables-2076` | 15% |
+| [`import-path-no-households-2126`](../forecasts/lunar-expansion.md) | `no-local-consumables-2076` | 85% |
+| [`early-households-independent-3026`](../forecasts/lunar-expansion.md) | `local-supply-households-2126` | 45% |
+| [`early-households-not-independent-3026`](../forecasts/lunar-expansion.md) | `local-supply-households-2126` | 55% |
+| [`later-households-independent-3026`](../forecasts/lunar-expansion.md) | `local-supply-no-households-2126` | 20% |
+| [`later-households-not-independent-3026`](../forecasts/lunar-expansion.md) | `local-supply-no-households-2126` | 80% |
 
 ## Open questions raised
 

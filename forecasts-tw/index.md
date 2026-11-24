@@ -1,24 +1,25 @@
 ---
-title: "以月球為起點的擴張：第一版預測樹"
+title: "預測總覽：有日期的基準與活躍預測樹"
 id: "index"
-parent: null
-children: ["lunar-services-2036", "no-lunar-services-2036"]
 period: "2026-11-19/3026-12-31"
 evidence_cutoff: "2026-11-19"
-updated: "2026-11-19"
-conditional_probability: null
-confidence: "low"
-resolution: "pending"
+updated: "2026-11-24"
 lifecycle: "active"
 ---
 
-# 以月球為起點的擴張：第一版預測樹
+# 預測總覽：有日期的基準與活躍預測樹
 
-這是依據 repo 現有情境建立的**月球發展子樹**，分別預測共用服務、在地耗材、家戶居住與經驗證的自主維持能力。機率並未涵蓋人類所有未來：火星、軌道產業或其他路徑，都可能在不同月球結果下發展。
+本目錄存放依據 repo 世界觀情境建立的實證預測樹。每個主題預測樹集中為 `forecasts-tw/` 下的一份檔案（並與 `forecasts/` 雙語同步）。詳細規範見 [forecasts/AGENTS.md](../forecasts/AGENTS.md)。
 
-## 基準與證據
+## 活躍預測樹
 
-記錄並選擇性查核於 **2026-11-19**；這是證據截止日，不表示已調查截至當天的每件事件。[canon/timeline-tw](../canon/timeline-tw.md) 提供 repo 的 2026 年起始設定；所有路徑均遵守 [canon/laws-tw](../canon/laws-tw.md)。wiki 中的未來情境仍是假設，不是觀測事實。
+| 預測樹 | 時間尺度 | 證據截點 | 生命週期 | 範圍 |
+|---|---|---|---|---|
+| [以月球為起點的擴張](./lunar-expansion.md) | 2026–3026 | 2026-11-19 | `active` | 共用月面服務（`S`）、在地耗材（`L`）、家戶居住（`H`）與經驗證的自主維持（`I`）。未窮盡火星、軌道產業或其他路徑。 |
+
+## 有日期的基準與證據
+
+記錄並選擇性查核於 **2026-11-19**；這是證據截點，不表示已調查截至當天的每件事件。[canon/timeline-tw](../canon/timeline-tw.md) 提供 repo 的 2026 年起始設定；所有路徑均遵守 [canon/laws-tw](../canon/laws-tw.md)。wiki 中的未來情境仍是假設，不是現實世界的觀測事實。
 
 | 有日期的證據 | 支持的判斷與限制 |
 |---|---|
@@ -27,51 +28,15 @@ lifecycle: "active"
 | NASA 於 2026-11-07 公布 miniCAST 電力相關組件的採購結果，整合與測試仍在後續階段。[NASA 採購公告](https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/) | 採購比願景具體，但組件合約不代表共用服務已能運作。 |
 | 於 2026-11-19 查核的 NASA 階段頁面，描述 2029–2032 年部署基礎設施，2032 年起組裝前哨站。[NASA 階段規劃](https://www.nasa.gov/moonbase-phases/) | 公布的順序可協助定義里程碑；時程並非確定會實現。 |
 
-這些參考資料支持以月球為切入點。repo 的推論來自 [wiki-tw/concepts/geopolitical-drivers-of-space-expansion](../wiki-tw/concepts/geopolitical-drivers-of-space-expansion.md)、[wiki-tw/concepts/lunar-base-development](../wiki-tw/concepts/lunar-base-development.md) 與 [wiki-tw/concepts/space-expansion-motives](../wiki-tw/concepts/space-expansion-motives.md)。公共科研或戰略採購是可能的早期付費來源；競爭並非必要條件。持續經費、相容性、可靠度與後續使用者的使用權，都仍有待成立。
+## 共用規範
 
-## 如何閱讀機率
+- **條件機率與累計路徑機率**：每個結果同時標示**條件機率**（以完整前置路徑與目前證據為條件）與**累計路徑機率**（沿路徑各條件機率的乘積；這不假設各步驟彼此獨立）。同一問題與期限的同組分支互斥且窮盡，合計 100%。
+- **主觀估計與信心度**：初始數字是未經校準的主觀估計，不是實測頻率或校準模型輸出。**信心度**（`high`、`medium`、`low`、`very-low`）與機率分開記錄：低信心代表數值容易修訂，不代表事件發生機率低。
+- **尚未展開的葉節點**：表示**尚未建模**，不是後續發展機率為零。
+- **判定狀態與生命週期**：`resolution`（`pending | occurred | not-occurred | unresolved`）與 `lifecycle`（`active | retired`）分開追蹤。只能依據原訂標準與期限判定；缺少報導或無法取得紀錄時，整組維持 `unresolved`，不能據此推論失敗。更改門檻須建立註明日期的新版本，不能替舊預測更換評分標準。
+- **範圍與權限**：修訂預測不會將內容提升為正史，也不會變更 `canon/` 中已核准的設定。
 
-每個數字都是以完整前置路徑與這組證據為條件的**第一版主觀估計**；metadata 使用小數，正文使用百分比。它們不是實測頻率，也不是經校準模型的輸出。低信心代表數值容易修訂，不代表事件發生機率低；長期估計的信心極低。
+## 修訂紀錄
 
-同組分支互為補集，合計 100%；AI 需求、公共採購與環境政策等原因可以並存，不是互斥結果。樹中保留地球中心、延後與有限發展路徑。尚未展開的葉節點表示**尚未建模**，不是後續擴張機率為零。
-
-例如「早期服務 → 在地耗材 → 家戶」在本次估計下的路徑機率為 **0.65 × 0.55 × 0.40 = 14.3%**。下方的 3026 年分支不能用來計算涵蓋全部路徑的月球自主機率，因為較早的若干葉節點尚未展開。
-
-## 可觀察的里程碑
-
-以下門檻用來定義預測分類，**不是經驗證的工程規格或最低可存續人口**。每個問題都要求在指定期限仍符合里程碑，並具備所需的先前運作紀錄。較早的里程碑只描述其自身期限的時間窗，不要求在中間數十年或數百年一直成立。
-
-| 代碼 | 判定標準 |
-|---|---|
-| **S — 共用服務** | 至少一套月面服務系統，在最後三個曆年的每一年，為至少兩個各自有經費來源的客戶計畫提供電力、通訊、貨物處理或維修中的至少兩類服務，且到期限時仍運作。不同計畫可以由同一國家資助；同一次任務的兩件儀器不算兩個計畫。無須商業所有權或有人居住。 |
-| **L — 在地耗材** | 至少一個月球客戶，在最後三個曆年的每一年，實際使用月球來源的水或氧氣達每年 10 公噸以上，且占自身同種產品總消耗量至少 20%。須一致計算同一產品，不重複計入水及從該水分離的氧。允許進口機械；只有採樣、土方、金屬或對地出口不符合 L。 |
-| **H — 家戶居住** | 至少一個月球地點，在最後十年持續住有至少 100 位居民，其中至少 10 個家戶將當地作為主要住所，而非輪班工作地。家戶指至少兩人共同過日常生活；人員可替換，但總數須持續達標。這不代表已驗證生育、兒童健康或自主維持。 |
-| **I — 經驗證的自主維持** | 至少一個月球社群，在最後連續 30 年沒有地球物資運補或不可缺少的地球端操作下，仍維持運作。紀錄須顯示在地維持食物、水、空氣、能源、必要藥物與替換設備，經歷實際維修週期，並有當地出生者成長至成年。任何地外供應方也須符合不依賴地球的檢驗，不能把依賴藏在中介供應商之後。只靠庫存不符合。這是有限期間的韌性驗證，不是無限期存續的證明。 |
-
-只有充分運作證據才能判定「達成」；只有充分證據顯示期限時未符合標準，才能判定其補集成立。缺少報導或無法取得紀錄時，整組維持 **unresolved**，不能據此推論失敗。尚未判定前，兩個分支都維持 pending。保留每個有日期的預測，並依其原始標準判定。更改門檻須建立註明日期的新版本，不能替舊預測更換評分標準。
-
-## 導覽
-
-| 時間尺度與前置路徑 | 下一組結果：條件機率 |
-|---|---|
-| 2036 年，從目前基準出發 | [達成 S：65%](./lunar-services-2036.md) · [未達 S：35%](./no-lunar-services-2036.md) |
-| 2076 年，2036 年已達成 S | [達成 L：55%](./local-consumables-2076.md) · [未達 L：45%](./no-local-consumables-2076.md) |
-| 2076 年，2036 年未達 S | [較晚達成 S：45%](./delayed-lunar-services-2076.md) · [仍未達 S：55%](./still-no-lunar-services-2076.md) |
-| 2126 年，先前達成早期 S 與 L | [達成 H：40%](./local-supply-households-2126.md) · [未達 H：60%](./local-supply-no-households-2126.md) |
-| 2126 年，先前達成早期 S，但未達 L | [達成 H：15%](./import-path-households-2126.md) · [未達 H：85%](./import-path-no-households-2126.md) |
-| 3026 年，先前達成早期 S、L 與 H | [達成 I：45%](./early-households-independent-3026.md) · [未達 I：55%](./early-households-not-independent-3026.md) |
-| 3026 年，先前達成早期 S 與 L，但 2126 年未達 H | [後來達成 I：20%](./later-households-independent-3026.md) · [未達 I：80%](./later-households-not-independent-3026.md) |
-
-## 2031 年檢查點與修訂訊號
-
-至 **2031-12-31**，檢查實際交付、重複付費合約、跨計畫使用電力或通訊的情形、解約條款、設備故障與維修，以及可取得的資源調查。這些是五年尺度的領先指標，不是另一組帶機率的分叉。重複交付與多年使用會提高早期服務的估計；取消計畫、互不相容的獨立任務或反覆故障會降低估計。單純公告的影響應小於經驗證的服務表現。更新時一起重估受影響的同組分支，不預設證據一定會減少不確定性。
-
-## 依賴與尚未完成的驗證
-
-長路徑在對應節點參考服務需求、`lunar-local-supply`、居住動機，以及 `civilization-backup` 的能力要求。結果依經驗證的能力定義，不要求任何單一動機，也不要求刻意為文明備援提供資金。[wiki-tw/concepts/ai-driven-industrial-demand](../wiki-tw/concepts/ai-driven-industrial-demand.md)、[wiki-tw/concepts/earth-development-limits](../wiki-tw/concepts/earth-development-limits.md) 與 [wiki-tw/concepts/climate-adaptation-pressure](../wiki-tw/concepts/climate-adaptation-pressure.md) 是可選的需求機制，不是無限消費、全球限制或地球無法居住的基準假設。
-
-[wiki-tw/tech/orbital-data-centers](../wiki-tw/tech/orbital-data-centers.md)、[wiki-tw/concepts/lunar-earth-cargo](../wiki-tw/concepts/lunar-earth-cargo.md) 與 [wiki-tw/tech/orbital-transportation-network](../wiki-tw/tech/orbital-transportation-network.md) 仍是可選、尚未驗證的應用。本預測沒有假設便宜的對地出口或模組化加速器已可用，也不依賴核融合、心智上傳或未知物理。沒有選定地緣政治贏家或軍事工業分支。
-
-物理檢查僅能在原本假設內沿用。例如月球基地條目的假想進口質量抵銷計算 30/(10−2) = 3.75 年，不能證明財務回本或設備壽命。這裡尚未完成整體生產、輻射、散熱、食物、製造或運輸預算。相關檢查保留於 [open-questions-tw](../open-questions-tw.md)；各節點指出哪些檢查影響其估計。[canon/laws-tw](../canon/laws-tw.md) 與 [canon/timeline-tw](../canon/timeline-tw.md) 並無被本樹更改的已核准未來工業順序。
-
-初次建立與估計來源：[sessions/2026-11-19-initial-forecast-tree](../sessions/2026-11-19-initial-forecast-tree.md)。根節點是基準，不是待發生事件；其 null 機率與 pending 判定僅是管理欄位。
+- `2026-11-24`：將 `forecasts-tw/` 由「一節點一檔」重整為「一主題一檔」；月球擴張預測樹整合至 [lunar-expansion.md](./lunar-expansion.md)，未更動機率、判定標準或證據截點。
+- `2026-11-19`：初次建立基準與月球擴張預測樹（[sessions/2026-11-19-initial-forecast-tree](../sessions/2026-11-19-initial-forecast-tree.md)）。

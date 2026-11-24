@@ -5,9 +5,9 @@ Read this guide before creating, editing, translating, moving, removing, or retc
 ## Formats and links
 
 - Slugs are lowercase-kebab. Link content with standard Markdown `[label](relative/path.md)` links. Resolve paths from the containing file's directory, include the `.md` extension, and use `../` for parent directories. Preserve descriptive labels when converting links.
-- In YAML metadata, quote Markdown link strings and use YAML lists for fields containing multiple links, such as `depends_on` and `uses`. Keep identifiers such as forecast `parent` and `children` as IDs; provide navigation links in the body. Replace template link placeholders with paths relative to the new file.
-- Use [entry.md](entry.md) for wiki entries, [story.md](story.md) for stories, and [session.md](session.md) for session logs. Their `-tw.md` counterparts supply translated templates.
-- For forecast node records, use the minimum record in the [forecast guide](../forecasts/AGENTS.md).
+- In YAML metadata, quote Markdown link strings and use YAML lists for fields containing multiple links, such as `depends_on` and `uses`. Keep identifiers such as forecast tree and outcome IDs as lowercase-kebab strings; provide navigation links in the body. Replace template link placeholders with paths relative to the new file.
+- Use [entry.md](entry.md) for wiki entries, [story.md](story.md) for stories, [forecast.md](forecast.md) for thematic forecast trees, and [session.md](session.md) for session logs. Their `-tw.md` counterparts supply translated templates.
+- For forecast tree rules, structure, and probability accounting, follow the [forecast guide](../forecasts/AGENTS.md).
 - For wiki classification, short drafts, and entry lifecycle, follow the [wiki guide](../wiki/AGENTS.md); template sections are used according to that guide.
 - When changing a template, read the corresponding [wiki](../wiki/AGENTS.md), [story](../stories/AGENTS.md), or [session](../sessions/AGENTS.md) guide; preserve the [canon guide's](../canon/AGENTS.md) status and branch meanings.
 

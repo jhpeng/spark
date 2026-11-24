@@ -10,11 +10,11 @@ Unresolved evidence, feasibility checks, and decisions within branches. Each que
 - Raised: [YYYY-MM-DD topic](sessions/YYYY-MM-DD-topic.md)
 -->
 
-The lunar-led [forecast tree](./forecasts/index.md) reuses the checks below for public commitments, shared lunar services, local resource production, and permanent residence or independent survival. Assigning a branch probability does not resolve those checks.
+The lunar-led [forecast tree](./forecasts/lunar-expansion.md) (baseline: [forecasts/index](./forecasts/index.md)) reuses the checks below for public commitments, shared lunar services, local resource production, and permanent residence or independent survival. Assigning a branch probability does not resolve those checks.
 
 ## What evidence would calibrate the initial forecast probabilities?
 
-- Blocks: [forecasts/index](./forecasts/index.md) and the outcome nodes linked from it.
+- Blocks: [forecasts/index](./forecasts/index.md), [forecasts/lunar-expansion](./forecasts/lunar-expansion.md).
 - Scope: the lunar-led forecast tree; each estimate is conditional on its own ancestral scenario, not a probability for every route to off-Earth expansion.
 - Options: collect comparable program delivery and cancellation records, funded recurring purchases, service access and utilization, production reliability and full costs, and residence/supply-chain evidence. Test sensitivity to the chosen outcome thresholds and distinguish subjective estimates from empirically calibrated probabilities. Use future outcomes to evaluate dated estimates; preserve the original criteria and record evidence gaps rather than resolving an event from silence.
 - Raised: [sessions/2026-11-19-initial-forecast-tree](./sessions/2026-11-19-initial-forecast-tree.md)
