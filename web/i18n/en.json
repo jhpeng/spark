@@ -1,0 +1,144 @@
+{
+  "site": {
+    "name": "Spark",
+    "hero_headline": "Humanity’s branching trajectories, bound strictly by known physics.",
+    "tagline": "Hard-science exploration of possible human futures — pairing physical validation with conditional forecast mind-maps and speculative fiction.",
+    "rule_banner": "Everything obeys known physics.",
+    "skip_to_content": "Skip to main content",
+    "language_label": "Language",
+    "switch_language": "繁體中文",
+    "theme_toggle": "Toggle color theme"
+  },
+  "nav": {
+    "home": "Overview",
+    "canon": "Canon",
+    "laws": "Laws of Physics",
+    "timeline": "Master Timeline",
+    "forecasts": "Forecasts",
+    "wiki": "Wiki",
+    "concepts": "Concepts",
+    "tech": "Technology",
+    "society": "Society",
+    "places": "Places",
+    "eras": "Eras",
+    "stories": "Stories",
+    "open_questions": "Open Questions",
+    "sessions": "Sessions",
+    "knowledge_graph": "Knowledge Graph",
+    "menu_open": "Open navigation",
+    "menu_close": "Close navigation"
+  },
+  "search": {
+    "trigger": "Search Spark...",
+    "placeholder": "Search entries, forecasts, physics, branches...",
+    "no_results": "No matching entries found.",
+    "shortcut_hint": "Press / or Ctrl+K"
+  },
+  "meta": {
+    "kind": "Kind",
+    "status": "Status",
+    "grounding": "Grounding",
+    "era": "Era",
+    "period": "Period",
+    "evidence_cutoff": "Evidence Cutoff",
+    "updated": "Updated",
+    "lifecycle": "Lifecycle",
+    "depends_on": "Depends On",
+    "backlinks": "Referenced By",
+    "toc": "On This Page",
+    "none": "None",
+    "sessions_en_only": "Session logs are archived in English only."
+  },
+  "status": {
+    "canon": "Canon",
+    "draft": "Draft",
+    "retconned": "Retconned"
+  },
+  "grounding": {
+    "established": "Established",
+    "plausible": "Plausible",
+    "speculative": "Speculative"
+  },
+  "kind": {
+    "concept": "Concept",
+    "tech": "Technology",
+    "society": "Society",
+    "place": "Place",
+    "era": "Era"
+  },
+  "resolution": {
+    "pending": "Pending",
+    "occurred": "Occurred",
+    "not-occurred": "Not Occurred",
+    "unresolved": "Unresolved"
+  },
+  "lifecycle": {
+    "active": "Active",
+    "retired": "Retired"
+  },
+  "confidence": {
+    "very-low": "Very Low",
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High"
+  },
+  "science": {
+    "validation_heading": "Scientific Validation",
+    "physics": "Physics",
+    "consistency": "Consistency",
+    "motive": "Motive & Consequences",
+    "branch_scope": "Conditional Branch",
+    "law_principle": "Physical Law",
+    "timeline_all": "All Timelines",
+    "timeline_shared": "Shared Premises",
+    "citations": "Cited Sources",
+    "open_questions": "Unresolved Checks",
+    "view_all_open_questions": "View all open questions"
+  },
+  "forecast": {
+    "conditional_prob": "Conditional",
+    "path_prob": "Cumulative Path",
+    "confidence": "Confidence",
+    "resolution": "Resolution",
+    "inherited_path": "Inherited Path",
+    "deadline": "Deadline",
+    "reset_selection": "Reset Path Highlight",
+    "sibling_sum_check": "Sibling Sum",
+    "leaf_sum_check": "Leaf Sum",
+    "filter_all": "All Statuses",
+    "jump_to_fork": "Jump to Fork Section ↓",
+    "rationale_label": "Rationale & Scenario",
+    "signals_label": "Validation & Revision Signals",
+    "zoom_in": "Zoom In",
+    "zoom_out": "Zoom Out",
+    "zoom_reset": "Fit"
+  },
+  "graph": {
+    "title": "Knowledge Dependency Graph",
+    "subtitle": "Explore how Spark's physical laws, concepts, technologies, societies, and forecast trees connect across branches.",
+    "filter_all": "All Categories",
+    "edge_depends": "Dependencies Only",
+    "edge_all": "Dependencies + References",
+    "upstream": "Depends On (Upstream)",
+    "downstream": "Referenced By (Downstream)",
+    "open_entry": "Open Entry →",
+    "select_hint": "Click any orbital node to inspect its dependencies, grounding, and downstream influence."
+  },
+  "visual": {
+    "play": "Play",
+    "pause": "Pause",
+    "reset": "Reset",
+    "scale_schematic": "Schematic (not to scale)",
+    "scale_to_scale": "To scale",
+    "mass_label": "Ship Mass (t)",
+    "delta_v_label": "Velocity Change Δv (km/s)",
+    "efficiency_label": "Conversion Efficiency (%)",
+    "cadence_label": "Departures / Day",
+    "kinetic_energy": "Ship Kinetic Energy",
+    "electrical_input": "Electrical Input",
+    "avg_power": "Mean Useful Power",
+    "waste_heat": "Waste Heat (Daily Avg)",
+    "recoil_note": "Opposite Module Recoil (−mΔv)",
+    "velocity_now": "Current Velocity"
+  }
+}

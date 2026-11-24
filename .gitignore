@@ -1,0 +1,9 @@
+# Generated web portal output (never commit; rebuild via `python3 web/build.py`)
+dist/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# OS artifacts
+.DS_Store

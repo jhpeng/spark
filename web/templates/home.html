@@ -1,0 +1,38 @@
+<!-- Archetype: home -->
+<div class="sp-shell sp-shell--full">
+  <main class="sp-main" id="main-content">
+    <div class="sp-prose sp-prose--wide">
+      <section class="sp-hero">
+        <div>
+          <div class="sp-eyebrow">{{home_eyebrow}}</div>
+          <h1 class="sp-hero-title">{{hero_headline}}</h1>
+          <p class="sp-lead">{{site_tagline}}</p>
+          <div class="sp-hero-actions">
+            {{hero_actions_html}}
+          </div>
+        </div>
+        <svg class="sp-orbital-art" viewBox="0 0 320 320" aria-hidden="true">
+          <circle cx="160" cy="160" r="138" fill="none" stroke="var(--border-subtle)" stroke-width="1" stroke-dasharray="3 5" />
+          <circle cx="160" cy="160" r="98" fill="none" stroke="var(--border-default)" stroke-width="1" />
+          <ellipse cx="160" cy="160" rx="132" ry="54" transform="rotate(-24 160 160)" fill="none" stroke="var(--border-accent)" stroke-width="1.25" />
+          <ellipse cx="160" cy="160" rx="112" ry="42" transform="rotate(32 160 160)" fill="none" stroke="var(--border-default)" stroke-width="1" />
+          <circle cx="160" cy="160" r="14" fill="var(--bg-active)" stroke="var(--accent-primary)" stroke-width="1.5" />
+          <circle cx="160" cy="160" r="4" fill="var(--accent-primary)" />
+          <circle cx="272" cy="110" r="5" fill="var(--accent-primary)" />
+          <circle cx="88" cy="226" r="4" fill="var(--accent-secondary)" />
+          <circle cx="222" cy="236" r="3.5" fill="var(--status-canon-fg)" />
+        </svg>
+      </section>
+
+      <div class="sp-metric-strip">
+        {{stats_metrics_html}}
+      </div>
+
+      <section class="sp-card-grid" aria-label="Primary Sections">
+        {{section_cards_html}}
+      </section>
+
+      {{reading_map_html}}
+    </div>
+  </main>
+</div>

@@ -39,8 +39,6 @@ Start with [motives for space expansion](wiki/concepts/space-expansion-motives.m
 | Society | [Migration contracts and resident rights](wiki/society/migration-contracts-and-resident-rights.md) | [移民契約與居民權利](wiki-tw/society/migration-contracts-and-resident-rights.md) |
 | Society | [State-funded space industry](wiki/society/state-funded-space-industry.md) | [國家資助的太空工業](wiki-tw/society/state-funded-space-industry.md) |
 
-The former paths of moved entries contain short relocation notices so historical session links still reach the current material. These notices are not concept entries.
-
 ## How it grows
 
 The wiki is an evolving workspace: useful ideas can become short `draft` entries while assumptions and validation remain open. Entries are classified by subject and can be revised, split, merged, moved, or removed as the discussion develops. Session logs preserve the discussion history. A draft becomes `canon` only after approval; substantive replacements of approved content follow the retcon rules. See [AGENTS.md](AGENTS.md) for the recording workflow and other agent rules.

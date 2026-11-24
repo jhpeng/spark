@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="{{lang_code}}" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("spark-theme");
+        if (t === "light" || t === "dark") {
+          document.documentElement.setAttribute("data-theme", t);
+          var m = document.querySelector('meta[name="color-scheme"]');
+          if (m) m.setAttribute("content", t);
+        }
+      } catch (_) {}
+    })();
+  </script>
+  <title>{{page_title}} — {{site_name}}</title>
+  <link rel="stylesheet" href="{{asset_prefix}}tokens.css?v={{asset_version}}">
+  <link rel="stylesheet" href="{{asset_prefix}}styles/base.css?v={{asset_version}}">
+  <link rel="stylesheet" href="{{asset_prefix}}styles/science.css?v={{asset_version}}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" media="print" onload="this.media='all'">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Noto+Sans+TC:wght@400;500;600&family=Noto+Serif+TC:wght@500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  {{extra_head}}
+</head>
+<body data-archetype="{{archetype}}" data-lang="{{lang_code}}" data-root="{{asset_prefix}}">
+  <header class="sp-header">
+    <div class="sp-header-left">
+      <button type="button" class="sp-btn sp-mobile-nav-btn" data-action="toggle-nav" aria-label="{{menu_open_label}}">☰</button>
+      <a class="sp-brand" href="{{home_href}}">
+        <span class="sp-brand-mark">SP</span>
+        <span>{{site_name}}</span>
+      </a>
+      <span class="sp-header-rule">{{rule_banner}}</span>
+    </div>
+    <div class="sp-header-actions">
+      <nav class="sp-header-nav" aria-label="Primary Sections">
+        {{top_nav_html}}
+      </nav>
+      <span class="sp-header-sep" aria-hidden="true"></span>
+      <button type="button" class="sp-btn" data-action="open-search">{{search_trigger}}</button>
+      <a class="sp-btn" href="{{switch_lang_href}}">{{switch_lang_label}}</a>
+      <button type="button" class="sp-btn sp-btn--primary" data-action="toggle-theme">{{theme_toggle_label}}</button>
+    </div>
+  </header>
+
+  {{body_shell}}
+
+  <div class="sp-search-backdrop" id="sp-search-backdrop" hidden data-empty-text="{{search_no_results}}">
+    <div class="sp-search-modal" role="dialog" aria-modal="true" aria-label="{{search_trigger}}">
+      <div class="sp-search-input-row">
+        <input type="search" id="sp-search-input" class="sp-search-input" placeholder="{{search_placeholder}}" autocomplete="off">
+        <span class="sp-badge">ESC</span>
+      </div>
+      <ul class="sp-search-results" id="sp-search-results"></ul>
+    </div>
+  </div>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+  <script type="module" src="{{asset_prefix}}js/science.js?v={{asset_version}}"></script>
+  <script type="module" src="{{asset_prefix}}js/visuals.js?v={{asset_version}}"></script>
+  <script type="module" src="{{asset_prefix}}js/app.js?v={{asset_version}}"></script>
+  <script type="module" src="{{asset_prefix}}js/search.js?v={{asset_version}}"></script>
+  {{extra_scripts}}
+</body>
+</html>

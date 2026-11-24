@@ -31,6 +31,24 @@ The commercial hypothesis is a service priced around spacecraft mass, required t
 
 ### Physics
 
+```spark-visual
+{
+  "type": "energy-budget",
+  "id": "network-power-budget",
+  "title": "Departure Kinetic Energy & Daily Power Budget",
+  "scale_mode": "schematic",
+  "caption": "Schematic interactive calculator (illustrative parameters only): explores E = ½m(Δv)², electrical input at conversion efficiency η, daily mean power P_avg = E/t, and thermal losses.",
+  "params": {
+    "mass_t": 100,
+    "mass_range_t": [20, 500],
+    "delta_v_km_s": 10,
+    "delta_v_range_km_s": [2, 25],
+    "efficiency": 0.9,
+    "cadence_per_day": 1
+  }
+}
+```
+
 The station estimates in [wiki/tech/modular-orbital-accelerator](./modular-orbital-accelerator.md) give 5 TJ of ship kinetic energy for a 100-tonne craft boosted from rest to 10 km/s in the station's initial frame. As a bookkeeping example, one such departure per day corresponds to 5 × 10¹² / 86,400 ≈ 58 MW of average useful power, despite gigawatt power during acceleration. Energy storage could separate generation rate from launch rate; its mass and feasibility remain unresolved. This uses P_average = E/t. [OpenStax: power](https://openstax.org/books/university-physics-volume-1/pages/7-4-power)
 
 At the illustrative 90% conversion efficiency, electrical energy per departure is about 5.56 TJ = 1.54 million kWh. If electricity costs p currency units/kWh, that portion of a departure costs 1.54 million × p, before construction, maintenance, recovery, and financing. No electricity price or profitability is assumed.

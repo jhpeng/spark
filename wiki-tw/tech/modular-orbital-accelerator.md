@@ -50,6 +50,23 @@ depends_on:
 
 ### 物理：獨立模組與反衝
 
+```spark-visual
+{
+  "type": "orbital-transfer",
+  "id": "accelerator-recoil-schematic",
+  "title": "模組化軌道加速器與反衝動態示意",
+  "scale_mode": "schematic",
+  "caption": "示意圖（非等比例）：示例 100 公噸太空船通過獨立電磁模組序列加速至 10 km/s；每個自由飛行模組均承受等大反向衝量（−mΔv），後續須以推進系統復原軌道。",
+  "params": {
+    "origin_label": "初始速度 0 km/s",
+    "target_label": "離站速度 10 km/s",
+    "delta_v_km_s": 10,
+    "payload_mass_t": 100,
+    "show_recoil": true
+  }
+}
+```
+
 假設模組能在 1 km 的作用區域內施力，但不宣稱此設計可行。以 10 km/s 通過時，穿越時間約為 1,000 / 10,000 = 0.1 s；若加速度為 1 g，速度僅增加約 9.81 × 0.1 = 0.98 m/s。即使速度增量很小，若作用時間短，仍可能代表很高的加速度。滑行間隙不增加電磁作功；在共同參考系的近似下，有效作用長度的總和仍必須達到所需的加速距離。模組移動與重力效應需要更完整的計算。
 
 動量交換造成的模組反衝為 ΔV = −mΔv/M。一艘 100 公噸的太空船增加 1 m/s，會交換 100,000 N·s 的衝量；一個 1,000 公噸的模組則以 0.1 m/s 反衝。在整段 10 km/s 的加速中，太空船承受 10⁹ N·s 的衝量。每個自由飛行模組都必須處理各自分擔的部分；編隊的總質量不會透過機械連結分攤個別模組的反衝。[OpenStax：動量守恆](https://openstax.org/books/university-physics-volume-1/pages/9-3-conservation-of-linear-momentum)

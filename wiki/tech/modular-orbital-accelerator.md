@@ -50,6 +50,23 @@ For the first case, average mechanical power is 5 × 10¹² / 1,019 ≈ 4.9 GW. 
 
 ### Physics: separate modules and recoil
 
+```spark-visual
+{
+  "type": "orbital-transfer",
+  "id": "accelerator-recoil-schematic",
+  "title": "Modular Orbital Accelerator & Recoil Dynamics",
+  "scale_mode": "schematic",
+  "caption": "Schematic (not to scale): Illustrative 100-tonne spacecraft gaining 10 km/s across separate electromagnetic modules; each free-flying module receives an equal-and-opposite recoil impulse (−mΔv) requiring orbital recovery.",
+  "params": {
+    "origin_label": "v_i = 0 km/s",
+    "target_label": "v_f = 10 km/s",
+    "delta_v_km_s": 10,
+    "payload_mass_t": 100,
+    "show_recoil": true
+  }
+}
+```
+
 Assume, without claiming feasibility, a module can push over a 1 km interaction region. At 10 km/s, transit lasts approximately 1,000 / 10,000 = 0.1 s; at 1 g it adds only about 9.81 × 0.1 = 0.98 m/s. Small velocity increments can still imply high acceleration if applied briefly. Coasting gaps add no electromagnetic work; under the common-frame approximation, the active lengths must still sum to the required acceleration distance. Moving modules and gravity require a more complete calculation.
 
 Momentum exchange gives module recoil ΔV = −mΔv/M. A 100-tonne ship receiving 1 m/s transfers 100,000 N·s; a 1,000-tonne module recoils by 0.1 m/s. Across a 10 km/s boost, the ship receives 10⁹ N·s. Each free module must handle its own share; the formation's total mass does not mechanically spread an individual module's recoil. [OpenStax: momentum conservation](https://openstax.org/books/university-physics-volume-1/pages/9-3-conservation-of-linear-momentum)

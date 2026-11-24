@@ -37,6 +37,44 @@ Percentages show `(conditional probability | cumulative path probability)` under
 
 ## Observable milestones
 
+```spark-visual
+{
+  "type": "phase-progression",
+  "id": "lunar-milestones-progression",
+  "title": "Lunar Expansion Milestone Progression (S → L → H → I)",
+  "scale_mode": "schematic",
+  "caption": "Schematic (not to scale): Ordered classification thresholds used in this forecast tree. Thresholds define observable criteria rather than validated engineering minimums.",
+  "params": {
+    "stages": [
+      {
+        "code": "S · 2036",
+        "label": "Shared Services",
+        "metric": "≥2 programs · ≥2 services · 3 yr",
+        "summary": "At least one lunar-surface system supplies power, communications, cargo handling, or maintenance to ≥2 independently funded customer programs across 3 consecutive calendar years."
+      },
+      {
+        "code": "L · 2076",
+        "label": "Local Consumables",
+        "metric": "≥10 t/yr · ≥20% local · 3 yr",
+        "summary": "At least one lunar customer uses ≥10 tonnes/year of lunar-derived water or oxygen accounting for ≥20% of its total consumption of that product for 3 consecutive years."
+      },
+      {
+        "code": "H · 2126",
+        "label": "Household Residence",
+        "metric": "≥100 residents · ≥10 households · 10 yr",
+        "summary": "At least one lunar site continuously houses ≥100 residents including ≥10 households treating it as their primary home rather than a rotational work post for 10 consecutive years."
+      },
+      {
+        "code": "I · 3026",
+        "label": "Verified Independence",
+        "metric": "30 yr no-Earth resupply",
+        "summary": "At least one lunar community sustains food, water, air, power, medicines, equipment maintenance cycles, and generational maturity for 30 consecutive years without Earth resupply."
+      }
+    ]
+  }
+}
+```
+
 These thresholds define forecast categories; they are **not validated engineering requirements or minimum viable population sizes**. Each question asks whether its milestone is operating at the specified deadline with the required preceding record. Earlier milestones describe their own deadline windows; they need not remain true throughout intervening decades or centuries. All outcomes follow the shared resolution policy in [forecasts/index](./index.md): inadequate evidence leaves a sibling pair `unresolved`, not failed.
 
 | Code | Criterion |

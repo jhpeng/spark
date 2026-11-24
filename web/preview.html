@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spark — Editorial Observatory Template Showcase</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Noto+Sans+TC:wght@400;500;600&family=Noto+Serif+TC:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+  <header class="sp-header">
+    <div class="sp-header-left">
+      <a class="sp-brand" href="#forecast-tree">
+        <span class="sp-brand-mark">SP</span>
+        <span>Spark</span>
+      </a>
+      <span class="sp-header-rule">Editorial Observatory · Phase 1 Template Preview</span>
+    </div>
+    <div class="sp-header-actions">
+      <button type="button" class="sp-btn sp-btn--active" data-tab="forecast-tree">Forecast Mind-Map</button>
+      <button type="button" class="sp-btn" data-tab="home">Home</button>
+      <button type="button" class="sp-btn" data-tab="wiki-entry">Wiki Entry</button>
+      <button type="button" class="sp-btn" data-tab="canon-doc">Canon</button>
+      <button type="button" class="sp-btn" data-tab="story">Story</button>
+      <button type="button" class="sp-btn" data-tab="index-log">Open Questions</button>
+      <button type="button" class="sp-btn sp-btn--primary" id="theme-toggle">Archival Light</button>
+    </div>
+  </header>
+
+  <!-- 1. FORECAST-TREE ARCHETYPE (INTERACTIVE MIND-MAP) -->
+  <section data-panel="forecast-tree">
+    <div class="sp-shell sp-shell--wide">
+      <aside class="sp-sidebar" aria-label="Forecast Navigation">
+        <div class="sp-nav-group">
+          <h2 class="sp-nav-heading">Forecast Trees</h2>
+          <ul class="sp-nav-list">
+            <li><a class="sp-nav-link" href="#">2026 Global Baseline</a></li>
+            <li><a class="sp-nav-link sp-nav-link--active" href="#">Lunar-Led Expansion</a></li>
+          </ul>
+        </div>
+        <div class="sp-nav-group">
+          <h2 class="sp-nav-heading">Milestones</h2>
+          <ul class="sp-nav-list">
+            <li><a class="sp-nav-link" href="#milestones">S · Shared Services</a></li>
+            <li><a class="sp-nav-link" href="#milestones">L · Local Consumables</a></li>
+            <li><a class="sp-nav-link" href="#milestones">H · Households</a></li>
+            <li><a class="sp-nav-link" href="#milestones">I · Verified Independence</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <main class="sp-main">
+        <article class="sp-prose sp-prose--wide">
+          <div class="sp-eyebrow">Forecast Mind-Map · forecasts/lunar-expansion.md</div>
+          <h1>Lunar-Led Expansion</h1>
+          <p class="sp-lead">
+            An interactive conditional probability mind-map tracking four verifiable milestones — Shared Services (<code>S</code>), Local Consumables (<code>L</code>), Households (<code>H</code>), and Verified Independence (<code>I</code>) — from the 2026 baseline to 3026. Click any node to illuminate its ancestral path and inspect its evidence.
+          </p>
+          <div class="sp-meta">
+            <span class="sp-badge">cutoff: 2026-11-19</span>
+            <span class="sp-badge sp-badge--occurred">lifecycle: active</span>
+            <span class="sp-badge sp-badge--pending">leaf sum: 100.0%</span>
+            <span class="sp-badge">horizon: 2026 → 3026</span>
+          </div>
+
+          <section class="sp-viz-frame" aria-label="Interactive Forecast Mind-Map">
+            <div class="sp-viz-header">
+              <div>
+                <div class="sp-eyebrow">Interactive Mind-Map · Click any branch node</div>
+                <span class="sp-mono">Edge weight scales with cumulative path probability</span>
+              </div>
+              <button type="button" class="sp-btn" id="mm-reset">Reset Path Highlight</button>
+            </div>
+
+            <div class="sp-mm-scroll">
+              <svg id="forecast-mindmap" class="sp-mm-svg" viewBox="0 0 1120 560" role="img" aria-label="Lunar-Led Expansion Forecast Mind-Map"></svg>
+            </div>
+
+            <div class="sp-mm-inspector" id="mm-inspector" aria-live="polite">
+              <div>
+                <div class="sp-eyebrow" id="ins-path">Path: index → lunar-services-2036</div>
+                <h3 id="ins-title">Shared Lunar Services (2036 · S)</h3>
+                <p id="ins-rationale"></p>
+              </div>
+              <div class="sp-mm-inspector-stats">
+                <div class="sp-metric">
+                  <div class="sp-metric-value" id="ins-cond">65%</div>
+                  <div class="sp-metric-label">Conditional Probability</div>
+                </div>
+                <div class="sp-metric">
+                  <div class="sp-metric-value" id="ins-cum">65.0%</div>
+                  <div class="sp-metric-label">Cumulative Path</div>
+                </div>
+                <div class="sp-metric">
+                  <div class="sp-metric-value" id="ins-conf">low</div>
+                  <div class="sp-metric-label">Confidence</div>
+                </div>
+                <div class="sp-metric">
+                  <div class="sp-metric-value" id="ins-res">pending</div>
+                  <div class="sp-metric-label">Resolution</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <h2 id="milestones">Observable Milestone Criteria</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th>Milestone</th>
+                <th>Verification Standard</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>S</code></td>
+                <td>Shared Services</td>
+                <td>At least one lunar surface system providing 2+ service types to 2+ independently funded customer programs for 3 consecutive calendar years.</td>
+              </tr>
+              <tr>
+                <td><code>L</code></td>
+                <td>Local Consumables</td>
+                <td>At least 10 t/yr of lunar-derived water or oxygen used by a lunar customer (≥20% of its total consumption of that product) for 3 consecutive years.</td>
+              </tr>
+              <tr>
+                <td><code>H</code></td>
+                <td>Households</td>
+                <td>At least 100 continuous residents at one lunar site for 10 years, including ≥10 households treating it as primary residence rather than shift rotation.</td>
+              </tr>
+              <tr>
+                <td><code>I</code></td>
+                <td>Verified Independence</td>
+                <td>30 consecutive years without Earth resupply or essential Earth-side operations, including local maintenance cycles and locally born cohorts reaching adulthood.</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </main>
+    </div>
+  </section>
+
+  <!-- 2. HOME ARCHETYPE (EDITORIAL OBSERVATORY HERO) -->
+  <section data-panel="home" hidden>
+    <div class="sp-shell sp-shell--full">
+      <main class="sp-main">
+        <div class="sp-prose sp-prose--wide">
+          <section class="sp-hero">
+            <div>
+              <div class="sp-eyebrow">Hard-Science Atlas of Possible Futures</div>
+              <h1 class="sp-hero-title">Humanity’s branching trajectories, bound strictly by known physics.</h1>
+              <p class="sp-lead">
+                Spark pairs back-of-the-envelope physical validation with conditional forecast mind-maps and speculative fiction — preserving competing futures instead of assuming one inevitable history.
+              </p>
+              <div class="sp-hero-actions">
+                <button type="button" class="sp-btn sp-btn--primary" data-jump="forecast-tree">Explore Forecast Mind-Map</button>
+                <button type="button" class="sp-btn" data-jump="wiki-entry">Read Validated Tech</button>
+                <button type="button" class="sp-btn" data-jump="canon-doc">Physics Canon</button>
+              </div>
+            </div>
+
+            <svg class="sp-orbital-art" viewBox="0 0 320 320" aria-hidden="true">
+              <circle cx="160" cy="160" r="138" fill="none" stroke="var(--border-subtle)" stroke-width="1" stroke-dasharray="3 5" />
+              <circle cx="160" cy="160" r="98" fill="none" stroke="var(--border-default)" stroke-width="1" />
+              <ellipse cx="160" cy="160" rx="132" ry="54" transform="rotate(-24 160 160)" fill="none" stroke="var(--border-accent)" stroke-width="1.25" />
+              <ellipse cx="160" cy="160" rx="112" ry="42" transform="rotate(32 160 160)" fill="none" stroke="var(--border-default)" stroke-width="1" />
+              <circle cx="160" cy="160" r="14" fill="var(--bg-active)" stroke="var(--accent-primary)" stroke-width="1.5" />
+              <circle cx="160" cy="160" r="4" fill="var(--accent-primary)" />
+              <circle cx="272" cy="110" r="5" fill="var(--accent-primary)" />
+              <circle cx="88" cy="226" r="4" fill="var(--accent-secondary)" />
+              <circle cx="222" cy="236" r="3.5" fill="var(--status-canon-fg)" />
+            </svg>
+          </section>
+
+          <div class="sp-metric-strip">
+            <div class="sp-metric">
+              <div class="sp-metric-value">16</div>
+              <div class="sp-metric-label">Bilingual Wiki Entries</div>
+            </div>
+            <div class="sp-metric">
+              <div class="sp-metric-value">13</div>
+              <div class="sp-metric-label">Forecast Mind-Map Nodes</div>
+            </div>
+            <div class="sp-metric">
+              <div class="sp-metric-value">100%</div>
+              <div class="sp-metric-label">Known Physics Compliance</div>
+            </div>
+            <div class="sp-metric">
+              <div class="sp-metric-value">EN / 繁中</div>
+              <div class="sp-metric-label">Synchronized Editions</div>
+            </div>
+          </div>
+
+          <div class="sp-card-grid">
+            <div class="sp-card">
+              <div class="sp-eyebrow">01 · Forecasts</div>
+              <div class="sp-card-title">Conditional Mind-Maps</div>
+              <p>Trace dated milestones, conditional odds, cumulative path probabilities, and explicit falsification triggers.</p>
+            </div>
+            <div class="sp-card">
+              <div class="sp-eyebrow">02 · Canon</div>
+              <div class="sp-card-title">Laws &amp; Master Timeline</div>
+              <p>The physical boundary conditions every branch obeys, plus approved timelines kept strictly separated by premise.</p>
+            </div>
+            <div class="sp-card">
+              <div class="sp-eyebrow">03 · Wiki</div>
+              <div class="sp-card-title">Concepts, Tech &amp; Society</div>
+              <p>Every proposal carries explicit energy/mass calculations, institutional motives, and linked open questions.</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </section>
+
+  <!-- 3. WIKI-ENTRY ARCHETYPE -->
+  <section data-panel="wiki-entry" hidden>
+    <div class="sp-shell">
+      <aside class="sp-sidebar" aria-label="Wiki Navigation">
+        <div class="sp-nav-group">
+          <h2 class="sp-nav-heading">Technology</h2>
+          <ul class="sp-nav-list">
+            <li><a class="sp-nav-link sp-nav-link--active" href="#">Orbital Transportation Network</a></li>
+            <li><a class="sp-nav-link" href="#">Modular Orbital Accelerator</a></li>
+            <li><a class="sp-nav-link" href="#">Orbital Data Centers</a></li>
+            <li><a class="sp-nav-link" href="#">Lunar Resource Utilization</a></li>
+          </ul>
+        </div>
+        <div class="sp-nav-group">
+          <h2 class="sp-nav-heading">Concepts</h2>
+          <ul class="sp-nav-list">
+            <li><a class="sp-nav-link" href="#">Motives for Space Expansion</a></li>
+            <li><a class="sp-nav-link" href="#">Lunar Base Development</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <main class="sp-main">
+        <article class="sp-prose">
+          <div class="sp-eyebrow">Technology · wiki/tech/orbital-transportation-network.md</div>
+          <h1>Orbital Transportation Network</h1>
+          <div class="sp-meta">
+            <span class="sp-badge sp-badge--draft">status: draft</span>
+            <span class="sp-badge sp-badge--speculative">grounding: speculative</span>
+            <span class="sp-badge">kind: tech</span>
+          </div>
+
+          <p class="sp-lead">
+            A networked architecture linking resource extraction, propellant depots, transit craft, and reusable orbital acceleration — keeping power generation and orbital-recovery hardware off the departing ship.
+          </p>
+
+          <div class="sp-metric-strip">
+            <div class="sp-metric">
+              <div class="sp-metric-value">5 TJ</div>
+              <div class="sp-metric-label">Kinetic Energy (100 t → 10 km/s)</div>
+            </div>
+            <div class="sp-metric">
+              <div class="sp-metric-value">~58 MW</div>
+              <div class="sp-metric-label">Mean Useful Power (1 launch/day)</div>
+            </div>
+            <div class="sp-metric">
+              <div class="sp-metric-value">1.54M kWh</div>
+              <div class="sp-metric-label">Electrical Input @ 90% Eff.</div>
+            </div>
+          </div>
+
+          <h2>Scientific Validation</h2>
+          <div class="sp-validation-grid">
+            <div class="sp-validation-card sp-validation-card--physics">
+              <div class="sp-validation-label">Physics · Energy, Power &amp; Momentum Recoil</div>
+              <p>
+                Using <code>E = ½mv²</code> and <code>P_avg = E / t</code>, accelerating a <code>100 t</code> spacecraft to <code>10 km/s</code> requires <code>5 TJ</code> useful kinetic energy (<code>5.56 TJ</code> electrical at 90% efficiency). Launch pulses reach gigawatt scale, requiring energy storage between departures, and every launch imparts equal-and-opposite recoil to the accelerator station that must be recovered with reaction mass.
+              </p>
+            </div>
+            <div class="sp-validation-card sp-validation-card--consistency">
+              <div class="sp-validation-label">Consistency · Canon &amp; Branch Scope</div>
+              <p>
+                Verified against <code>canon/laws.md</code> and <code>canon/timeline.md</code> with no canon conflicts. Remains an optional engineering branch; other futures do not inherit this infrastructure automatically.
+              </p>
+            </div>
+            <div class="sp-validation-card sp-validation-card--motive">
+              <div class="sp-validation-label">Motive &amp; Adoption Conditions</div>
+              <p>
+                Economic advantage requires high recurring traffic to amortize heavy capital hardware. Physical feasibility alone does not prove competitiveness against onboard propulsion or orbital tugs.
+              </p>
+            </div>
+          </div>
+
+          <div class="sp-open-q">
+            <div class="sp-validation-label">Unresolved Checks · open-questions.md</div>
+            <p>Which routes and traffic volumes justify the first station? What energy-storage architecture bridges 58 MW continuous supply to GW-scale launch pulses?</p>
+          </div>
+        </article>
+      </main>
+
+      <aside class="sp-rail" aria-label="Page Context">
+        <section class="sp-rail-section">
+          <h2 class="sp-rail-title">On This Page</h2>
+          <ul class="sp-toc-list">
+            <li><a href="#">Overview &amp; Key Figures</a></li>
+            <li><a href="#">Scientific Validation</a></li>
+            <li><a href="#">Unresolved Checks</a></li>
+          </ul>
+        </section>
+        <section class="sp-rail-section">
+          <h2 class="sp-rail-title">Depends On</h2>
+          <ul class="sp-rel-list">
+            <li><a href="#">canon/laws.md</a></li>
+            <li><a href="#">modular-orbital-accelerator.md</a></li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 4. CANON-DOC ARCHETYPE -->
+  <section data-panel="canon-doc" hidden>
+    <div class="sp-shell">
+      <aside class="sp-sidebar">
+        <div class="sp-nav-group">
+          <h2 class="sp-nav-heading">Canon</h2>
+          <ul class="sp-nav-list">
+            <li><a class="sp-nav-link sp-nav-link--active" href="#">Laws of Physics</a></li>
+            <li><a class="sp-nav-link" href="#">Master Timeline</a></li>
+          </ul>
+        </div>
+      </aside>
+      <main class="sp-main">
+        <article class="sp-prose">
+          <div class="sp-eyebrow">Canon · canon/laws.md</div>
+          <h1>Laws of Physics</h1>
+          <div class="sp-meta">
+            <span class="sp-badge sp-badge--canon">status: canon</span>
+            <span class="sp-badge sp-badge--established">scope: shared across all branches</span>
+          </div>
+          <div class="sp-validation-grid">
+            <div class="sp-validation-card sp-validation-card--physics">
+              <div class="sp-validation-label">Law 01 · Relativity &amp; Causality</div>
+              <p>No mass, energy, or information travels faster than light <code>c</code> in vacuum. All interplanetary and interstellar coordination obeys light-time latency.</p>
+            </div>
+            <div class="sp-validation-card sp-validation-card--physics">
+              <div class="sp-validation-label">Law 02 · Conservation &amp; Thermodynamics</div>
+              <p>Every velocity change obeys conservation of momentum, and every power or computing system in vacuum must reject waste heat radiatively.</p>
+            </div>
+          </div>
+        </article>
+      </main>
+      <aside class="sp-rail">
+        <section class="sp-rail-section">
+          <h2 class="sp-rail-title">Referenced By</h2>
+          <ul class="sp-rel-list">
+            <li><a href="#">All 16 Wiki Entries</a></li>
+            <li><a href="#">All Forecast Trees</a></li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 5. STORY ARCHETYPE -->
+  <section data-panel="story" hidden>
+    <div class="sp-shell sp-shell--story">
+      <main class="sp-main">
+        <article class="sp-prose">
+          <div class="sp-eyebrow">Fiction · stories/shackleton-rim.md</div>
+          <h1>Shift Change at Shackleton Rim</h1>
+          <div class="sp-meta">
+            <span class="sp-badge sp-badge--draft">status: draft</span>
+            <span class="sp-badge">branch: lunar-local-supply</span>
+          </div>
+          <p class="sp-lead">
+            A distraction-free editorial reading layout for hard-science fiction, with every underlying physical law, technology entry, and institutional premise transparently anchored in the margin.
+          </p>
+        </article>
+      </main>
+      <aside class="sp-rail">
+        <section class="sp-rail-section">
+          <h2 class="sp-rail-title">Worldbuilding Basis</h2>
+          <ul class="sp-rel-list">
+            <li><a href="#">canon/laws.md</a></li>
+            <li><a href="#">lunar-resource-utilization.md</a></li>
+            <li><a href="#">migration-contracts-and-resident-rights.md</a></li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 6. INDEX-LOG ARCHETYPE -->
+  <section data-panel="index-log" hidden>
+    <div class="sp-shell sp-shell--wide">
+      <aside class="sp-sidebar">
+        <div class="sp-nav-group">
+          <h2 class="sp-nav-heading">Registries</h2>
+          <ul class="sp-nav-list">
+            <li><a class="sp-nav-link sp-nav-link--active" href="#">Open Questions</a></li>
+            <li><a class="sp-nav-link" href="#">Session Logs (EN)</a></li>
+          </ul>
+        </div>
+      </aside>
+      <main class="sp-main">
+        <article class="sp-prose sp-prose--wide">
+          <div class="sp-eyebrow">Registry · open-questions.md</div>
+          <h1>Open Questions &amp; Unresolved Checks</h1>
+          <div class="sp-notice">
+            Tracks missing empirical evidence, unresolved engineering feasibility checks, and open branch decisions across the repository.
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Open Check</th>
+                <th>Branch Scope</th>
+                <th>Domain</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Energy storage mass &amp; cost bridging 58 MW supply to GW launch pulses</td>
+                <td><code>orbital-accelerator</code></td>
+                <td>Physics / Engineering</td>
+              </tr>
+              <tr>
+                <td>Measured lunar water-ice feedstock grade and recovery yield</td>
+                <td><code>lunar-local-supply</code></td>
+                <td>Empirical Evidence</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </main>
+    </div>
+  </section>
+
+  <script>
+    // ------------------------------------------------------------------------
+    // Tab & Theme Controls
+    // ------------------------------------------------------------------------
+    const tabs = document.querySelectorAll("[data-tab]");
+    const panels = document.querySelectorAll("[data-panel]");
+    function activateTab(target) {
+      tabs.forEach((b) => b.classList.toggle("sp-btn--active", b.getAttribute("data-tab") === target));
+      panels.forEach((p) => { p.hidden = p.getAttribute("data-panel") !== target; });
+    }
+    tabs.forEach((btn) => btn.addEventListener("click", () => activateTab(btn.getAttribute("data-tab"))));
+    document.querySelectorAll("[data-jump]").forEach((btn) =>
+      btn.addEventListener("click", () => activateTab(btn.getAttribute("data-jump")))
+    );
+
+    const themeBtn = document.getElementById("theme-toggle");
+    themeBtn.addEventListener("click", () => {
+      const root = document.documentElement;
+      const next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      themeBtn.textContent = next === "dark" ? "Archival Light" : "Obsidian Dark";
+    });
+
+    // ------------------------------------------------------------------------
+    // Interactive Forecast Mind-Map Prototype (Lunar-Led Expansion)
+    // ------------------------------------------------------------------------
+    const NODES = [
+      { id: "index", parent: null, col: 0, y: 280, year: "2026 BASELINE", title: "Global Baseline", cond: "100%", cum: 100.0, conf: "baseline", res: "active", rationale: "Evidence cutoff 2026-11-19. Tracks four verifiable lunar milestones (S → L → H → I) without excluding parallel orbital or Mars paths." },
+      { id: "lunar-services-2036", parent: "index", col: 1, y: 175, year: "2036 · S MET", title: "Shared Lunar Services", cond: "65%", cum: 65.0, conf: "low", res: "pending", rationale: "Active public procurement and multi-program infrastructure plans make at least one qualifying shared lunar service more likely than not by 2036." },
+      { id: "no-lunar-services-2036", parent: "index", col: 1, y: 445, year: "2036 · NO S", title: "No Shared Services", cond: "35%", cum: 35.0, conf: "low", res: "pending", rationale: "Isolated science missions or single-program outposts may occur without meeting the 3-year multi-customer shared-service threshold." },
+      { id: "local-consumables-2076", parent: "lunar-services-2036", col: 2, y: 115, year: "2076 · L MET", title: "Local Water / O₂", cond: "55%", cum: 35.8, conf: "very-low", res: "pending", rationale: "Adopts lunar-local-supply: ≥10 t/yr of lunar-derived water or oxygen used by an identified customer for 3 consecutive years." },
+      { id: "no-local-consumables-2076", parent: "lunar-services-2036", col: 2, y: 300, year: "2076 · NO L", title: "Import-Dependent", cond: "45%", cum: 29.3, conf: "very-low", res: "pending", rationale: "Reflects extraction unreliability, poor feedstock grade, or lower-cost Earth resupply outcompeting local consumable extraction." },
+      { id: "delayed-lunar-services-2076", parent: "no-lunar-services-2036", col: 2, y: 410, year: "2076 · LATE S", title: "Delayed Shared S", cond: "45%", cum: 15.8, conf: "very-low", res: "pending", rationale: "An additional 40 years allows programs to recover from schedule slips and establish multi-customer surface infrastructure." },
+      { id: "still-no-lunar-services-2076", parent: "no-lunar-services-2036", col: 2, y: 495, year: "2076 · NO S", title: "Still No Shared S", cond: "55%", cum: 19.3, conf: "very-low", res: "pending", rationale: "Structural barriers persist: Earth-centric alternatives remain sufficient or national programs stay siloed without shared standards." },
+      { id: "local-supply-households-2126", parent: "local-consumables-2076", col: 3, y: 70, year: "2126 · H MET", title: "Lunar Households", cond: "40%", cum: 14.3, conf: "very-low", res: "pending", rationale: "Requires ≥100 continuous residents and ≥10 households for 10 years; depends on explicit settlement motives, rights, and viable healthcare." },
+      { id: "local-supply-no-households-2126", parent: "local-consumables-2076", col: 3, y: 190, year: "2126 · NO H", title: "Industrial / Shift Only", cond: "60%", cum: 21.5, conf: "very-low", res: "pending", rationale: "Automation and rotational crews sustain industrial output without families choosing permanent lunar residence." },
+      { id: "import-path-households-2126", parent: "no-local-consumables-2076", col: 3, y: 275, year: "2126 · H MET", title: "Import Households", cond: "15%", cum: 4.4, conf: "very-low", res: "pending", rationale: "Possible only if Earth-to-Moon transport becomes cheap enough to sustain long-term resident communities without local consumables." },
+      { id: "import-path-no-households-2126", parent: "no-local-consumables-2076", col: 3, y: 350, year: "2126 · NO H", title: "No Households", cond: "85%", cum: 24.9, conf: "very-low", res: "pending", rationale: "High import dependence keeps permanent family settlement rare or absent through 2126." },
+      { id: "early-households-independent-3026", parent: "local-supply-households-2126", col: 4, y: 42, year: "3026 · I MET", title: "Verified Independent", cond: "45%", cum: 6.4, conf: "very-low", res: "pending", rationale: "30 consecutive years without Earth resupply or essential Earth-side operations, including local maintenance cycles and generational maturity." },
+      { id: "early-households-not-independent-3026", parent: "local-supply-households-2126", col: 4, y: 112, year: "3026 · NO I", title: "Earth-Linked", cond: "55%", cum: 7.9, conf: "very-low", res: "pending", rationale: "Permanent communities thrive but remain integrated with Earth for specialized pharmaceuticals, tooling, or replacement parts." },
+      { id: "later-households-independent-3026", parent: "local-supply-no-households-2126", col: 4, y: 185, year: "3026 · I MET", title: "Late Independence", cond: "20%", cum: 4.3, conf: "very-low", res: "pending", rationale: "Settlement emerges after 2126 and eventually closes all critical supply loops over the following centuries." },
+      { id: "later-households-not-independent-3026", parent: "local-supply-no-households-2126", col: 4, y: 255, year: "3026 · NO I", title: "Not Independent", cond: "80%", cum: 17.2, conf: "very-low", res: "pending", rationale: "Lunar operations remain automated, rotational, or permanently reliant on Earth-side supply chains through 3026." }
+    ];
+
+    const COL_X = [20, 240, 460, 680, 900];
+    const NODE_W = 196;
+    const NODE_H = 56;
+    const nodeById = Object.fromEntries(NODES.map((n) => [n.id, n]));
+
+    function getAncestorSet(id) {
+      const set = new Set();
+      let cur = nodeById[id];
+      while (cur) {
+        set.add(cur.id);
+        cur = cur.parent ? nodeById[cur.parent] : null;
+      }
+      return set;
+    }
+
+    const svg = document.getElementById("forecast-mindmap");
+    const NS = "http://www.w3.org/2000/svg";
+    let selectedId = "local-supply-households-2126";
+
+    function renderMindMap() {
+      svg.innerHTML = "";
+      const activeSet = selectedId ? getAncestorSet(selectedId) : null;
+
+      // Draw smooth Bézier connectors first
+      NODES.forEach((n) => {
+        if (!n.parent) return;
+        const p = nodeById[n.parent];
+        const x1 = COL_X[p.col] + NODE_W;
+        const y1 = p.y;
+        const x2 = COL_X[n.col];
+        const y2 = n.y;
+        const cx = (x1 + x2) / 2;
+
+        const path = document.createElementNS(NS, "path");
+        path.setAttribute("d", `M ${x1} ${y1} C ${cx} ${y1}, ${cx} ${y2}, ${x2} ${y2}`);
+        const isActive = activeSet && activeSet.has(n.id) && activeSet.has(p.id);
+        const strokeW = Math.max(1.2, Math.min(5.5, 1 + (n.cum / 100) * 5.2));
+        path.setAttribute("stroke-width", strokeW.toFixed(2));
+        path.setAttribute(
+          "class",
+          "sp-mm-edge" + (isActive ? " sp-mm-edge--active" : activeSet ? " sp-mm-edge--dim" : "")
+        );
+        svg.appendChild(path);
+      });
+
+      // Draw interactive node cards
+      NODES.forEach((n) => {
+        const g = document.createElementNS(NS, "g");
+        const isActive = activeSet && activeSet.has(n.id);
+        g.setAttribute("class", "sp-mm-node" + (isActive ? " sp-mm-node--active" : activeSet ? " sp-mm-node--dim" : ""));
+        g.setAttribute("transform", `translate(${COL_X[n.col]}, ${n.y - NODE_H / 2})`);
+        g.setAttribute("tabindex", "0");
+        g.setAttribute("role", "button");
+        g.setAttribute("aria-label", `${n.title} (${n.cond} conditional, ${n.cum}% path)`);
+
+        const rect = document.createElementNS(NS, "rect");
+        rect.setAttribute("width", NODE_W);
+        rect.setAttribute("height", NODE_H);
+        rect.setAttribute("class", "sp-mm-node-box");
+        g.appendChild(rect);
+
+        const year = document.createElementNS(NS, "text");
+        year.setAttribute("x", 12);
+        year.setAttribute("y", 16);
+        year.setAttribute("class", "sp-mm-year");
+        year.textContent = n.year;
+        g.appendChild(year);
+
+        const title = document.createElementNS(NS, "text");
+        title.setAttribute("x", 12);
+        title.setAttribute("y", 33);
+        title.setAttribute("class", "sp-mm-title");
+        title.textContent = n.title;
+        g.appendChild(title);
+
+        const sub = document.createElementNS(NS, "text");
+        sub.setAttribute("x", 12);
+        sub.setAttribute("y", 47);
+        sub.setAttribute("class", "sp-mm-sub");
+        sub.textContent = `${n.cond} cond · ${n.cum.toFixed(1)}% path`;
+        g.appendChild(sub);
+
+        const barBg = document.createElementNS(NS, "rect");
+        barBg.setAttribute("x", 12);
+        barBg.setAttribute("y", 51);
+        barBg.setAttribute("width", NODE_W - 24);
+        barBg.setAttribute("height", 2.5);
+        barBg.setAttribute("class", "sp-mm-bar-bg");
+        g.appendChild(barBg);
+
+        const barFill = document.createElementNS(NS, "rect");
+        barFill.setAttribute("x", 12);
+        barFill.setAttribute("y", 51);
+        barFill.setAttribute("width", Math.max(4, ((NODE_W - 24) * n.cum) / 100));
+        barFill.setAttribute("height", 2.5);
+        barFill.setAttribute("class", "sp-mm-bar-fill");
+        g.appendChild(barFill);
+
+        const selectNode = () => {
+          selectedId = n.id;
+          renderMindMap();
+          updateInspector(n);
+        };
+        g.addEventListener("click", selectNode);
+        g.addEventListener("keydown", (e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            selectNode();
+          }
+        });
+        svg.appendChild(g);
+      });
+    }
+
+    function updateInspector(n) {
+      const chain = [];
+      let cur = n;
+      while (cur) {
+        chain.unshift(cur.id);
+        cur = cur.parent ? nodeById[cur.parent] : null;
+      }
+      document.getElementById("ins-path").textContent = "Inherited Path: " + chain.join(" → ");
+      document.getElementById("ins-title").textContent = `${n.title} (${n.year})`;
+      document.getElementById("ins-rationale").textContent = n.rationale;
+      document.getElementById("ins-cond").textContent = n.cond;
+      document.getElementById("ins-cum").textContent = `${n.cum.toFixed(1)}%`;
+      document.getElementById("ins-conf").textContent = n.conf;
+      document.getElementById("ins-res").textContent = n.res;
+    }
+
+    document.getElementById("mm-reset").addEventListener("click", () => {
+      selectedId = null;
+      renderMindMap();
+      updateInspector(nodeById["index"]);
+    });
+
+    renderMindMap();
+    updateInspector(nodeById[selectedId]);
+  </script>
+</body>
+</html>

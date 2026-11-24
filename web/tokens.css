@@ -1,0 +1,294 @@
+/*
+ * Spark Design Tokens — Editorial Observatory
+ *
+ * Single authoritative source for all colors, typography, spacing, layout,
+ * elevation, motion, and domain-specific semantic tokens.
+ *
+ * Identity: High-craft science publication meets precision observatory instrument.
+ * Default theme: Obsidian & Warm Starlight (neutral carbon-ink + warm alabaster + solar amber).
+ * Optional theme: Archival Paper (warm ivory + charcoal ink + burnt bronze).
+ *
+ * RULE: Do NOT hardcode colors in web/styles/*.css, web/templates/*, or web/js/*.
+ * Always reference var(--...) tokens defined here.
+ */
+
+:root {
+  color-scheme: dark;
+
+  /* --------------------------------------------------------------------------
+   * 1. Surface & Atmosphere Hierarchy (Obsidian & Warm Starlight — Default)
+   * ----------------------------------------------------------------------- */
+  --bg-canvas: #0b0c0f;
+  --bg-surface: #12141a;
+  --bg-surface-elevated: #181b23;
+  --bg-surface-subtle: #0e1015;
+  --bg-code: #0f1117;
+  --bg-hover: rgba(242, 239, 233, 0.05);
+  --bg-active: rgba(226, 168, 86, 0.12);
+  --bg-scrim: rgba(6, 7, 10, 0.78);
+  --bg-hero-glow: radial-gradient(ellipse 75% 55% at 50% 0%, rgba(226, 168, 86, 0.11), transparent 72%);
+  --bg-card-sheen: linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 45%);
+
+  /* Hairline architectural borders */
+  --border-subtle: rgba(242, 239, 233, 0.07);
+  --border-default: rgba(242, 239, 233, 0.13);
+  --border-strong: rgba(242, 239, 233, 0.24);
+  --border-accent: rgba(226, 168, 86, 0.5);
+  --grid-line: rgba(242, 239, 233, 0.04);
+
+  /* --------------------------------------------------------------------------
+   * 2. Text Hierarchy (Warm Alabaster Ink)
+   * ----------------------------------------------------------------------- */
+  --text-primary: #f2efe9;
+  --text-secondary: #b5b0a6;
+  --text-muted: #7b776f;
+  --text-inverse: #0b0c0f;
+
+  /* --------------------------------------------------------------------------
+   * 3. Primary Editorial Accents (Solar Amber & Celestial Cobalt)
+   * ----------------------------------------------------------------------- */
+  --accent-primary: #e2a856;       /* Solar amber — active paths & focal accents */
+  --accent-primary-hover: #f0c27d;
+  --accent-secondary: #7aa2f7;     /* Celestial cobalt — physics & links */
+  --accent-focus-ring: rgba(226, 168, 86, 0.45);
+
+  /* --------------------------------------------------------------------------
+   * 4. Domain Semantic Tokens — Entry Status (canon/AGENTS.md)
+   * ----------------------------------------------------------------------- */
+  --status-canon-fg: #66cfa8;
+  --status-canon-bg: rgba(102, 207, 168, 0.11);
+  --status-canon-border: rgba(102, 207, 168, 0.32);
+
+  --status-draft-fg: #e2a856;
+  --status-draft-bg: rgba(226, 168, 86, 0.11);
+  --status-draft-border: rgba(226, 168, 86, 0.32);
+
+  --status-retconned-fg: #e07a8b;
+  --status-retconned-bg: rgba(224, 122, 139, 0.11);
+  --status-retconned-border: rgba(224, 122, 139, 0.32);
+
+  /* --------------------------------------------------------------------------
+   * 5. Domain Semantic Tokens — Scientific Grounding (wiki/AGENTS.md)
+   * ----------------------------------------------------------------------- */
+  --grounding-established-fg: #66cfa8;
+  --grounding-established-bg: rgba(102, 207, 168, 0.1);
+  --grounding-established-border: rgba(102, 207, 168, 0.28);
+
+  --grounding-plausible-fg: #7aa2f7;
+  --grounding-plausible-bg: rgba(122, 162, 247, 0.1);
+  --grounding-plausible-border: rgba(122, 162, 247, 0.28);
+
+  --grounding-speculative-fg: #c29df2;
+  --grounding-speculative-bg: rgba(194, 157, 242, 0.1);
+  --grounding-speculative-border: rgba(194, 157, 242, 0.28);
+
+  /* --------------------------------------------------------------------------
+   * 6. Domain Semantic Tokens — Wiki Kind (wiki/AGENTS.md)
+   * ----------------------------------------------------------------------- */
+  --kind-concept-fg: #7aa2f7;
+  --kind-tech-fg: #66cfa8;
+  --kind-society-fg: #e07a8b;
+  --kind-place-fg: #e2a856;
+  --kind-era-fg: #c29df2;
+
+  /* --------------------------------------------------------------------------
+   * 7. Domain Semantic Tokens — Forecast Resolution & Lifecycle
+   * ----------------------------------------------------------------------- */
+  --resolution-pending-fg: #e2a856;
+  --resolution-pending-bg: rgba(226, 168, 86, 0.12);
+
+  --resolution-occurred-fg: #66cfa8;
+  --resolution-occurred-bg: rgba(102, 207, 168, 0.12);
+
+  --resolution-not-occurred-fg: #e07a8b;
+  --resolution-not-occurred-bg: rgba(224, 122, 139, 0.12);
+
+  --resolution-unresolved-fg: #9c978d;
+  --resolution-unresolved-bg: rgba(156, 151, 141, 0.12);
+
+  --lifecycle-active-fg: #66cfa8;
+  --lifecycle-retired-fg: #9c978d;
+
+  /* --------------------------------------------------------------------------
+   * 8. Scientific Validation Section Accents
+   * ----------------------------------------------------------------------- */
+  --val-physics-accent: #7aa2f7;
+  --val-consistency-accent: #66cfa8;
+  --val-motive-accent: #e2a856;
+  --val-open-question-accent: #e07a8b;
+
+  /* --------------------------------------------------------------------------
+   * 9. Visualization, Mind-Map & Animation Palette
+   * ----------------------------------------------------------------------- */
+  --viz-1: #e2a856;
+  --viz-2: #66cfa8;
+  --viz-3: #7aa2f7;
+  --viz-4: #c29df2;
+  --viz-5: #e07a8b;
+  --viz-6: #68b8d6;
+  --viz-axis: #5c5952;
+  --viz-edge: rgba(242, 239, 233, 0.22);
+  --viz-edge-active: #e2a856;
+  --viz-grid: rgba(242, 239, 233, 0.06);
+  --viz-node-bg: #151821;
+  --viz-node-bg-active: #1f1b16;
+  --viz-highlight: #e2a856;
+
+  /* --------------------------------------------------------------------------
+   * 10. Typography (Editorial Serif Display + Clean Sans + Tabular Mono)
+   * ----------------------------------------------------------------------- */
+  --font-serif: "Newsreader", "Noto Serif TC", "Songti TC", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei",
+    system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", "IBM Plex Mono", "SFMono-Regular", ui-monospace,
+    Menlo, Monaco, Consolas, monospace;
+
+  --text-xs: 0.75rem;      /* 12px — metadata keys, micro labels */
+  --text-sm: 0.875rem;     /* 14px — TOC, nav items, table cells */
+  --text-base: 1.03125rem; /* 16.5px — editorial long-form prose */
+  --text-lg: 1.1875rem;    /* 19px — lead paragraphs, h4 */
+  --text-xl: 1.4375rem;    /* 23px — h3 */
+  --text-2xl: 1.875rem;    /* 30px — h2 */
+  --text-3xl: 2.625rem;    /* 42px — page h1 */
+  --text-hero: 3.5rem;     /* 56px — home editorial hero */
+
+  --leading-tight: 1.16;
+  --leading-snug: 1.45;
+  --leading-prose: 1.82;
+
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.09em;
+
+  /* --------------------------------------------------------------------------
+   * 11. Spacing, Layout & Geometry
+   * ----------------------------------------------------------------------- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  --header-height: 4rem;
+  --sidebar-width: 16.5rem;
+  --toc-width: 16rem;
+  --prose-max-width: 46rem;
+  --page-max-width: 92rem;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 9999px;
+
+  /* --------------------------------------------------------------------------
+   * 12. Elevation, Z-Index & Motion
+   * ----------------------------------------------------------------------- */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.28);
+  --shadow-md: 0 12px 32px rgba(0, 0, 0, 0.38);
+  --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.55);
+
+  --z-base: 0;
+  --z-sticky: 20;
+  --z-header: 40;
+  --z-drawer: 60;
+  --z-modal: 80;
+
+  --duration-fast: 140ms;
+  --duration-normal: 240ms;
+  --duration-slow: 400ms;
+  --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* --------------------------------------------------------------------------
+ * Archival Paper Light Theme (Warm Editorial Science Journal)
+ * ----------------------------------------------------------------------- */
+[data-theme="light"] {
+  color-scheme: light;
+
+  --bg-canvas: #faf8f4;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #f3efe7;
+  --bg-surface-subtle: #f6f3ec;
+  --bg-code: #f2eee6;
+  --bg-hover: rgba(23, 22, 20, 0.045);
+  --bg-active: rgba(181, 113, 32, 0.1);
+  --bg-scrim: rgba(23, 22, 20, 0.45);
+  --bg-hero-glow: radial-gradient(ellipse 75% 55% at 50% 0%, rgba(181, 113, 32, 0.1), transparent 72%);
+  --bg-card-sheen: linear-gradient(180deg, rgba(255, 255, 255, 0.8), transparent 45%);
+
+  --border-subtle: rgba(23, 22, 20, 0.08);
+  --border-default: rgba(23, 22, 20, 0.14);
+  --border-strong: rgba(23, 22, 20, 0.26);
+  --border-accent: rgba(181, 113, 32, 0.5);
+  --grid-line: rgba(23, 22, 20, 0.05);
+
+  --text-primary: #171614;
+  --text-secondary: #4e4a44;
+  --text-muted: #7d776e;
+  --text-inverse: #faf8f4;
+
+  --accent-primary: #b57120;
+  --accent-primary-hover: #935914;
+  --accent-secondary: #2d5bd1;
+  --accent-focus-ring: rgba(181, 113, 32, 0.35);
+
+  --status-canon-fg: #137a57;
+  --status-canon-bg: rgba(19, 122, 87, 0.1);
+  --status-canon-border: rgba(19, 122, 87, 0.28);
+
+  --status-draft-fg: #a46416;
+  --status-draft-bg: rgba(164, 100, 22, 0.1);
+  --status-draft-border: rgba(164, 100, 22, 0.28);
+
+  --status-retconned-fg: #b8324b;
+  --status-retconned-bg: rgba(184, 50, 75, 0.1);
+  --status-retconned-border: rgba(184, 50, 75, 0.28);
+
+  --grounding-established-fg: #137a57;
+  --grounding-established-bg: rgba(19, 122, 87, 0.09);
+  --grounding-established-border: rgba(19, 122, 87, 0.26);
+
+  --grounding-plausible-fg: #2d5bd1;
+  --grounding-plausible-bg: rgba(45, 91, 209, 0.09);
+  --grounding-plausible-border: rgba(45, 91, 209, 0.26);
+
+  --grounding-speculative-fg: #7644b8;
+  --grounding-speculative-bg: rgba(118, 68, 184, 0.09);
+  --grounding-speculative-border: rgba(118, 68, 184, 0.26);
+
+  --resolution-pending-fg: #a46416;
+  --resolution-pending-bg: rgba(164, 100, 22, 0.1);
+  --resolution-occurred-fg: #137a57;
+  --resolution-occurred-bg: rgba(19, 122, 87, 0.1);
+
+  --val-physics-accent: #2d5bd1;
+  --val-consistency-accent: #137a57;
+  --val-motive-accent: #b57120;
+  --val-open-question-accent: #b8324b;
+
+  --viz-1: #b57120;
+  --viz-2: #137a57;
+  --viz-3: #2d5bd1;
+  --viz-edge: rgba(23, 22, 20, 0.18);
+  --viz-edge-active: #b57120;
+  --viz-node-bg: #ffffff;
+  --viz-node-bg-active: #fdf7ee;
+  --viz-highlight: #b57120;
+
+  --shadow-sm: 0 2px 8px rgba(23, 22, 20, 0.06);
+  --shadow-md: 0 12px 28px rgba(23, 22, 20, 0.09);
+  --shadow-lg: 0 24px 52px rgba(23, 22, 20, 0.14);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fast: 0ms;
+    --duration-normal: 0ms;
+    --duration-slow: 0ms;
+  }
+}

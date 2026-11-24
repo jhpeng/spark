@@ -31,6 +31,24 @@ depends_on:
 
 ### 物理
 
+```spark-visual
+{
+  "type": "energy-budget",
+  "id": "network-power-budget",
+  "title": "單次出發動能與日均功率收支模擬",
+  "scale_mode": "schematic",
+  "caption": "互動示意計算器（僅供示例比較，非核准規格）：即時估算船體動能 E = ½m(Δv)²、轉換效率 η 下的電能輸入、日均有效功率 P_avg = E/t 與廢熱損耗。",
+  "params": {
+    "mass_t": 100,
+    "mass_range_t": [20, 500],
+    "delta_v_km_s": 10,
+    "delta_v_range_km_s": [2, 25],
+    "efficiency": 0.9,
+    "cadence_per_day": 1
+  }
+}
+```
+
 [模組化軌道加速器](./modular-orbital-accelerator.md)中的加速站估算顯示，在加速站的初始參考系中，將一艘 100 公噸的太空船由靜止加速至 10 km/s，會增加 5 TJ 的船體動能。若以每天一次這樣的出發作為收支估算範例，平均有效功率為 5 × 10¹² / 86,400 ≈ 58 MW，儘管加速期間的功率達吉瓦等級。儲能可讓發電速率與發射頻率分開安排；其質量與可行性仍未確定。此處使用 P_average = E/t。[OpenStax：功率](https://openstax.org/books/university-physics-volume-1/pages/7-4-power)
 
 若採用示例中的 90% 轉換效率，每次出發所需電能約為 5.56 TJ = 154 萬 kWh。若電價為每 kWh 收取 p 個貨幣單位，則每次出發的這部分成本為 154 萬 × p，尚未計入建造、維護、軌道復原與融資成本。此處未假定任何電價或獲利能力。

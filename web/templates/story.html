@@ -1,0 +1,23 @@
+<!-- Archetype: story -->
+<div class="sp-shell sp-shell--story">
+  <main class="sp-main" id="main-content">
+    <article class="sp-prose">
+      <div class="sp-eyebrow">{{story_eyebrow}}</div>
+      <h1>{{page_title}}</h1>
+      <div class="sp-meta" aria-label="Story Metadata">
+        {{meta_badges_html}}
+      </div>
+      {{content_html}}
+    </article>
+  </main>
+  <aside class="sp-rail" aria-label="Worldbuilding Basis">
+    <section class="sp-rail-section">
+      <h2 class="sp-rail-title">{{depends_on_label}}</h2>
+      {{depends_on_html}}
+    </section>
+    <section class="sp-rail-section">
+      <h2 class="sp-rail-title">{{toc_label}}</h2>
+      {{toc_html}}
+    </section>
+  </aside>
+</div>

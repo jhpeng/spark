@@ -1,0 +1,144 @@
+{
+  "site": {
+    "name": "Spark",
+    "hero_headline": "嚴格遵守已知物理定律的人類文明分支圖譜。",
+    "tagline": "以硬科學探索人類文明的各種可能未來——結合定量物理驗證、條件機率預測心智圖與科幻敘事。",
+    "rule_banner": "一切推論皆遵守已知物理定律。",
+    "skip_to_content": "跳至主要內容",
+    "language_label": "語言",
+    "switch_language": "English",
+    "theme_toggle": "切換色彩主題"
+  },
+  "nav": {
+    "home": "總覽",
+    "canon": "正史與定律",
+    "laws": "物理定律",
+    "timeline": "主時間軸",
+    "forecasts": "預測樹",
+    "wiki": "百科",
+    "concepts": "概念",
+    "tech": "技術",
+    "society": "社會",
+    "places": "地點",
+    "eras": "時代",
+    "stories": "故事",
+    "open_questions": "待解問題",
+    "sessions": "討論紀錄",
+    "knowledge_graph": "知識圖譜",
+    "menu_open": "開啟導覽選單",
+    "menu_close": "關閉導覽選單"
+  },
+  "search": {
+    "trigger": "搜尋 Spark...",
+    "placeholder": "搜尋條目、預測樹、物理計算、分支...",
+    "no_results": "找不到符合的條目。",
+    "shortcut_hint": "按 / 或 Ctrl+K"
+  },
+  "meta": {
+    "kind": "分類",
+    "status": "狀態",
+    "grounding": "可信程度",
+    "era": "時代",
+    "period": "預測期間",
+    "evidence_cutoff": "證據截點",
+    "updated": "最後更新",
+    "lifecycle": "生命週期",
+    "depends_on": "相依條目",
+    "backlinks": "反向引用",
+    "toc": "本頁目錄",
+    "none": "無",
+    "sessions_en_only": "討論紀錄僅保留英文原檔。"
+  },
+  "status": {
+    "canon": "正史",
+    "draft": "草稿",
+    "retconned": "已改寫"
+  },
+  "grounding": {
+    "established": "已證實",
+    "plausible": "具可行性",
+    "speculative": "推測性質"
+  },
+  "kind": {
+    "concept": "概念",
+    "tech": "技術",
+    "society": "社會",
+    "place": "地點",
+    "era": "時代"
+  },
+  "resolution": {
+    "pending": "待判定",
+    "occurred": "已發生",
+    "not-occurred": "未發生",
+    "unresolved": "證據不足"
+  },
+  "lifecycle": {
+    "active": "運作中",
+    "retired": "已退場"
+  },
+  "confidence": {
+    "very-low": "極低",
+    "low": "低",
+    "medium": "中",
+    "high": "高"
+  },
+  "science": {
+    "validation_heading": "科學驗證",
+    "physics": "物理",
+    "consistency": "一致性",
+    "motive": "動機與後果",
+    "branch_scope": "條件分支",
+    "law_principle": "物理定律",
+    "timeline_all": "全部時間軸",
+    "timeline_shared": "共用前提",
+    "citations": "引用來源",
+    "open_questions": "待解檢查",
+    "view_all_open_questions": "查看全部待解問題"
+  },
+  "forecast": {
+    "conditional_prob": "條件機率",
+    "path_prob": "累計路徑機率",
+    "confidence": "信心度",
+    "resolution": "判定狀態",
+    "inherited_path": "前置路徑",
+    "deadline": "期限",
+    "reset_selection": "重設路徑高亮",
+    "sibling_sum_check": "同層機率總和",
+    "leaf_sum_check": "葉節點總和",
+    "filter_all": "全部狀態",
+    "jump_to_fork": "前往對應分岔章節 ↓",
+    "rationale_label": "推論與情境",
+    "signals_label": "驗證與修訂訊號",
+    "zoom_in": "放大",
+    "zoom_out": "縮小",
+    "zoom_reset": "重設比例"
+  },
+  "graph": {
+    "title": "全站知識依賴圖譜",
+    "subtitle": "以軌道星圖視角探索物理定律、概念、技術、社會與預測樹之間的相依與引用網路。",
+    "filter_all": "全部分類",
+    "edge_depends": "僅顯示相依（depends_on）",
+    "edge_all": "相依＋正文引用",
+    "upstream": "上游相依（Depends On）",
+    "downstream": "下游引用（Referenced By）",
+    "open_entry": "開啟條目 →",
+    "select_hint": "點選星圖中的任意節點，即可高亮其上下游關聯並預覽摘要。"
+  },
+  "visual": {
+    "play": "播放",
+    "pause": "暫停",
+    "reset": "重設",
+    "scale_schematic": "示意圖（非等比例）",
+    "scale_to_scale": "等比例圖",
+    "mass_label": "太空船質量（公噸）",
+    "delta_v_label": "速度變化 Δv（km/s）",
+    "efficiency_label": "能量轉換效率（%）",
+    "cadence_label": "每日出發次數",
+    "kinetic_energy": "船體動能增量",
+    "electrical_input": "所需電能輸入",
+    "avg_power": "平均有效功率",
+    "waste_heat": "廢熱排散（日均）",
+    "recoil_note": "模組反向衝量（−mΔv）",
+    "velocity_now": "當前船速"
+  }
+}

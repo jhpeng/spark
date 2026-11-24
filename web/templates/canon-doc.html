@@ -1,0 +1,26 @@
+<!-- Archetype: canon-doc -->
+<div class="sp-shell">
+  <aside class="sp-sidebar" aria-label="Primary Navigation">
+    {{nav_html}}
+  </aside>
+  <main class="sp-main" id="main-content">
+    <article class="sp-prose">
+      <div class="sp-eyebrow">{{canon_eyebrow}}</div>
+      <h1>{{page_title}}</h1>
+      <div class="sp-meta" aria-label="Canon Metadata">
+        {{meta_badges_html}}
+      </div>
+      {{content_html}}
+    </article>
+  </main>
+  <aside class="sp-rail" aria-label="Canon Context">
+    <section class="sp-rail-section">
+      <h2 class="sp-rail-title">{{toc_label}}</h2>
+      {{toc_html}}
+    </section>
+    <section class="sp-rail-section">
+      <h2 class="sp-rail-title">{{backlinks_label}}</h2>
+      {{backlinks_html}}
+    </section>
+  </aside>
+</div>

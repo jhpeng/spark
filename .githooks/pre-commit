@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+echo "[pre-commit] Running Spark web quality gate (python3 web/check.py)..."
+python3 web/check.py

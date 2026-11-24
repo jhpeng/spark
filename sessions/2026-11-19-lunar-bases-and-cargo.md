@@ -27,7 +27,7 @@ topic: Lunar bases, early resource use, and Earth-return cargo
 
 ## Entries created or changed
 
-- [wiki/concepts/lunar-resource-utilization](../wiki/concepts/lunar-resource-utilization.md) / [wiki-tw/concepts/lunar-resource-utilization](../wiki-tw/concepts/lunar-resource-utilization.md) — draft, new; `lunar-local-supply`, early resources, facilities, and production checks.
+- [wiki/tech/lunar-resource-utilization](../wiki/tech/lunar-resource-utilization.md) / [wiki-tw/tech/lunar-resource-utilization](../wiki-tw/tech/lunar-resource-utilization.md) — draft, new (originally created under `concepts/`); `lunar-local-supply`, early resources, facilities, and production checks.
 - [wiki/concepts/lunar-base-development](../wiki/concepts/lunar-base-development.md) / [wiki-tw/concepts/lunar-base-development](../wiki-tw/concepts/lunar-base-development.md) — draft, new; dated NASA reference and conditional lunar extensions of the eight existing motive branches.
 - [wiki/concepts/lunar-earth-cargo](../wiki/concepts/lunar-earth-cargo.md) / [wiki-tw/concepts/lunar-earth-cargo](../wiki-tw/concepts/lunar-earth-cargo.md) — draft, new; `lunar-earth-export`, staged logistics/production development, launcher alternatives, and arrival limits.
 - [wiki/concepts/space-expansion-motives](../wiki/concepts/space-expansion-motives.md) / [wiki-tw/concepts/space-expansion-motives](../wiki-tw/concepts/space-expansion-motives.md) — draft, updated; navigation and scope for the lunar applications and new branches.

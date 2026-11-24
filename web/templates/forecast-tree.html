@@ -1,0 +1,23 @@
+<!-- Archetype: forecast-tree -->
+<div class="sp-shell sp-shell--wide">
+  <aside class="sp-sidebar" aria-label="Primary Navigation">
+    {{nav_html}}
+  </aside>
+  <main class="sp-main" id="main-content">
+    <article class="sp-prose sp-prose--wide">
+      <div class="sp-eyebrow">{{forecast_eyebrow}}</div>
+      <h1>{{page_title}}</h1>
+      <div class="sp-meta" aria-label="Forecast Metadata">
+        {{meta_badges_html}}
+      </div>
+      <section class="sp-viz-frame" data-component="forecast-tree" data-tree-id="{{tree_id}}">
+        <div class="sp-viz-header">
+          <span class="sp-mono">{{tree_overview_label}}</span>
+          <button type="button" class="sp-btn" data-action="reset-tree">{{reset_selection_label}}</button>
+        </div>
+        <div class="sp-forecast-canvas">{{tree_fallback_html}}</div>
+      </section>
+      {{content_html}}
+    </article>
+  </main>
+</div>
