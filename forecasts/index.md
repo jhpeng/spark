@@ -1,7 +1,7 @@
 ---
 title: "Forecasts: dated baseline and active trees"
 id: "index"
-period: "2026-11-19/3026-12-31"
+period: "2026-11-19/2126-12-31"
 evidence_cutoff: "2026-11-19"
 updated: "2026-11-24"
 lifecycle: "active"
@@ -15,7 +15,7 @@ This directory holds evidence-based prediction trees built from the repository's
 
 | Tree | Horizon | Evidence cutoff | Lifecycle | Scope |
 |---|---|---|---|---|
-| [Lunar-led expansion](./lunar-expansion.md) | 2026–3026 | 2026-11-19 | `active` | Shared lunar services (`S`), local consumables (`L`), household residence (`H`), and demonstrated independence (`I`). Does not exhaust Mars, orbital industry, or other routes. |
+| [Lunar-led expansion](./lunar-expansion.md) | 2026–2126 | 2026-11-19 | `active` | Shared lunar services, routine local water/oxygen use, and sustained lunar household residence on the rolling 100-year grid. Does not exhaust Mars, orbital industry, or other routes. |
 
 ## Dated baseline and evidence
 
@@ -30,6 +30,7 @@ Recorded and selectively checked on **2026-11-19**; this is the evidence cutoff,
 
 ## Shared conventions
 
+- **Rolling 100-year horizon cadence**: Relative to the current baseline year (`Y0`, currently `2026`), forks align to annual checkpoints for `Y0+1`–`Y0+5` (`2027`–`2031`), 5-year checkpoints for `Y0+10`–`Y0+25` (`2036`, `2041`, `2046`, `2051`), and 25-year checkpoints for `Y0+25`–`Y0+100` (`2051`, `2076`, `2101`, `2126`). Forecasts stop at `Y0+100`; intermediate checkpoints may be left open until populated. Each new calendar year, advance `Y0` by 1 year, resolve due forks against their original deadlines/criteria, preserve prior forecasts in revision history, and shift the active grid forward by 1 year.
 - **Conditional and path probabilities**: Each outcome gives its **conditional probability** given its full ancestral path and current evidence, and its **cumulative path probability** (the product of conditional probabilities along the path; this does not assume independence). Sibling outcomes for the same question and deadline are mutually exclusive and collectively exhaustive, summing to 100%.
 - **Subjective estimates and confidence**: Initial numbers are uncalibrated subjective estimates, not measured frequencies or calibrated model outputs. **Confidence** (`high`, `medium`, `low`, `very-low`) is recorded separately from probability: low confidence means an estimate is easy to revise, not that the outcome is unlikely.
 - **Unexpanded leaves**: An unexpanded leaf means **not yet modeled**, not zero probability of later development.
@@ -38,5 +39,6 @@ Recorded and selectively checked on **2026-11-19**; this is the evidence cutoff,
 
 ## Revision history
 
+- `2026-11-24`: Adopted the tiered 100-year forecast cadence (`2027–2031` annual, `2036–2051` every 5 years, `2051–2126` every 25 years; capped at +100 years / `2126`) and retired the 1000-year (`3026`) horizon from active trees.
 - `2026-11-24`: Reorganized `forecasts/` from one-node-per-file into one-tree-per-topic-file; moved the lunar-led tree into [lunar-expansion.md](./lunar-expansion.md) without changing probabilities, criteria, or evidence cutoff.
 - `2026-11-19`: Initial baseline and lunar-led forecast tree created ([sessions/2026-11-19-initial-forecast-tree](../sessions/2026-11-19-initial-forecast-tree.md)).

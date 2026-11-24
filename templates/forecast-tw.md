@@ -7,7 +7,7 @@ updated: "<YYYY-MM-DD>"
 lifecycle: "active"
 ---
 
-<!-- Authoring guidance: follow ../forecasts/AGENTS.md for tree structure, probabilities, resolution, and revision rules. Keep one thematic tree per file; split a deep subtree into a child file only when this file becomes unwieldy or evolves into an independent theme. Define shared criteria once below rather than repeating boilerplate in every fork. Remove this comment from forecast files. -->
+<!-- Authoring guidance: follow ../forecasts/AGENTS.md for tree structure, rolling 100-year tiered horizon cadence (Y0+1..+5 annual, Y0+10..+25 every 5 yr, Y0+25..+100 every 25 yr; capped at Y0+100 and rolled forward annually), probabilities, resolution, and revision rules. Keep one thematic tree per file; split a deep subtree into a child file only when this file becomes unwieldy or evolves into an independent theme. Define shared criteria once below rather than repeating boilerplate in every fork. Remove this comment from forecast files. -->
 
 # <主題預測樹名稱>
 
@@ -18,33 +18,33 @@ lifecycle: "active"
 ## 樹狀總覽
 
 ```text
-<YYYY> 基準
-├── <YYYY> <結果 A> (<條件機率>% | 路徑 <路徑機率>%) [pending]
-│   ├── <YYYY> <結果 A1> (<條件機率>% | 路徑 <路徑機率>%) [pending]
-│   └── <YYYY> <結果 A2> (<條件機率>% | 路徑 <路徑機率>%) [pending]
-└── <YYYY> <結果 B> (<條件機率>% | 路徑 <路徑機率>%) [pending]
+<YYYY> 基準 (index)
+├── <YYYY> · <達成事件 A>：<outcome-a-id> (<條件機率>% | 路徑 <路徑機率>%) [pending]
+│   ├── <YYYY> · <達成後續事件 A1>：<outcome-a1-id> (<條件機率>% | 路徑 <路徑機率>%) [pending] *
+│   └── <YYYY> · <未達成後續事件 A1>：<outcome-a2-id> (<條件機率>% | 路徑 <路徑機率>%) [pending] *
+└── <YYYY> · <未達成事件 A>：<outcome-b-id> (<條件機率>% | 路徑 <路徑機率>%) [pending] *
 ```
 
 ## 可觀察的里程碑
 
-<說明如何依明訂標準與期限判定結果，並註明證據不足時整組維持 `unresolved`。>
+<說明如何依明訂標準與期限判定結果，並註明證據不足時整組維持 `unresolved`。直接以具體事件或條件命名里程碑，不使用單字母代號。>
 
-| 代碼 | 判定標準 |
+| 里程碑 | 判定標準 |
 |---|---|
-| **<代碼>** | <具體、可觀察的判定標準與所需的運作時間窗。> |
+| **<具體里程碑名稱>** | <具體、可觀察的判定標準與所需的運作時間窗。> |
 
 ## 分岔
 
-### <YYYY> — <問題標題>
+### <YYYY> — <具體事件或里程碑標題>
 
 - **前置路徑**：`index`（或 `<parent-outcome-id>`）
-- **問題**：<單一互斥且窮盡的問題。>
+- **問題**：<以具體語句描述單一互斥且窮盡的問題。>
 - **期限**：`<YYYY-MM-DD>` · **證據截點**：`<YYYY-MM-DD>`
 
 | 結果 ID | 結果 | 條件機率 | 路徑機率 | 信心度 | 判定狀態 | 生命週期 |
 |---|---|---:|---:|---|---|---|
-| `<outcome-a-id>` | <結果 A> | 0% | 0.0% | `low` | `pending` | `active` |
-| `<outcome-b-id>` | <結果 B> | 0% | 0.0% | `low` | `pending` | `active` |
+| `<outcome-a-id>` | <達成具體事件或條件> | 0% | 0.0% | `low` | `pending` | `active` |
+| `<outcome-b-id>` | <未達成具體事件或條件> | 0% | 0.0% | `low` | `pending` | `active` |
 
 - **推論與情境**：
   - **`<outcome-a-id>`**：<新增條件、後果與估計理由。>

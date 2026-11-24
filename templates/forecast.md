@@ -7,7 +7,7 @@ updated: "<YYYY-MM-DD>"
 lifecycle: "active"
 ---
 
-<!-- Authoring guidance: follow ../forecasts/AGENTS.md for tree structure, probabilities, resolution, and revision rules. Keep one thematic tree per file; split a deep subtree into a child file only when this file becomes unwieldy or evolves into an independent theme. Define shared criteria once below rather than repeating boilerplate in every fork. Remove this comment from forecast files. -->
+<!-- Authoring guidance: follow ../forecasts/AGENTS.md for tree structure, rolling 100-year tiered horizon cadence (Y0+1..+5 annual, Y0+10..+25 every 5 yr, Y0+25..+100 every 25 yr; capped at Y0+100 and rolled forward annually), probabilities, resolution, and revision rules. Keep one thematic tree per file; split a deep subtree into a child file only when this file becomes unwieldy or evolves into an independent theme. Define shared criteria once below rather than repeating boilerplate in every fork. Remove this comment from forecast files. -->
 
 # <Topic forecast tree>
 
@@ -18,33 +18,33 @@ Baseline: [forecasts/index](./index.md)
 ## Tree overview
 
 ```text
-<YYYY> baseline
-├── <YYYY> <Outcome A> (<cond>% | path <path>%) [pending]
-│   ├── <YYYY> <Outcome A1> (<cond>% | path <path>%) [pending]
-│   └── <YYYY> <Outcome A2> (<cond>% | path <path>%) [pending]
-└── <YYYY> <Outcome B> (<cond>% | path <path>%) [pending]
+<YYYY> baseline (index)
+├── <YYYY> · <Event A achieved>: <outcome-a-id> (<cond>% | path <path>%) [pending]
+│   ├── <YYYY> · <Downstream event A1>: <outcome-a1-id> (<cond>% | path <path>%) [pending] *
+│   └── <YYYY> · <Downstream event A2 not met>: <outcome-a2-id> (<cond>% | path <path>%) [pending] *
+└── <YYYY> · <Event A not achieved>: <outcome-b-id> (<cond>% | path <path>%) [pending] *
 ```
 
 ## Observable milestones
 
-<State how outcomes are evaluated against stated criteria and deadlines, and note that missing evidence leaves a pair `unresolved`.>
+<State how outcomes are evaluated against stated criteria and deadlines, and note that missing evidence leaves a pair `unresolved`. Use plain-language milestone names rather than single-letter codes.>
 
-| Code | Criterion |
+| Milestone | Criterion |
 |---|---|
-| **<Code>** | <Concrete, observable criterion and required operating window.> |
+| **<Plain-language milestone name>** | <Concrete, observable criterion and required operating window.> |
 
 ## Forks
 
-### <YYYY> — <Question title>
+### <YYYY> — <Plain-language event or milestone title>
 
 - **Inherited path**: `index` (or `<parent-outcome-id>`)
-- **Question**: <Single mutually exclusive, collectively exhaustive question.>
+- **Question**: <Single mutually exclusive, collectively exhaustive question in plain language.>
 - **Deadline**: `<YYYY-MM-DD>` · **Evidence cutoff**: `<YYYY-MM-DD>`
 
 | Outcome ID | Outcome | Cond. prob. | Path prob. | Confidence | Resolution | Lifecycle |
 |---|---|---:|---:|---|---|---|
-| `<outcome-a-id>` | <Outcome A> | 0% | 0.0% | `low` | `pending` | `active` |
-| `<outcome-b-id>` | <Outcome B> | 0% | 0.0% | `low` | `pending` | `active` |
+| `<outcome-a-id>` | <Plain-language event achieved> | 0% | 0.0% | `low` | `pending` | `active` |
+| `<outcome-b-id>` | <Plain-language event not achieved> | 0% | 0.0% | `low` | `pending` | `active` |
 
 - **Rationale & scenarios**:
   - **`<outcome-a-id>`**: <Added conditions, consequences, and estimation rationale.>

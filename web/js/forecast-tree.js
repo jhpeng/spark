@@ -36,10 +36,10 @@ export function initForecastMindMaps() {
     });
     if (!root) return;
 
-    const NODE_W = 200;
-    const NODE_H = 66;
+    const NODE_W = 232;
+    const NODE_H = 82;
     const COL_GAP = 42;
-    const ROW_GAP = 24;
+    const ROW_GAP = 22;
     const PAD_X = 16;
     const HEADER_H = 34;
     const PAD_Y = 18;
@@ -220,6 +220,14 @@ export function initForecastMindMaps() {
     // Start with all columns brightly visible (no branch dimmed until user clicks a node)
     let selectedId = null;
 
+    function extractYearTag(node) {
+      if (!node.parent) return node.eyebrow || "BASELINE";
+      const yrMatch = (node.deadline + " " + node.eyebrow).match(/\b(20\d{2}|21\d{2}|30\d{2})\b/);
+      const resText = resLabels[node.resolution] || node.resolution || "";
+      if (yrMatch && resText) return `${yrMatch[1]} · ${resText}`;
+      return yrMatch ? yrMatch[1] : (node.eyebrow || "NODE");
+    }
+
     function updateInspector(node) {
       const chain = [];
       let cur = node;
@@ -228,7 +236,8 @@ export function initForecastMindMaps() {
         cur = cur.parent ? byId[cur.parent] : null;
       }
       insPath.textContent = `${labels.inherited_path || "Path"}: ${chain.join(" → ")}`;
-      insTitle.textContent = `${node.eyebrow} · ${node.label}`;
+      const yrTag = extractYearTag(node);
+      insTitle.textContent = node.parent ? `${yrTag} — ${node.label}` : node.label;
       const dlPart = node.deadline ? ` (${labels.deadline || "Deadline"}: ${node.deadline})` : "";
       insQuestion.textContent = node.question ? `${node.question}${dlPart}` : "";
       insRationale.textContent = node.rationale || "";
@@ -250,7 +259,7 @@ export function initForecastMindMaps() {
       insRes.textContent = resLabels[node.resolution] || node.resolution || "active";
     }
 
-    // Visual-width aware truncation (CJK wide chars count as 2 units so text never overflows card)
+    // Visual-width aware truncation & 2-line wrapping (CJK wide chars count as 2 units)
     function truncateVisual(str, maxUnits) {
       let units = 0;
       let out = "";
@@ -263,6 +272,51 @@ export function initForecastMindMaps() {
         units += w;
       }
       return out;
+    }
+
+    function wrapVisualLines(str, maxUnitsPerLine, maxLines) {
+      const text = (str || "").trim();
+      if (!text) return [""];
+      const lines = [];
+      let cur = "";
+      let curUnits = 0;
+      let lastBreakIdx = -1;
+
+      for (let i = 0; i < text.length; i++) {
+        const ch = text[i];
+        const w = ch.charCodeAt(0) > 0x2e7f ? 2 : 1;
+        if (curUnits + w > maxUnitsPerLine) {
+          if (lines.length === maxLines - 1) {
+            lines.push(truncateVisual(cur + text.slice(i), maxUnitsPerLine));
+            return lines;
+          }
+          if (lastBreakIdx > 0 && ch !== " ") {
+            const breakCh = cur[lastBreakIdx];
+            const splitAt = breakCh === " " ? lastBreakIdx : lastBreakIdx;
+            const keepFrom = breakCh === " " ? lastBreakIdx + 1 : lastBreakIdx;
+            lines.push(cur.slice(0, splitAt).trimEnd());
+            const carry = cur.slice(keepFrom) + ch;
+            cur = carry;
+            curUnits = 0;
+            lastBreakIdx = -1;
+            for (let j = 0; j < cur.length; j++) {
+              curUnits += cur.charCodeAt(j) > 0x2e7f ? 2 : 1;
+              if (cur[j] === " " || cur[j] === "（" || cur[j] === "(") lastBreakIdx = j;
+            }
+          } else {
+            lines.push(cur.trimEnd());
+            cur = ch === " " ? "" : ch;
+            curUnits = ch === " " ? 0 : w;
+            lastBreakIdx = -1;
+          }
+        } else {
+          if (ch === " " || ch === "（" || ch === "(") lastBreakIdx = cur.length;
+          cur += ch;
+          curUnits += w;
+        }
+      }
+      if (cur.trim()) lines.push(cur.trim());
+      return lines.length ? lines : [""];
     }
 
     function render() {
@@ -332,19 +386,22 @@ export function initForecastMindMaps() {
         eyebrow.setAttribute("x", 12);
         eyebrow.setAttribute("y", 17);
         eyebrow.setAttribute("class", "sp-mm-year");
-        eyebrow.textContent = truncateVisual(n.eyebrow || "NODE", 24);
+        eyebrow.textContent = truncateVisual(extractYearTag(n), 28);
         g.appendChild(eyebrow);
 
-        const title = document.createElementNS(NS, "text");
-        title.setAttribute("x", 12);
-        title.setAttribute("y", 36);
-        title.setAttribute("class", "sp-mm-title");
-        title.textContent = truncateVisual(n.label, 21);
-        g.appendChild(title);
+        const titleLines = wrapVisualLines(n.label, 29, 2);
+        titleLines.forEach((lineText, li) => {
+          const title = document.createElementNS(NS, "text");
+          title.setAttribute("x", 12);
+          title.setAttribute("y", titleLines.length === 1 ? 40 : (34 + li * 16));
+          title.setAttribute("class", "sp-mm-title");
+          title.textContent = lineText;
+          g.appendChild(title);
+        });
 
         const sub = document.createElementNS(NS, "text");
         sub.setAttribute("x", 12);
-        sub.setAttribute("y", 52);
+        sub.setAttribute("y", 67);
         sub.setAttribute("class", "sp-mm-sub");
         const cumText = typeof n.cum === "number" ? `${n.cum.toFixed(1)}%` : "100.0%";
         sub.textContent = n.parent ? `${n.cond || "—"} · path ${cumText}` : `baseline · 100.0%`;
@@ -352,7 +409,7 @@ export function initForecastMindMaps() {
 
         const barBg = document.createElementNS(NS, "rect");
         barBg.setAttribute("x", 12);
-        barBg.setAttribute("y", 58);
+        barBg.setAttribute("y", 74);
         barBg.setAttribute("width", NODE_W - 24);
         barBg.setAttribute("height", 2.5);
         barBg.setAttribute("class", "sp-mm-bar-bg");
@@ -361,7 +418,7 @@ export function initForecastMindMaps() {
         const cumPct = typeof n.cum === "number" ? n.cum : 100;
         const barFill = document.createElementNS(NS, "rect");
         barFill.setAttribute("x", 12);
-        barFill.setAttribute("y", 58);
+        barFill.setAttribute("y", 74);
         barFill.setAttribute("width", Math.max(4, ((NODE_W - 24) * cumPct) / 100));
         barFill.setAttribute("height", 2.5);
         barFill.setAttribute("class", "sp-mm-bar-fill");
