@@ -18,7 +18,7 @@ depends_on:
 
 ## Reasoning
 
-<The causal chain: what makes this happen, and why humans choose it.>
+<The causal chain: what makes this happen, and why humans choose it. Distinguish real-world observations, user premises, and agent extrapolations.>
 
 ## Validation
 

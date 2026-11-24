@@ -41,6 +41,6 @@ Start with [motives for space expansion](wiki/concepts/space-expansion-motives.m
 
 ## How it grows
 
-The wiki is an evolving workspace: useful ideas can become short `draft` entries while assumptions and validation remain open. Entries are classified by subject and can be revised, split, merged, moved, or removed as the discussion develops. Session logs preserve the discussion history. A draft becomes `canon` only after approval; substantive replacements of approved content follow the retcon rules. See [AGENTS.md](AGENTS.md) for the recording workflow and other agent rules.
+The wiki and forecast trees are an evolving co-research workspace: both user premises and autonomous agent extrapolations can become `draft` entries or new forecast branches as long as they obey known physics and clearly mark their provenance. Entries are classified by subject and can be revised, split, merged, moved, or removed as understanding develops. Session logs preserve the discussion history. Only `canon` promotion and substantive replacements of approved `canon` require user approval; competing `draft` branches remain open. See [AGENTS.md](AGENTS.md) for the full agent rules.
 
 Browse it in any Markdown viewer. Internal links use standard Markdown with relative file paths and `.md` extensions, so editors such as VS Code can open them with Command-click on macOS or Ctrl-click on Windows/Linux. See [format and language rules](templates/AGENTS.md) for authoring conventions.

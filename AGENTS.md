@@ -4,10 +4,10 @@ Read the applicable guides before starting the task; directory placement alone d
 
 | When | Read | Rules owned there |
 |---|---|---|
-| Discussing, validating, or changing worldbuilding; approving or retconning content | [canon/AGENTS.md](canon/AGENTS.md) | Project purpose, physics, branches, validation, status, approval, timelines |
-| Discussing ideas or recording a session | [sessions/AGENTS.md](sessions/AGENTS.md) | When to write, session logs, open questions, commits |
-| Constructing or updating forecasts; recording a session that affects existing forecasts | [forecasts/AGENTS.md](forecasts/AGENTS.md) | Prediction trees, conditional probabilities, evidence, autonomous revision |
-| Discussing wiki classification; creating, revising, reorganizing, or removing entries in `wiki/` or `wiki-tw/` | [wiki/AGENTS.md](wiki/AGENTS.md) | Classification, draft lifecycle, entry layout, branch presentation, grounding |
+| Discussing, extrapolating, validating, or changing worldbuilding; approving or retconning content | [canon/AGENTS.md](canon/AGENTS.md) | Project purpose, co-research posture, physics, branches, validation, canon approval, timelines |
+| Discussing ideas, writing autonomous drafts, or recording a session | [sessions/AGENTS.md](sessions/AGENTS.md) | Autonomous writing vs. discussion, session logs, open questions, commits |
+| Constructing, extending, or updating forecasts; recording a session that affects forecasts | [forecasts/AGENTS.md](forecasts/AGENTS.md) | Prediction trees, conditional probabilities, evidence, autonomous extension and revision |
+| Discussing wiki classification; authoring, extending, revising, reorganizing, or removing entries in `wiki/` or `wiki-tw/` | [wiki/AGENTS.md](wiki/AGENTS.md) | Autonomous drafts, provenance labeling, classification, entry layout, branch presentation, grounding |
 | Writing or changing stories in `stories/` or `stories-tw/` | [stories/AGENTS.md](stories/AGENTS.md) | Story scope and links to worldbuilding |
 | Creating, editing, translating, moving, removing, or retconning content; changing templates | [templates/AGENTS.md](templates/AGENTS.md) | Formats, links, bilingual synchronization |
 | Building, styling, or modifying web presentation, visual components, animations, or media in `web/` or `assets/media/` | [web/AGENTS.md](web/AGENTS.md) | Single source of truth, design tokens, page archetypes, component whitelist, visual checks |

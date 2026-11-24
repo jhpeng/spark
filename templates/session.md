@@ -7,11 +7,11 @@ topic: <topic>
 
 ## Ideas discussed
 
-- <idea> — <validation result: passed / reworked (why) / rejected (which law)>
+- <idea> (<user premise | agent extrapolation>) — <validation result: passed / reworked (why) / rejected (which law)>
 
 ## Decisions
 
-- <what the user decided>
+- <canon approval, scope decision, or open branch choice>
 
 ## Entries created or changed
 

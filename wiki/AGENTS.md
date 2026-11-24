@@ -4,9 +4,9 @@ Applies to entries in both `wiki/` and `wiki-tw/`, including classification and 
 
 ## Living wiki
 
-The wiki is an evolving worldbuilding workspace. Create a draft as soon as an idea, assumption, question, or inference is useful to track, discuss, or cite independently. Short entries are welcome; complete engineering, institutions, economics, and validation are not prerequisites for recording.
+The wiki is an evolving worldbuilding and forecasting workspace. Autonomously create or extend a `draft` as soon as a user premise, agent extrapolation, second-/third-order consequence, competing branch, or question is useful to track, discuss, or cite independently — without waiting for per-idea user confirmation. Short entries are welcome; complete engineering, institutions, economics, and validation are not prerequisites for recording.
 
-Within authorized writing work, revise drafts as understanding changes. Split independently useful subjects, merge overlapping entries, reclassify when the main subject changes, and remove redundant, superseded, abandoned, or no-longer-useful drafts. Preserve alternatives still being explored; uncertainty alone is not a reason to discard them. Session logs preserve the discussion history; wiki entries present the current version and need not retain obsolete wording. Apply the canon guide when approved claims are affected and the format guide when paths or links change.
+Revise drafts freely as understanding changes: split independently useful subjects, merge overlapping entries, reclassify when the main subject changes, and remove redundant, superseded, abandoned, or no-longer-useful drafts. Preserve alternatives still being explored; uncertainty alone is not a reason to discard them. Distinguish **real-world observations**, **user premises**, and **agent extrapolations** (following [canon rules](../canon/AGENTS.md)) so readers can tell what rests on evidence, what came from the user, and where the agent extended the causal chain. Session logs preserve the discussion history; wiki entries present the current version and need not retain obsolete wording. Apply the canon guide when approved `canon` claims are affected and the format guide when paths or links change.
 
 ## Classification
 
@@ -30,7 +30,7 @@ Choose `kind` by the entry's main subject, independently of status, grounding, c
 
 - Use [the entry template](../templates/entry.md) and its [Taiwan Traditional Chinese counterpart](../templates/entry-tw.md).
 - Use the directory for the chosen kind and a lowercase-kebab filename. Mirror paths under `wiki-tw/`.
-- Keep metadata and a useful summary in short drafts. Treat template body sections as prompts: include what is useful now, mark relevant unknowns explicitly, and omit unused sections rather than inventing material to fill them. Record applicable unresolved checks even when validation is incomplete.
+- Keep metadata and a useful summary in short drafts. Treat template body sections as prompts: include what is useful now, mark relevant unknowns explicitly, and omit unused sections rather than padding with boilerplate filler. Record applicable unresolved checks even when validation is incomplete.
 - Present alternatives in labeled branch sections; split them into linked entries when they need separate treatment. Follow the branch identifiers, assumptions, scope, consequences, and dependencies defined by the canon guide.
 - Record available validation calculations and sources in `## Validation`; record consequences and unresolved checks in their template sections. Track unresolved checks through the session workflow.
 
