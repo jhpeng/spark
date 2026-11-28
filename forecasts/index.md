@@ -3,7 +3,7 @@ title: "Forecasts: dated baseline and active trees"
 id: "index"
 period: "2026-11-19/2151-12-31"
 evidence_cutoff: "2026-11-24"
-updated: "2026-11-24"
+updated: "2026-11-28"
 lifecycle: "active"
 ---
 
@@ -17,7 +17,7 @@ This directory holds evidence-based prediction trees built from the repository's
 |---|---|---|---|---|
 | [Lunar South Pole outpost buildup (5-year)](./lunar-outpost-near-term.md) | 2027–2031 (every 1 yr) | 2026-11-24 | `active` | Near-term annual milestones anchored to 2026 NASA, CNSA, and commercial plans: uncrewed landings/relays, crewed return or recon launch, polar volatile survey & night survival, initial kW-class utilities, and 2032–2036 shared-service contracts. |
 | [Lunar industrialization & factory scaling (25-year)](./lunar-industrial-mid-term.md) | 2031–2051 (every 5 yr) | 2026-11-24 | `active` | Medium-term 5-year milestones bridging outpost utilities (2031) to shared services + external demand (2036), Factory #0 & pilot ISRU (2041), MW-class nuclear/hybrid park (2046), and scaled cislunar industry / Mare annex (2051). |
-| [Lunar-led expansion (125-year)](./lunar-expansion.md) | 2051–2151 (every 25 yr) | 2026-11-24 | `active` | Long-term quarter-century milestones: sustained shared services (2051), routine local water/O2 (2076), multi-site lunar industrial network (2101), sustained lunar households (2126), and resilient multi-year-autonomous lunar society (2151). |
+| [Lunar-led expansion (125-year)](./lunar-expansion.md) | 2051–2151 (every 25 yr) | 2026-11-24 | `active` | Shared services (2051), local water/O2 (2076), multi-site industry (2101), households (2126) and a resilient lunar society (2151). The delayed-services branch tracks liquid oxygen deliveries to spacecraft (2101) and the share taken by the largest buyer (2126). |
 
 ## Dated baseline and evidence
 

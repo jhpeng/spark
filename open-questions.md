@@ -115,6 +115,7 @@ The lunar-led [forecast tree](./forecasts/lunar-expansion.md) (baseline: [foreca
 
 - Blocks: [wiki/tech/lunar-resource-utilization](./wiki/tech/lunar-resource-utilization.md), [wiki/concepts/lunar-base-development](./wiki/concepts/lunar-base-development.md), [wiki/tech/lunar-south-pole-industrial-power](./wiki/tech/lunar-south-pole-industrial-power.md)
 - Scope: `lunar-local-supply`, including explicitly adopted `state-funded-expansion` or other customers.
+- For the delayed-services branch, what do funded flight schedules, losses between production and vehicle acceptance, and loading-slot contracts imply about annual sales? Identify which buyers could still fly if the anchor program withdrew. [Lunar expansion forecast](./forecasts/lunar-expansion.md)
 - Options: select deposit, concentration and depth, product specification, customer demand, and recovery; compare water extraction, regolith oxygen, bulk earthworks, and imports separately. [wiki/tech/lunar-south-pole-industrial-power](./wiki/tech/lunar-south-pole-industrial-power.md) establishes an illustrative 1 MWe South Pole zoning and nuclear/orbital-laser/TES energy baseline, but equipment life, consumables, maintenance, dust wear, actual deposit quality, and full financial budgets remain unresolved. The 25/125-tonne feedstock examples do not establish actual deposits or plant feasibility.
 - Raised: [sessions/2026-11-19-lunar-bases-and-cargo](./sessions/2026-11-19-lunar-bases-and-cargo.md)
 

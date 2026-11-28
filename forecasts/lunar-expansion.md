@@ -3,7 +3,7 @@ title: "Lunar-led expansion: 125-year long-term forecast tree (2051–2151)"
 id: "lunar-expansion"
 period: "2026-11-19/2151-12-31"
 evidence_cutoff: "2026-11-24"
-updated: "2026-11-24"
+updated: "2026-11-28"
 lifecycle: "active"
 ---
 
@@ -15,7 +15,7 @@ This long-horizon **lunar-led tree** covers the **25-year-step (`Y0+25` to `Y0+1
 
 ## Tree overview
 
-Percentages show `(conditional probability | cumulative path probability)` under the 2026-11-24 evidence cutoff. All 8 active leaves (`*`) sum to exactly **100.0%** (exact products; rounded display values sum to 100.1%); unexpanded leaves (`*`) are not yet modeled, not zero probability of later expansion.
+Percentages show `(conditional probability | cumulative path probability)` under the 2026-11-24 evidence cutoff. The 10 active leaves (`*`) sum to **100.0%** using exact products and 100.1% at the displayed precision. Later developments beyond each leaf remain open.
 
 ```text
 2026 baseline (index)
@@ -31,7 +31,11 @@ Percentages show `(conditional probability | cumulative path probability)` under
 │       ├── 2126 · Lunar households established (import/late path): import-path-households-2126 (15% | path 4.4%) [pending] *
 │       └── 2126 · No lunar households (import path): import-path-no-households-2126 (85% | path 24.9%) [pending] *
 └── 2051 · No sustained shared lunar services by 2051: no-lunar-services-2051 (35% | path 35.0%) [pending]
-    ├── 2076 · Delayed shared lunar services operating: delayed-lunar-services-2076 (45% | path 15.8%) [pending] *
+    ├── 2076 · Delayed shared lunar services operating: delayed-lunar-services-2076 (45% | path 15.8%) [pending]
+    │   ├── 2101 · Spacecraft regularly take delivery of lunar liquid oxygen: late-hub-oxygen-deliveries-2101 (40% | path 6.3%) [pending]
+    │   │   ├── 2126 · Multiple buyers sustain liquid oxygen deliveries: late-hub-diverse-buyers-2126 (35% | path 2.2%) [pending] *
+    │   │   └── 2126 · Deliveries fall short of the volume or buyer-diversity threshold: late-hub-no-diverse-buyers-2126 (65% | path 4.1%) [pending] *
+    │   └── 2101 · Spacecraft deliveries fall short of the annual threshold: late-hub-no-oxygen-deliveries-2101 (60% | path 9.5%) [pending] *
     └── 2076 · Still no shared lunar services: still-no-lunar-services-2076 (55% | path 19.3%) [pending] *
 ```
 
@@ -90,6 +94,8 @@ These thresholds define forecast categories; they are **not validated engineerin
 | **2101** | **Multi-site lunar industrial network** | At least two geographically distinct lunar industrial sites (e.g., a South Pole water/logistics hub plus a high-titanium mare metallurgy/manufacturing annex) operate concurrently and produce ≥100 tonnes/year combined of verified propellant, refined metals, or structural/energy components for lunar or orbital customers. |
 | **2126** | **Sustained lunar households** | At least one lunar site has continuously housed ≥100 residents, including ≥10 households whose primary home is there rather than a work rotation, throughout 2117–2126. Turnover is allowed while totals persist; this does not establish reproduction, safe childhood, or independence. |
 | **2151** | **Resilient multi-year-autonomous lunar society** | Lunar habitation and industry either continuously sustain ≥1,000 residents with local food/structural/repair supply chains OR credibly demonstrate ≥5 years of survival without Earth resupply for life support, power, and critical maintenance ("vitamins" buffered or locally substituted). |
+
+On the delayed-services path, count lunar-origin liquid oxygen by the mass that a paying flight program accepts into a vehicle tank on the lunar surface for propulsion. Count each delivery once. Plant output, stock in a depot, imported oxygen and payments to reserve capacity are excluded. Group contractors paid from the same flight-program budget as one buyer. The quantities below are forecast thresholds chosen for this branch.
 
 ## Forks
 
@@ -165,6 +171,44 @@ These thresholds define forecast categories; they are **not validated engineerin
 
 ---
 
+### 2101 — Spacecraft regularly take delivery of lunar liquid oxygen after shared services arrive late
+
+- **Inherited path**: `index` → `no-lunar-services-2051` → `delayed-lunar-services-2076`
+- **Question**: Does at least one lunar surface site deliver a combined ≥10 tonnes of local liquid oxygen to flight customers in each of 2099, 2100 and 2101?
+- **Deadline**: `2101-12-31` · **Period**: `2077-01-01/2101-12-31` · **Evidence cutoff**: `2026-11-24`
+
+| Outcome ID | Outcome | Cond. prob. | Path prob. | Confidence | Resolution | Lifecycle |
+|---|---|---:|---:|---|---|---|
+| `late-hub-oxygen-deliveries-2101` | Spacecraft regularly take delivery of lunar liquid oxygen | 40% | 6.3% | `very-low` | `pending` | `active` |
+| `late-hub-no-oxygen-deliveries-2101` | No site reaches the delivery threshold in all three years | 60% | 9.5% | `very-low` | `pending` | `active` |
+
+NASA's 2020 polar-water study sized a plant to produce 10 tonnes of oxygen plus fuel hydrogen in 225 days. In 2025 NASA reported ground tests of oxygen liquefaction in a prototype lander tank. Flight frequency, product losses before transfer and customer acceptance remain open. [NASA system study](https://ntrs.nasa.gov/citations/20205008303) · [NASA tank tests](https://ntrs.nasa.gov/citations/20250000432)
+
+Six crew consuming 0.895 kg of oxygen per person-day use about 1.96 tonnes per year for metabolism. Recycling and cabin losses affect how much fresh oxygen the habitat must buy. [NASA life support baseline, Table 3-31](https://ntrs.nasa.gov/api/citations/20210024855/downloads/BVAD_2.15.22-final.pdf)
+
+- **`late-hub-oxygen-deliveries-2101` (40%)**: A government cargo program or a commercial operator could underwrite the plant through repeat purchases. In an illustrative flight schedule, two 5-tonne vehicle deliveries reach the annual threshold.
+- **`late-hub-no-oxygen-deliveries-2101` (60%)**: If one of those flights slips to the following year, only 5 tonnes count that year. This outcome also covers sites serving habitats alone, cheaper Earth deliveries and closure.
+- **Validation & revision signals**: Raise the estimate for regular deliveries when funded flight schedules, compatible tanks and measured transfer losses support three years of deliveries. [Lunar resource utilization](../wiki/tech/lunar-resource-utilization.md)
+
+---
+
+### 2126 — Multiple flight programs sustain purchases at a qualifying oxygen site
+
+- **Inherited path**: `index` → `no-lunar-services-2051` → `delayed-lunar-services-2076` → `late-hub-oxygen-deliveries-2101`
+- **Question**: At any one site that qualified in 2101, do deliveries total ≥10 tonnes in each of 2124–2126, with no single buyer taking more than two thirds of that site's delivered mass in any of those years?
+- **Deadline**: `2126-12-31` · **Period**: `2102-01-01/2126-12-31` · **Evidence cutoff**: `2026-11-24`
+
+| Outcome ID | Outcome | Cond. prob. | Path prob. | Confidence | Resolution | Lifecycle |
+|---|---|---:|---:|---|---|---|
+| `late-hub-diverse-buyers-2126` | Multiple buyers sustain deliveries above the threshold | 35% | 2.2% | `very-low` | `pending` | `active` |
+| `late-hub-no-diverse-buyers-2126` | Deliveries fall short on annual volume or buyer diversity | 65% | 4.1% | `very-low` | `pending` | `active` |
+
+- **`late-hub-diverse-buyers-2126` (35%)**: A second, independently funded fleet could use the first fleet's certified transfer equipment, reducing the cost of entry.
+- **`late-hub-no-diverse-buyers-2126` (65%)**: The first buyer may reserve the few available loading slots to protect its own schedule. That guarantee can finance the plant while making entry harder for another buyer. This outcome also covers falling volume, relocation and closure.
+- **Validation & revision signals**: Check who funds each flight, who controls the slots, and annual tank receipts by buyer. Two fleets with independent budgets can still share a lander design whose grounding interrupts both.
+
+---
+
 ### 2126 — Sustained lunar households after multi-site lunar industry
 
 - **Inherited path**: `index` → `lunar-services-2051` → `local-consumables-2076` → `multi-site-industry-2101`
@@ -223,6 +267,8 @@ These thresholds define forecast categories; they are **not validated engineerin
 - **Physics and open checks**: Radiation, 1/6 g multigenerational health, full ecosystem closure, and industrial "vitamins" substitution remain unresolved in [open-questions](../open-questions.md). [canon/laws](../canon/laws.md) and [canon/timeline](../canon/timeline.md) remain unchanged.
 
 ## Revision history
+
+- `2026-11-28` added the 2101 liquid oxygen delivery and 2126 buyer-diversity forks beneath delayed shared services. Earlier studies inform the physical scale. Both conditional estimates are agent extrapolations at the existing evidence cutoff. [Session record](../sessions/2026-11-28-lunar-oxygen-buyers.md)
 
 - `2026-11-24`: Expanded the long-term tier to the 5-step quarter-century grid (`2051`, `2076`, `2101`, `2126`, `2151`; capped at `Y0+125`). Moved the early `2036` shared-services checkpoint into the dedicated 25-year mid-term tree ([forecasts/lunar-industrial-mid-term](./lunar-industrial-mid-term.md)), anchored the long-term root at `2051`, and added `2101` (multi-site industrial network) and `2151` (resilient multi-year-autonomous lunar society) while preserving the `2076` and `2126` milestones.
 - `2026-11-24`: Replaced single-letter milestone variables (`S`, `L`, `H`) with plain-language event descriptions; retired the 1000-year (`3026`) forks (`early-households-independent-3026`, `early-households-not-independent-3026`, `later-households-independent-3026`, `later-households-not-independent-3026`).

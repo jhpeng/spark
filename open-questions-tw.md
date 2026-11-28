@@ -115,6 +115,7 @@
 
 - 影響條目：[wiki-tw/tech/lunar-resource-utilization](./wiki-tw/tech/lunar-resource-utilization.md)、[wiki-tw/concepts/lunar-base-development](./wiki-tw/concepts/lunar-base-development.md)、[wiki-tw/tech/lunar-south-pole-industrial-power](./wiki-tw/tech/lunar-south-pole-industrial-power.md)
 - 範圍：`lunar-local-supply`，包含明確採用的 `state-funded-expansion` 或其他客戶。
+- 在共用服務延後建成的路徑上，根據已編列預算的航班、從生產到載具驗收之間的損耗，以及加注時段合約，每年能賣出多少液氧？若主要採購計畫撤資，哪些買家還有能力繼續飛行？[月球擴張預測樹](./forecasts-tw/lunar-expansion.md)
 - 選項：選定礦區、濃度與深度、產品規格、客戶需求與回收率；分別比較取水、月壤提氧、大宗土木作業與進口。[wiki-tw/tech/lunar-south-pole-industrial-power](./wiki-tw/tech/lunar-south-pole-industrial-power.md) 已建立南極 1 MWe 分區與核能／軌道雷射／儲熱的初步能源與散熱基準，但設備壽命、耗材、維修、月塵磨損、實際礦區品質與完整財務收支仍待驗證。25／125 公噸原料示例未確立實際礦區或工廠可行性。
 - 提出於：[sessions/2026-11-19-lunar-bases-and-cargo](./sessions/2026-11-19-lunar-bases-and-cargo.md)
 
