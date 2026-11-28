@@ -1,8 +1,8 @@
 ---
 title: "Forecasts: dated baseline and active trees"
 id: "index"
-period: "2026-11-19/2126-12-31"
-evidence_cutoff: "2026-11-19"
+period: "2026-11-19/2151-12-31"
+evidence_cutoff: "2026-11-24"
 updated: "2026-11-24"
 lifecycle: "active"
 ---
@@ -13,10 +13,11 @@ This directory holds evidence-based prediction trees built from the repository's
 
 ## Active forecast trees
 
-| Tree | Horizon | Evidence cutoff | Lifecycle | Scope |
+| Tree | Horizon (5 steps) | Evidence cutoff | Lifecycle | Scope |
 |---|---|---|---|---|
-| [Lunar-led expansion](./lunar-expansion.md) | 2026–2126 | 2026-11-19 | `active` | Shared lunar services, routine local water/oxygen use, and sustained lunar household residence on the rolling 100-year grid. Does not exhaust Mars, orbital industry, or other routes. |
-| [Lunar South Pole outpost buildup (5-year annual)](./lunar-outpost-near-term.md) | 2026–2031 | 2026-11-24 | `active` | Realistic 2027–2031 annual milestones anchored to 2026 NASA/CNSA schedules: uncrewed landings/relays, crewed return or recon launch, polar volatile survey & night survival, initial kW-class utilities, and 2032–2036 shared-service contracts (factories deferred to 2036–2051+). |
+| [Lunar South Pole outpost buildup (5-year)](./lunar-outpost-near-term.md) | 2027–2031 (every 1 yr) | 2026-11-24 | `active` | Near-term annual milestones anchored to 2026 NASA, CNSA, and commercial plans: uncrewed landings/relays, crewed return or recon launch, polar volatile survey & night survival, initial kW-class utilities, and 2032–2036 shared-service contracts. |
+| [Lunar industrialization & factory scaling (25-year)](./lunar-industrial-mid-term.md) | 2031–2051 (every 5 yr) | 2026-11-24 | `active` | Medium-term 5-year milestones bridging outpost utilities (2031) to shared services + external demand (2036), Factory #0 & pilot ISRU (2041), MW-class nuclear/hybrid park (2046), and scaled cislunar industry / Mare annex (2051). |
+| [Lunar-led expansion (125-year)](./lunar-expansion.md) | 2051–2151 (every 25 yr) | 2026-11-24 | `active` | Long-term quarter-century milestones: sustained shared services (2051), routine local water/O2 (2076), multi-site lunar industrial network (2101), sustained lunar households (2126), and resilient multi-year-autonomous lunar society (2151). |
 
 ## Dated baseline and evidence
 
@@ -32,7 +33,7 @@ Recorded and selectively checked on **2026-11-19**; this is the evidence cutoff,
 
 ## Shared conventions
 
-- **Rolling 100-year horizon cadence**: Relative to the current baseline year (`Y0`, currently `2026`), forks align to annual checkpoints for `Y0+1`–`Y0+5` (`2027`–`2031`), 5-year checkpoints for `Y0+10`–`Y0+25` (`2036`, `2041`, `2046`, `2051`), and 25-year checkpoints for `Y0+25`–`Y0+100` (`2051`, `2076`, `2101`, `2126`). Forecasts stop at `Y0+100`; intermediate checkpoints may be left open until populated. Each new calendar year, advance `Y0` by 1 year, resolve due forks against their original deadlines/criteria, preserve prior forecasts in revision history, and shift the active grid forward by 1 year.
+- **Rolling 125-year horizon cadence (3 tiers × 5 steps)**: Relative to the current baseline year (`Y0`, currently `2026`), forks align to three dedicated 5-checkpoint views (6 points including `Y0`): **near term** (`Y0+1`–`Y0+5`, every 1 yr: `2027`–`2031`), **medium term** (`Y0+5`–`Y0+25`, every 5 yr: `2031`, `2036`, `2041`, `2046`, `2051`), and **long term** (`Y0+25`–`Y0+125`, every 25 yr: `2051`, `2076`, `2101`, `2126`, `2151`). Forecasts cap at `Y0+125`. Each new calendar year, advance `Y0` by 1 year, resolve due forks against their original deadlines/criteria, preserve prior forecasts in revision history, and shift every tier forward by 1 year.
 - **Conditional and path probabilities**: Each outcome gives its **conditional probability** given its full ancestral path and current evidence, and its **cumulative path probability** (the product of conditional probabilities along the path; this does not assume independence). Sibling outcomes for the same question and deadline are mutually exclusive and collectively exhaustive, summing to 100%.
 - **Subjective estimates and confidence**: Initial numbers are uncalibrated subjective estimates, not measured frequencies or calibrated model outputs. **Confidence** (`high`, `medium`, `low`, `very-low`) is recorded separately from probability: low confidence means an estimate is easy to revise, not that the outcome is unlikely.
 - **Unexpanded leaves**: An unexpanded leaf means **not yet modeled**, not zero probability of later development.
